@@ -1,3 +1,4 @@
+import Layout from "@/components/layout";
 export default function ResumePage() {
     return (
       <main className="p-6">
