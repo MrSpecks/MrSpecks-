@@ -1,0 +1,142 @@
+[
+    {
+      "id": 1,
+      "title": "Cloud Architecture Design Patterns",
+      "provider": "Coursera",
+      "issued": "2025-04",
+      "credentialId": null,
+      "credentialUrl": "https://www.coursera.org/",
+      "badge": "/images/certifications/coursera-cloud-arch.png",
+      "tags": ["Cloud", "Architecture", "Design Patterns"]
+    },
+    {
+      "id": 2,
+      "title": "HCIA-5G V2.0 Course",
+      "provider": "Huawei",
+      "issued": "2025-01",
+      "credentialId": "EBG20250112000644",
+      "credentialUrl": "https://e.huawei.com/",
+      "badge": "/images/certifications/hcia-5g.png",
+      "tags": ["Huawei", "5G", "Infrastructure"]
+    },
+    {
+      "id": 3,
+      "title": "5G Basics: What It's All About",
+      "provider": "Huawei",
+      "issued": "2024-10",
+      "credentialId": null,
+      "credentialUrl": "https://e.huawei.com/",
+      "badge": "/images/certifications/huawei-5g-basics.png",
+      "tags": ["Huawei", "5G", "Telecom"]
+    },
+    {
+      "id": 4,
+      "title": "Cybersecurity Fundamentals",
+      "provider": "IBM",
+      "issued": "2024-10",
+      "credentialId": null,
+      "credentialUrl": "https://skillsbuild.org/",
+      "badge": "/images/certifications/ibm-cyber-fundamentals.png",
+      "tags": ["Cybersecurity", "IBM", "Essentials"]
+    },
+    {
+      "id": 5,
+      "title": "Explore Emerging Tech",
+      "provider": "IBM",
+      "issued": "2024-10",
+      "credentialId": null,
+      "credentialUrl": "https://skillsbuild.org/",
+      "badge": "/images/certifications/ibm-emerging-tech.png",
+      "tags": ["Emerging Tech", "AI", "Cloud", "Cybersecurity"]
+    },
+    {
+      "id": 6,
+      "title": "Fundamentals of Sustainability and Technology",
+      "provider": "IBM",
+      "issued": "2024-10",
+      "credentialId": null,
+      "credentialUrl": "https://skillsbuild.org/",
+      "badge": "/images/certifications/ibm-sustainability.png",
+      "tags": ["Sustainability", "Technology", "IBM"]
+    },
+    {
+      "id": 7,
+      "title": "Next-Generation Cyber Security",
+      "provider": "Huawei",
+      "issued": "2024-09",
+      "credentialId": "EBG20240929001205",
+      "credentialUrl": "https://e.huawei.com/",
+      "badge": "/images/certifications/huawei-ng-cyber.png",
+      "tags": ["Cybersecurity", "Huawei", "Next-Gen"]
+    },
+    {
+      "id": 8,
+      "title": "Next-Generation Cyber Security (CRA Training Program)",
+      "provider": "Huawei",
+      "issued": "2024-09",
+      "credentialId": "ICTCRA20240929000546",
+      "credentialUrl": "https://e.huawei.com/",
+      "badge": "/images/certifications/huawei-ng-cra.png",
+      "tags": ["Cybersecurity", "Huawei", "CRA Program"]
+    },
+    {
+      "id": 9,
+      "title": "Project Management Fundamentals",
+      "provider": "IBM",
+      "issued": "2024-09",
+      "credentialId": null,
+      "credentialUrl": "https://skillsbuild.org/",
+      "badge": "/images/certifications/ibm-project-management.png",
+      "tags": ["Project Management", "IBM", "Project Lifecycle Management"]
+    },
+    {
+      "id": 10,
+      "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "provider": "Microsoft",
+      "issued": "2024-08",
+      "credentialId": "7BD01FEEB5E5A1B",
+      "credentialUrl": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+      "badge": "/images/certifications/azure-fundamentals.png",
+      "tags": ["Azure", "Cloud", "Fundamentals", "AZ-900"]
+    },
+    {
+      "id": 11,
+      "title": "Career Skills in Software Development",
+      "provider": "LinkedIn Learning Community",
+      "issued": "2024-07",
+      "credentialId": "1aebd0650e112110ea10dlc646b648b35eb6737748473004c342f5580d3c4d5",
+      "credentialUrl": "https://www.linkedin.com/learning/",
+      "badge": "/images/certifications/linkedin-software-career.png",
+      "tags": ["Tech Career Skills", "Career Management", "Development", "Software Development"]
+    },
+    {
+      "id": 12,
+      "title": "Cybersecurity Foundations",
+      "provider": "LinkedIn Learning Community",
+      "issued": "2024-07",
+      "credentialId": "49ddbc7c35083705e0c329e250ffd9f5ble09780dlae0cd316cb159789174653",
+      "credentialUrl": "https://www.linkedin.com/learning/",
+      "badge": "/images/certifications/linkedin-cyber-foundations.png",
+      "tags": ["Cybersecurity", "Foundations"]
+    },
+    {
+      "id": 13,
+      "title": "Cybersecurity Awareness: Cybersecurity Terminology",
+      "provider": "LinkedIn Learning Community",
+      "issued": "2024-07",
+      "credentialId": "6db78acac3ea2364db058e808ef3cbce59dc6c707778669d4f5dabb2ba2550be",
+      "credentialUrl": "https://www.linkedin.com/learning/",
+      "badge": "/images/certifications/linkedin-cyber-awareness.png",
+      "tags": ["Cybersecurity", "Awareness", "Terminology", "Information Security Awareness"]
+    },
+    {
+      "id": 14,
+      "title": "National Certificate: Information Technology: Systems Development",
+      "provider": "CTU Training Solutions",
+      "issued": "2020-10",
+      "credentialId": "IS/LA/ETQA/03001",
+      "credentialUrl": "https://ctutraining.ac.za/",
+      "badge": "/images/certifications/ctu-hc-it.png",
+      "tags": ["Systems Development", "Higher Certificate", "NQF 5"]
+    }
+  ]
