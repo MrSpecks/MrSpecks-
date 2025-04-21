@@ -1,0 +1,89 @@
+{
+    "summary": "Driven IT professional with 5+ years of experience in customer service, cloud computing, and cybersecurity. Passionate about sustainable tech and long-term cloud infrastructure development. Known for effective problem-solving, strategic thinking, and a commitment to continuous learning.",
+  
+    "experience": [
+      {
+        "title": "Systems Administrator (In Training)",
+        "company": "Independent Projects",
+        "location": "Johannesburg, South Africa",
+        "startDate": "2024-10",
+        "endDate": "Present",
+        "description": [
+          "Self-led training across cloud systems administration and solution architecture.",
+          "Building practical labs involving Azure identity, storage, governance, and networking.",
+          "Planning long-term implementation of local cloud initiatives for Kasi-based tech advancement."
+        ]
+      },
+      {
+        "title": "Systems Administrator Skills Development Program",
+        "company": "Afrika Tikkun Services",
+        "location": "Randburg, South Africa",
+        "startDate": "2024-06",
+        "endDate": "2024-09",
+        "description": [
+          "Participated in a 3-month program focused on cloud systems administration, solidifying knowledge of cloud concepts and deployment strategies.",
+          "Building practical labs involving Azure identity, storage, governance, and networking.",
+          "Gained proficiency in modern desktop and Linux administration.",
+          "Enhanced competencies in project management methodologies, with a focus on Agile and Waterfall frameworks."
+        ]
+      },
+      {
+        "title": "Call Centre Agent",
+        "company": "First National Bank (FNB)",
+        "location": "Johannesburg, South Africa",
+        "startDate": "2018-10",
+        "endDate": "2023-11",
+        "description": [
+          "Delivered customer service and support in high-volume environments across multiple products.",
+          "Specialized in resolving billing inquiries, product education, and various digital banking issues.",
+          "Strengthened communication, empathy, and conflict-resolution skills under pressure."
+        ]
+      }
+    ],
+  
+    "education": [
+    {
+        "institution": "Digital Youth ICT Academy",
+        "qualification": "Microsoft Azure Fundamentals (AZ-900), IBM Project Management Fundamentals, IBM Cybersecurity Fundamentals",
+        "startDate": "2024-07",
+        "endDate": "2024-09"
+        },
+      {
+        "institution": "CTU Training Solutions",
+        "qualification": "Higher Certificate in Information Technology: Software Development",
+        "startDate": "2019-01",
+        "endDate": "2020-10"
+      },
+      {
+        "institution": "Richfield Graduate Institute of Technology",
+        "qualification": "Bachelor of Science: Information Technology (1st Year)",
+        "startDate": "2017-01",
+        "endDate": "2018-12"
+      }
+    ],
+  
+    "skills": [
+      "Cloud Computing",
+      "Cybersecurity",
+      "IT Project Management",
+      "Customer Service",
+      "Call Centre Communication",
+      "Troubleshooting",
+      "Process Optimization",
+      "Sustainable Technology",
+      "Emerging Technologies",
+      "5G Technology"
+    ],
+  
+    "tools": [
+      "Microsoft Azure",
+      "GitHub",
+      "Next.js",
+      "React",
+      "Python",
+      "Linux",
+      "Windows OS",
+      "Microsoft Office Suite",
+      "Call Centre Platforms (Fusion, HOGAN)"
+    ]
+  }
