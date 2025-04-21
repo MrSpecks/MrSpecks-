@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import DarkModeToggle from "./DarkModeToggle";
 
 export default function Header() {
   return (
@@ -8,12 +9,15 @@ export default function Header() {
         <Link href="/" className="text-xl font-bold text-gray-800 dark:text-white">
           MrSpecks
         </Link>
-        <nav className="flex gap-4">
-          <Link href="/about" className="text-sm hover:underline text-gray-600 dark:text-gray-300">About</Link>
-          <Link href="/projects" className="text-sm hover:underline text-gray-600 dark:text-gray-300">Projects</Link>
-          <Link href="/resume" className="text-sm hover:underline text-gray-600 dark:text-gray-300">Resume</Link>
-          <Link href="/contact" className="text-sm hover:underline text-gray-600 dark:text-gray-300">Contact</Link>
-        </nav>
+        <div className="flex gap-4 items-center">
+          <nav className="flex gap-4">
+            <Link href="/about" className="text-sm hover:underline text-gray-600 dark:text-gray-300">About</Link>
+            <Link href="/projects" className="text-sm hover:underline text-gray-600 dark:text-gray-300">Projects</Link>
+            <Link href="/resume" className="text-sm hover:underline text-gray-600 dark:text-gray-300">Resume</Link>
+            <Link href="/contact" className="text-sm hover:underline text-gray-600 dark:text-gray-300">Contact</Link>
+          </nav>
+          <DarkModeToggle />
+        </div>
       </div>
     </header>
   );
