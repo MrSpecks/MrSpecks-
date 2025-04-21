@@ -1,4 +1,5 @@
-import Layout from "@/components/layout";
+import Layout from "../components/Layout";
+import SEO from "../components/SEO";
 export default function HomePage() {
     return (
       <main className="p-6">
