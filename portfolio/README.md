@@ -56,8 +56,7 @@ Welcome to my personal portfolio—designed to showcase my technical skills, cer
 ## 🌍 Domain Strategy
 
 Currently evaluating:
-- [kaegee.com](https://kaegee.com) – Personal brand driven
-- [kagisomfusi.com](https://kagisomfusi.com) – Name recognition
+- [kagisomfusi.com](https://kagisomfusi.com) – Personal brand driven
 
 ---
 
@@ -75,7 +74,7 @@ Currently evaluating:
 
 **Kagiso Mfusi**  
 Cloud | Cybersecurity | Systems | Sustainability  
-[LinkedIn](https://www.linkedin.com/in/kagisomfusi) • [GitHub](https://github.com/MrSpecks) • [Portfolio](https://your-vercel-link.vercel.app)
+[LinkedIn](https://www.linkedin.com/in/kagisomfusi) • [GitHub](https://github.com/MrSpecks) • 
 
 ---
 
