@@ -25,6 +25,8 @@
       "prettier-plugin-tailwindcss": "^0.4.0",
       "eslint": "8.56.0",
       "eslint-config-next": "14.1.0",
-      "typescript": "^5.3.3"
+      "typescript": "^5.3.3",
+      "eslint-plugin-react": "^7.32.2",
+      "lucide-react": "^0.266.0"
     }
   }
