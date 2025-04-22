@@ -1,27 +1,40 @@
-import React, { useEffect, useState } from "react";
+// components/DarkModeToggle.tsx
+'use client'
 
-export default function DarkModeToggle() {
-  const [isDark, setIsDark] = useState(false);
+import { useEffect, useState } from 'react'
+import { Moon, Sun } from 'lucide-react'
+
+const DarkModeToggle = () => {
+  const [isDark, setIsDark] = useState(false)
 
   useEffect(() => {
-    const darkPref = localStorage.getItem("theme") === "dark";
-    setIsDark(darkPref);
-    document.documentElement.classList.toggle("dark", darkPref);
-  }, []);
+    // Check if user's system prefers dark
+    const isSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+    setIsDark(document.documentElement.classList.contains('dark') || isSystemDark)
+  }, [])
 
   const toggleDarkMode = () => {
-    const newDarkState = !isDark;
-    setIsDark(newDarkState);
-    localStorage.setItem("theme", newDarkState ? "dark" : "light");
-    document.documentElement.classList.toggle("dark", newDarkState);
-  };
+    const html = document.documentElement
+    if (html.classList.contains('dark')) {
+      html.classList.remove('dark')
+      setIsDark(false)
+      localStorage.setItem('theme', 'light')
+    } else {
+      html.classList.add('dark')
+      setIsDark(true)
+      localStorage.setItem('theme', 'dark')
+    }
+  }
 
   return (
     <button
       onClick={toggleDarkMode}
-      className="ml-4 px-3 py-1 rounded text-sm border dark:border-gray-500 border-gray-300 dark:text-gray-200 text-gray-700"
+      className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition"
+      aria-label="Toggle Dark Mode"
     >
-      {isDark ? "Light Mode" : "Dark Mode"}
+      {isDark ? <Sun size={20} /> : <Moon size={20} />}
     </button>
-  );
+  )
 }
+
+export default DarkModeToggle
