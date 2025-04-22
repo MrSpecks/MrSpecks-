@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
-export default function HomePage() {
+export default function Home() {
     return (
         <>
         <SEO title="Home | Kagiso Mfusi" description="Welcome to my personal portfolio showcasing my work, experience, and passions in modern tech." />
