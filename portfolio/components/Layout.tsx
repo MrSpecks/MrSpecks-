@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "./layout/Header";
-import Footer from "./layout/Footer";
+import Header from "./Layout/Header";
+import Footer from "./Layout/Footer";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -15,5 +15,5 @@ export default function Layout({ children }: LayoutProps) {
       </main>
       <Footer />
     </div>
-  );
+  )
 }

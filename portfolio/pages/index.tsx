@@ -1,14 +1,12 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 
 
 export default function HomePage() {
   return (
       <main>
-        <Layout>
           <SEO title="Kagiso Mfusi | Portfolio" description="Cloud | Cybersecurity | Systems & Web Dev" />
           {/* Hero Section */}
           <section className="text-center">
@@ -84,7 +82,6 @@ export default function HomePage() {
                 </a>
             </div>
           </section>
-        </Layout>
       </main>
   );
 }
