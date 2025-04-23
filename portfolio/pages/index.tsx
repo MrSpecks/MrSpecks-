@@ -1,10 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Carousel from "../components/Carousel";
+import projects from "../data/projects.json";
 import SEO from "../components/SEO";
 
 
 export default function HomePage() {
+  const featured = projects.filter((p) => p.id === 2 || p.id === 3); // ReconX & NeoShell
   return (
       <main>
           <SEO title="Kagiso Mfusi | Portfolio" description="Cloud | Cybersecurity | Systems & Web Dev" />
@@ -56,32 +59,11 @@ export default function HomePage() {
             </a>
           </section>
 
-          {/* Featured Projects */}
-          <section className="mt-12">
-            <h2 className="text-xl font-semibold mb-4">Featured Projects</h2>
-            <ul className="space-y-6">
-              <li>
-                <h3 className="text-lg font-medium">ReconX: Threat Recon Lab</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Cloud-based cyber lab for simulating reconnaissance and lateral movement
-                  detection using Azure + Sentinel.
-                </p>
-              </li>
-              <li>
-                <h3 className="text-lg font-medium">NeoShell</h3>
-                <p className="text-sm text-gray-500 dark:text-gray-400">
-                  Experimental shell interface exploring next-gen terminal UX powered by Node.js.
-                </p>
-              </li>
-            </ul>
-            <div className="mt-4">
-            <a href="/projects"
-                className="text-blue-600 text-sm font-medium mt-1 inline-block hover:underline"
-                aria-label="View my recent projects">
-                  Browse all projects →
-                </a>
-            </div>
-          </section>
+          {/* Featured Projects Carousel */}
+      <section className="mt-12">
+        <h2 className="text-xl font-semibold mb-4">Featured Projects</h2>
+        <Carousel items={featured} />
+      </section>
       </main>
   )
 }
