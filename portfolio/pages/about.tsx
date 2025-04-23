@@ -1,5 +1,4 @@
 import React from "react";
-import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 export default function AboutPage() {
     return (
@@ -42,5 +41,5 @@ export default function AboutPage() {
 </p>
       </main>
         </>
-    );
+    )
   }
