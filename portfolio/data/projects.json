@@ -42,16 +42,5 @@
       "image": "/images/projects/portfolio-v2.png",
       "status": "In Development",
       "tags": ["Web", "Portfolio", "Personal Brand"]
-    },
-  {
-      "id": 5,
-      "title": "Azure Resource Manager Lab",
-      "description": "Deployed and configured a virtual network, storage account, and VM using ARM templates as part of Azure cloud architecture practice.",
-      "techStack": ["Azure", "ARM Templates", "Bicep", "Azure CLI"],
-      "githubUrl": "https://github.com/MrSpecks/azure-lab",
-      "demoUrl": "",
-      "image": "/images/projects/azure-lab.png",
-      "status": "Completed",
-      "tags": ["Cloud", "Infrastructure-as-Code", "Azure"]
     }
   ]

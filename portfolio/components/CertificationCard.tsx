@@ -1,21 +1,47 @@
-// components/cards/CertificationCard.tsx
+import React from "react";
 
-interface Certification {
-    name: string;
-    issuer: string;
-    date: string;
-    badgeUrl: string;
-  }
-  
-  export default function CertificationCard({ name, issuer, date, badgeUrl }: Certification) {
-    return (
-      <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-6 flex items-center gap-4">
-        <img src={badgeUrl} alt={`${name} badge`} className="w-16 h-16 object-contain" />
-        <div>
-          <h4 className="text-lg font-semibold text-gray-900 dark:text-white">{name}</h4>
-          <p className="text-sm text-gray-700 dark:text-gray-300">{issuer}</p>
-          <p className="text-xs text-gray-500 dark:text-gray-400">{date}</p>
+export type Certification = {
+  id: number;
+  title: string;
+  provider: string;
+  issued: string; 
+  credentialId?: string;
+  credentialUrl?: string;
+  badge: string;
+  tags: string[];
+};
+
+interface CertificationCardProps {
+  cert: Certification;
+}
+
+export default function CertificationCard({ cert }: CertificationCardProps) {
+  return (
+    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-4 flex items-start space-x-4">
+      <img src={cert.badge} alt={cert.title} className="w-12 h-12 object-contain" />
+      <div>
+        <h3 className="text-md font-semibold text-gray-900 dark:text-white">{cert.title}</h3>
+        <p className="text-sm text-gray-600 dark:text-gray-300">
+          {cert.provider} &middot; {cert.issued}
+        </p>
+        <div className="mt-2 flex flex-wrap gap-2">
+          {cert.tags.map((tag) => (
+            <span key={tag} className="text-xs bg-gray-200 dark:bg-gray-700 px-2 py-1 rounded-full">
+              {tag}
+            </span>
+          ))}
         </div>
+        {cert.credentialUrl && (
+          <a
+            href={cert.credentialUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-2 block text-blue-600 hover:underline text-sm"
+          >
+            View Credential
+          </a>
+        )}
       </div>
-    );
-  }
+    </div>
+  );
+}
