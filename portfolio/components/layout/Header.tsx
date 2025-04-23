@@ -18,7 +18,7 @@ export default function Header() {
           </div>
           <Link href="/" className="text-xl sm:text-xl font-bold text-gray-800 dark:text-white"
           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
-            MrSpecks
+            Kagiso M.
           </Link>
         </div>
         <div className="flex gap-4 items-center">
