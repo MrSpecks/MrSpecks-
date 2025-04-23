@@ -2,7 +2,7 @@ import React from 'react';
 import SEO from "../components/SEO";
 export default function ResumePage() {
     return (
-        <React.Fragment>
+        <>
         <SEO title="Resume | MrSpecks" description="View and download my resume showcasing skills, experience, and certifications." />
       <main className="p-6">
         <h1 className="text-2xl font-bold">My Resume</h1>
@@ -10,6 +10,6 @@ export default function ResumePage() {
           Below is a summary of my experience, education, and skills. You can also download my full resume.
         </p>
       </main>
-        </React.Fragment>
+      </>
     )
   }
