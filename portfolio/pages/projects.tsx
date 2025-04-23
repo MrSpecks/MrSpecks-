@@ -6,6 +6,11 @@ import projects from "../data/projects.json";
 import certifications from "../data/certifications.json";
 
 export default function ProjectsPage() {
+  const normalizedCerts = certifications.slice(0,14).map((cert) => ({
+    ...cert,
+    credentialId: cert.credentialId || undefined,
+    credentialUrl: cert.credentialUrl || undefined,
+  }));
     return (
         <>
         <SEO title="Kagiso Mfusi | Projects" description="A showcase of personal and professional projects built with modern technologies." />
@@ -33,7 +38,7 @@ export default function ProjectsPage() {
           Certifications
         </h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
-          {certifications.slice(0, 14).map((cert) => (
+          {normalizedCerts.map((cert) => (
             <CertificationCard key={cert.id} cert={cert} />
           ))}
         </div>
