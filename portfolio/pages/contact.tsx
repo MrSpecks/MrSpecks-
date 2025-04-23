@@ -5,6 +5,7 @@ import SEO from "../components/SEO";
 export default function ContactPage() {
   return (
     <>
+    <SEO title="Kagiso Mfusi | Contact" description="Get in touch with Kagiso Mfusi. Let's collaborate on your next project." />
       <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
         Get in Touch
       </h1>

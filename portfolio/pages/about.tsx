@@ -3,7 +3,7 @@ import SEO from "../components/SEO";
 export default function AboutPage() {
     return (
         <>
-        <SEO title="About | MrSpecks" description="Learn more about me, my background, and my passion for technology." />
+        <SEO title="Kagiso Mfusi | About" description="Learn more about me, my background, and my passion for technology." />
       <main className="p-6">
       <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h1>
 
