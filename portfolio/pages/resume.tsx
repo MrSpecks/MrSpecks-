@@ -36,6 +36,9 @@ export default function ResumePage() {
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
             Oct 2024 – Present | Johannesburg, South Africa
           </p>
+          <p className="text-gray-600 dark:text-gray-300 mb-2">
+            I architect and deploy modern, scalable cloud infrastructureon Azure, while crafting responsive web applications that seamlessly intergrate serverless backends and enhance user experiences.
+          </p>
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
             <li>
               Design and implement secure, scalable cloud infrastructure on Azure using best practices.
@@ -52,10 +55,13 @@ export default function ResumePage() {
         {/* Systems Administrator Trainee */}
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-          Systems Administrator Trainee — Afrika Tikkun Services
+          Systems Administrator Trainee — Afrika Tikkun Services (ATS)
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
             Jul 2024 – Sep 2024 | Johannesburg, South Africa
+          </p>
+          <p className="text-gray-600 dark:text-gray-300 mb-2">
+            Honed hands-on skills in Azure Fundamentals — earning my AZ-900 certification while supporrting cloud resource configuration and basic infrastructure management.
           </p>
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
             <li>
