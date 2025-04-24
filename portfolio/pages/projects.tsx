@@ -21,7 +21,7 @@ export default function ProjectsPage() {
       <section className="mb-12">
       <h1 className="text-2xl font-bold">Projects</h1>
         <p className="mt-2 text-base text-gray-600">
-          Explore a selection of hands-on cloud, web, and cybersecurity projects that demonstrate practical solutions and iinnovative designs.
+          Explore a selection of hands-on cloud, web, and cybersecurity projects that demonstrate practical solutions and innovative designs.
         </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(0, 4).map((project) => (
