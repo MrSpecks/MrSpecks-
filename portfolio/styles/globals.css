@@ -6,10 +6,12 @@
 html {
   @apply scroll-smooth;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  overflow-x: hidden;
 }
 body {
   @apply bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100;
   font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
 }
 .scrollbar-hide::-webkit-scrollbar{
   display: none;
