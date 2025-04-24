@@ -1,7 +1,7 @@
 // components/cards/ProjectCard.tsx
 import React from "react";
 import Link from "next/link";
-import LinkButton from "./Buttons/LinkButton"
+import LinkButton from "./buttons/LinkButton"
 
 export type Project = {
 id: number;
