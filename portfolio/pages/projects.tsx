@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import React from "react";
 import SEO from "../components/SEO";
 import ProjectCard from "../components/ProjectCard";
