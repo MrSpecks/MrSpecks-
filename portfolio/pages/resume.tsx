@@ -1,37 +1,27 @@
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-html-link-for-pages */
-
 import React from 'react';
 import SEO from "../components/SEO";
 export default function ResumePage() {
     return (
         <>
-        <SEO title="Kagiso Mfusi | Resume" description="View and download my resume showcasing skills, experience, and certifications." />
       <main className="p-6">
-         {/* Page Title */}
       <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
         Resume
       </h1>
-
-      {/* Professional Summary */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Professional Summary
         </h2>
         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-          I’m an IT professional with over five years of experience in customer-facing roles and cloud environments.  
+          I'm an IT professional with over five years of experience in customer-facing roles and cloud environments.  
           I combine technical proficiency with clear communication, a growth-mindset, and a focus on delivering reliable, secure,  
           and sustainable solutions.  
         </p>
       </section>
-
-      {/* Experience */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
           Experience
         </h2>
-
-        {/* Cloud & Web Solutions Engineer */}
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
             Cloud & Web Solutions Engineer — Independent
@@ -54,8 +44,6 @@ export default function ResumePage() {
             </li>
           </ul>
         </div>
-
-        {/* Systems Administrator Trainee */}
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
           Systems Administrator Trainee — Afrika Tikkun Services (ATS)
@@ -78,8 +66,6 @@ export default function ResumePage() {
             </li>
           </ul>
         </div>
-
-        {/* Call Centre Agent */}
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
             Call Centre Agent — First National Bank (FNB)
@@ -104,8 +90,6 @@ export default function ResumePage() {
           </ul>
         </div>
       </section>
-
-      {/* Education */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
           Education
@@ -127,8 +111,6 @@ export default function ResumePage() {
           </p>
         </div>
       </section>
-
-      {/* Skills & Tools */}
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Skills
@@ -137,7 +119,6 @@ export default function ResumePage() {
           Cloud Computing · Systems Development · Cybersecurity · Customer Service ·  
           Project Management · Sustainable Technology · Web Deveelopment ·
         </p>
-
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Tools & Technologies
         </h2>
@@ -148,5 +129,5 @@ export default function ResumePage() {
       </section>
       </main>
     </>
-  )
+  );
 }
