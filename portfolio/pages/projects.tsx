@@ -1,6 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-html-link-for-pages */
-
 import React from "react";
 import SEO from "../components/SEO";
 import ProjectCard from "../components/ProjectCard";
@@ -11,16 +8,11 @@ import certifications from "../data/certifications.json";
 export default function ProjectsPage() {
   const normalizedCerts = certifications.slice(0,14).map((cert) => ({
     ...cert,
-    credentialId: cert.credentialId || undefined,
-    credentialUrl: cert.credentialUrl || undefined,
+    credentialId: cert.credentialId ??"",
   }));
     return (
         <>
-        <SEO title="Kagiso Mfusi | Projects" description="A showcase of personal and professional projects built with modern technologies." />
       <main className="p-6">
-
-
-        {/* Projects Section */}
       <section className="mb-12">
       <h1 className="text-2xl font-bold">Projects</h1>
         <p className="mt-2 text-base text-gray-600">
@@ -32,8 +24,6 @@ export default function ProjectsPage() {
           ))}
         </div>
       </section>
-
-      {/* Certifications Section */}
       <section>
       <h1 className="text-2xl font-bold">Certifications</h1>
         <p className="mt-2 text-base text-gray-600">
@@ -47,5 +37,5 @@ export default function ProjectsPage() {
       </section>
       </main>
         </>
-    )
+    );
   }

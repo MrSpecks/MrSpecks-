@@ -1,8 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-img-element */
-
-// components/cards/ProjectCard.tsx
-
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -38,8 +33,8 @@ interface ProjectCardProps {
           ))}
         </div>
         <div className="mt-4 flex items-center space-x-4">
-          <link href={project.githubUrl} rel="noopener noreferrer">
-              <span className="mt-2 inline-flex items-center px-4 py-2 border-2 
+          <a href={project.githubUrl} rel="noopener noreferrer" 
+          className="mt-2 inline-flex items-center px-4 py-2 border-2 
               border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
               text-gray-100 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
@@ -58,18 +53,29 @@ interface ProjectCardProps {
             strokeWidth={2}
             d="M15 3h6m0 0v6m0-6L10 14"/>
             </svg>
-          </span>
-          </link>
+          </a>
           {project.demoUrl && (
-            <link href={project.demoUrl} rel="noopener noreferrer">
-            <span className="mt-2 inline-flex items-center px-4 py-2 border-2 
+            <a href={project.demoUrl} rel="noopener noreferrer"
+            className="mt-2 inline-flex items-center px-4 py-2 border-2 
             border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
             text-gray-100 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
             focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
             dark:focus:ring-offset-gray-800 transition">
               Demo
-              </span>
-            </link>
+              <svg className="ml-2 w-4 h-4" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor">
+            <path strokeLinecap="round" 
+            strokeLinejoin="round" 
+            strokeWidth={2} 
+            d="M18 13v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a 2 0 012-2h6" />
+            <path strokeLinecap="round"
+            strokeLinejoin="round" 
+            strokeWidth={2}
+            d="M15 3h6m0 0v6m0-6L10 14"/>
+            </svg>
+            </a>
           )}
         </div>
       </div>

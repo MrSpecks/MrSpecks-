@@ -1,25 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-html-link-for-pages */
-
 import React from "react";
-import Layout from "../components/Layout";
 import SEO from "../components/SEO";
 
 export default function ContactPage() {
   return (
     <>
-    <SEO title="Kagiso Mfusi | Contact" description="Get in touch with Kagiso Mfusi. Let's collaborate on your next project." />
+    <main>
       <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
         Get in Touch
       </h1>
       <p className="text-gray-600 dark:text-gray-300 mb-6">
-        Let&rsquo;s build something great together. Have questions, project ideas, or just
+        Let's build something great together. Have questions, project ideas, or just
         want to connect?
       </p>
       <p className="text-gray-600 dark:text-gray-300 mb-6">
-      Drop me a line below—I&rsquo;m always up for a new challenge.
+      Drop me a line below. I'm always up for a new challenge.
       </p>
-
       <form
         action="https://formspree.io/f/movdqkgn"
         method="post"
@@ -70,6 +66,7 @@ export default function ContactPage() {
           Send Message
         </button>
       </form>
+    </main>
     </>
-  )
+  );
 }

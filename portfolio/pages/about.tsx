@@ -6,26 +6,25 @@ import SEO from "../components/SEO";
 export default function AboutPage() {
     return (
         <>
-        <SEO title="Kagiso Mfusi | About" description="Learn more about me, my background, and my passion for technology." />
       <main className="p-6">
       <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h1>
 
 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  I&rsquo;m Kagiso Mfusi, a systems-driven IT professional with a deep passion for building 
+  I'm Kagiso Mfusi, a systems-driven IT professional with a deep passion for building 
   secure, sustainable, and future-ready cloud solutions. My journey started in high school 
-  with a curiosity for tech, and today I&rsquo;m building forward-thinking digital platforms 
+  with a curiosity for tech, and today I'm building forward-thinking digital platforms 
   with a purpose—one solution at a time.
 </p>
 
 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  Over the past 5+ years, I&rsquo;ve worked across customer experience, cloud computing, 
+  Over the past 5+ years, I've worked across customer experience, cloud computing, 
   cybersecurity, and systems administration—gaining both technical skills and the ability 
   to connect solutions to real human needs. I believe in infrastructure that empowers, 
   protects, and scales.
 </p>
 
 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  I&rsquo;m currently focused on a long-term mission through{' '}
+  I'm currently focused on a long-term mission through
   <span className="font-semibold text-blue-600 dark:text-blue-400">
     The Kasi Cloud Initiative
   </span>—an effort to bring cloud expertise and local infrastructure to underserved 
