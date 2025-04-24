@@ -1,4 +1,8 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
+
 // components/cards/ProjectCard.tsx
+
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";

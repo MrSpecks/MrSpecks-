@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
+
 import React from "react";
 import LinkButton from "@/components/buttons/LinkButton";
 

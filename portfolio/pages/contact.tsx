@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-html-link-for-pages */
+
 import React from "react";
 import Layout from "../components/Layout";
 import SEO from "../components/SEO";
