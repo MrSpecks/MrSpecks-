@@ -25,20 +25,16 @@ export default function HomePage() {
 
             {/* Call to Action Button */}
             <div className="mt-6 flex justify-center gap-4">
-              <a
-                href="/projects"
+              <link href="/projects"
                 className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm font-medium"
-                aria-label="View my work in projects"
-              >
+                aria-label="View my work in projects">
                 View My Work
-              </a>
-              <a
-                href="/contact"
+              </link>
+              <link href="/contact"
                 className="border border-gray-400 dark:border-gray-600 px-4 py-2 rounded text-sm font-medium"
-                aria-label="Lets get in touch"
-              >
+                aria-label="Lets get in touch">
                 Contact Me
-              </a>
+              </link>
             </div>
           </section>
 
@@ -46,17 +42,15 @@ export default function HomePage() {
           <section className="mt-12">
             <h2 className="text-xl font-semibold mb-2">About Me</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl">
-              I’m a cloud-focused IT professional with 5+ years of experience across support,
-              systems, and infrastructure. I’m building local capacity through The Kasi Cloud
+              I&rsquo;m a cloud-focused IT professional with 5+ years of experience across support,
+              systems, and infrastructure. I&rsquo;m building local capacity through The Kasi Cloud
               Initiative and a long-term vision of decentralized tech for Africa.
             </p>
-            <a
-              href="/about"
+            <link href="/about"
               className="text-blue-500 mt-2 inline-block text-sm hover:underline"
-              aria-label="Read more in about"
-            >
+              aria-label="Read more in about">
               Read More →
-            </a>
+            </link>
           </section>
 
           {/* Featured Projects Carousel */}
