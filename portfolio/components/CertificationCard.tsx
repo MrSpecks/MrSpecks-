@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import React from "react";
-import LinkButton from "@/components/buttons/LinkButton";
+import LinkButton from "./buttons/LinkButton";
 
 export type Certification = {
   id: number;

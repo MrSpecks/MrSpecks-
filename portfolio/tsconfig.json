@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "es5",
     "lib": ["dom","dom.iterable","esnext"],
+    "incremental": true,
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -12,7 +13,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     // Add these two:
     "baseUrl": ".",
     "paths": {
