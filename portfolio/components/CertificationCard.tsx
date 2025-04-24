@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 
 import React from "react";
+import Image from "next/image";
 
 export type Certification = {
   id: number;
@@ -21,7 +22,7 @@ interface CertificationCardProps {
 export default function CertificationCard({ cert }: CertificationCardProps) {
   return (
     <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-4 flex items-start space-x-4">
-      <img src={cert.badge} alt={cert.title} className="w-12 h-12 object-contain" />
+      <Image src={cert.badge} alt={cert.title} className="w-12 h-12 object-contain" />
       <div>
         <h3 className="text-md font-semibold text-gray-900 dark:text-white">{cert.title}</h3>
         <p className="text-sm text-gray-600 dark:text-gray-300">
@@ -35,7 +36,7 @@ export default function CertificationCard({ cert }: CertificationCardProps) {
           ))}
         </div>
         {cert.credentialUrl && (
-          <link
+          <a
             href={cert.credentialUrl} rel="noopener noreferrer">
               <span className="mt-2 inline-flex items-center px-4 py-2 border-2 
               border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
@@ -57,7 +58,7 @@ export default function CertificationCard({ cert }: CertificationCardProps) {
             d="M15 3h6m0 0v6m0-6L10 14"/>
             </svg>
           </span>
-          </link>
+          </a>
         )}
       </div>
     </div>
