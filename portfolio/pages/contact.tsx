@@ -10,11 +10,11 @@ export default function ContactPage() {
         Get in Touch
       </h1>
       <p className="text-gray-600 dark:text-gray-300 mb-6">
-        Let’s build something great together. Have questions, project ideas, or just
+        Let&rsquo;s build something great together. Have questions, project ideas, or just
         want to connect?
       </p>
       <p className="text-gray-600 dark:text-gray-300 mb-6">
-      Drop me a line below—I’m always up for a new challenge.
+      Drop me a line below—I&rsquo;m always up for a new challenge.
       </p>
 
       <form

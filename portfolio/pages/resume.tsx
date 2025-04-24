@@ -34,7 +34,7 @@ export default function ResumePage() {
             Cloud & Web Solutions Engineer — Independent
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-            Oct 2024 – Present | Johannesburg, South Africa
+            Oct 2024 - Present | Johannesburg, South Africa
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
             I architect and deploy modern, scalable cloud infrastructureon Azure, while crafting responsive web applications that seamlessly intergrate serverless backends and enhance user experiences.
@@ -58,7 +58,7 @@ export default function ResumePage() {
           Systems Administrator Trainee — Afrika Tikkun Services (ATS)
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-            Jul 2024 – Sep 2024 | Johannesburg, South Africa
+            Jul 2024 - Sep 2024 | Johannesburg, South Africa
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
             Honed hands-on skills in Azure Fundamentals — earning my AZ-900 certification while supporrting cloud resource configuration and basic infrastructure management.
@@ -82,7 +82,7 @@ export default function ResumePage() {
             Call Centre Agent — First National Bank (FNB)
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-            Oct 2018 – Nov 2023 | Johannesburg, South Africa
+            Oct 2018 - Nov 2023 | Johannesburg, South Africa
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
             Provided front-line support and problem resolution for banking customers,  
@@ -112,7 +112,7 @@ export default function ResumePage() {
             Higher Certificate in Information Technology: Software Development
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            CTU Training Solutions | Sep 2018 – Aug 2019
+            CTU Training Solutions | Sep 2018 - Aug 2019
           </p>
         </div>
         <div>
@@ -120,7 +120,7 @@ export default function ResumePage() {
             Bachelor of Sciene in Information Technology
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Richfield Graduate Institute of Technology | Feb 2017 – Feb 2018
+            Richfield Graduate Institute of Technology | Feb 2017 - Feb 2018
           </p>
         </div>
       </section>

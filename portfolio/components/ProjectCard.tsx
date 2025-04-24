@@ -1,6 +1,7 @@
 // components/cards/ProjectCard.tsx
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import LinkButton from "@/components/buttons/LinkButton";
 
 export type Project = {
@@ -22,7 +23,7 @@ interface ProjectCardProps {
   export default function ProjectCard({ project }: ProjectCardProps) {
     return (
       <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden">
-      <img src={project.image} alt={project.title} className="w-full h-48 object-cover" />
+      <Image src={project.image} alt={project.title} width={400} height={225} className="object-cover" />
       <div className="p-4">
         <h3 className="text-lg font-semibold text-gray-900 dark:text-white">{project.title}</h3>
         <p className="mt-1 text-sm text-gray-600 dark:text-gray-300">{project.description}</p>
