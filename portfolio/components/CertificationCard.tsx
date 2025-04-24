@@ -1,5 +1,5 @@
 import React from "react";
-import LinkButton from "./LinkButton";
+import LinkButton from "./Buttons/LinkButton";
 
 export type Certification = {
   id: number;
@@ -35,7 +35,7 @@ export default function CertificationCard({ cert }: CertificationCardProps) {
         {cert.credentialUrl && (
           <LinkButton
             href={cert.credentialUrl} external>
-            View Credential
+            Show Credential
           </LinkButton>
         )}
       </div>
