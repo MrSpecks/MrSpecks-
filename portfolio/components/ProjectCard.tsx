@@ -1,6 +1,7 @@
 // components/cards/ProjectCard.tsx
 import React from "react";
 import Link from "next/link";
+import LinkButton from "../components/LinkButton"
 
 export type Project = {
 id: number;
@@ -33,13 +34,13 @@ interface ProjectCardProps {
           ))}
         </div>
         <div className="mt-4 flex items-center space-x-4">
-          <Link href={project.githubUrl} className="text-blue-600 hover:underline text-sm">
+          <LinkButton href={project.githubUrl} external>
             GitHub
-          </Link>
+          </LinkButton>
           {project.demoUrl && (
-            <Link href={project.demoUrl} className="text-blue-600 hover:underline text-sm">
-              Live Demo
-            </Link>
+            <LinkButton href={project.demoUrl} external>
+              Demo
+            </LinkButton>
           )}
         </div>
       </div>

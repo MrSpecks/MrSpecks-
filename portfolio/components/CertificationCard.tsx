@@ -1,4 +1,5 @@
 import React from "react";
+import LinkButton from "./LinkButton";
 
 export type Certification = {
   id: number;
@@ -32,14 +33,10 @@ export default function CertificationCard({ cert }: CertificationCardProps) {
           ))}
         </div>
         {cert.credentialUrl && (
-          <a
-            href={cert.credentialUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="mt-2 block text-blue-600 hover:underline text-sm"
-          >
+          <LinkButton
+            href={cert.credentialUrl} external>
             View Credential
-          </a>
+          </LinkButton>
         )}
       </div>
     </div>
