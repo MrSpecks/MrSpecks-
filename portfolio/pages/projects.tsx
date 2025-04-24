@@ -15,16 +15,14 @@ export default function ProjectsPage() {
         <>
         <SEO title="Kagiso Mfusi | Projects" description="A showcase of personal and professional projects built with modern technologies." />
       <main className="p-6">
-        <h1 className="text-2xl font-bold">Projects</h1>
-        <p className="mt-2 text-base text-gray-600">
-          Here is a showcase of the practical work I have done in cloud, development, and cyber labs.
-        </p>
+
 
         {/* Projects Section */}
       <section className="mb-12">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-          Projects
-        </h2>
+      <h1 className="text-2xl font-bold">Projects</h1>
+        <p className="mt-2 text-base text-gray-600">
+          Explore a selection of hands-on cloud, web, and cybersecurity projects that demonstrate practical solutions and iinnovative designs.
+        </p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.id} project={project} />
@@ -34,9 +32,10 @@ export default function ProjectsPage() {
 
       {/* Certifications Section */}
       <section>
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
-          Certifications
-        </h2>
+      <h1 className="text-2xl font-bold">Certifications</h1>
+        <p className="mt-2 text-base text-gray-600">
+         Browse industry-recognized certifications that validate expertise in cloud architecture, cybersecurity, and sustainable technology.
+        </p>
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
           {normalizedCerts.map((cert) => (
             <CertificationCard key={cert.id} cert={cert} />
