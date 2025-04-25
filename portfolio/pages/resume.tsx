@@ -126,7 +126,7 @@ export default function ResumePage() {
             Higher Certificate in Information Technology: Software Development
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            CTU Training Solutions | 2019
+            CTU Training Solutions | 2018
           </p>
         </div>
         <div>
