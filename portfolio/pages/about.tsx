@@ -20,7 +20,7 @@ export default function AboutPage() {
           </h1>
           <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
             I'm a self-driven IT professional with over five years of cross-disciplinary
-            experience—from customer support and systems administration to hands-on
+            experience from customer support and systems administration to hands-on
             cloud architecture and web development. Fueled by an insatiable curiosity,
             I constantly challenge myself with cutting-edge certifications and real-world
             projects, crafting solutions that are secure, scalable, and future-proof.
@@ -35,7 +35,7 @@ export default function AboutPage() {
           <p className="text-gray-600 dark:text-gray-300">
             I began in customer-facing support roles where empathy and clear communication
             were essential. As I delved into infrastructure, I undertook a systems
-            administration traineeship—earning my AZ-900 certification—and later honed
+            administration traineeship and later honed
             advanced cloud design skills through professional courses. Today, I blend deep
              technical expertise with strategic vision to build bespoke digital platforms.
           </p>
@@ -53,7 +53,7 @@ export default function AboutPage() {
     </li>
     <li>
       <strong>Cybersecurity:</strong> Proactive threat modeling and security
-      automation—grounded in hands-on labs with modern SIEM tools.
+      automation; grounded in hands-on labs with modern SIEM tools.
     </li>
     <li>
       <strong>Full-Stack Development:</strong> Crafting responsive web applications with
@@ -73,7 +73,7 @@ export default function AboutPage() {
     </li>
     <li>
       <strong>Bespoke Problem-Solving:</strong> My rare blend of analytical rigor
-      and creative insight means I don't just follow patterns—I invent them.
+      and creative insight means I don't just follow patterns; I invent them.
     </li>
   </ul>
 </section>
@@ -107,7 +107,7 @@ export default function AboutPage() {
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
             I believe technology should empower, not intimidate; scale, not break; and
             adapt, not stagnate. My mission is to fuse deep technical mastery with
-            human-centered design, forging digital experiences that endure—and inspire
+            human-centered design, forging digital experiences that endure and inspire
             the next generation of innovators.
           </p>
         </section>

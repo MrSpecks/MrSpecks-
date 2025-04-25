@@ -49,12 +49,8 @@ export default function HomePage() {
         </div>
 
         <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
-          I'm a self-driven IT professional with over five years of experience spanning support,
-          systems, and infrastructure. Passionate about emerging cloud technologies, I constantly
-           challenge myself through hands-on projects and targeted learning - recently diving into
-           advanced cloud architecture patterns - to build solutions that are secure, scalable, and future-proof. 
-           My ambition is to blend deep technicalexpertise with a strategic mindset, driving innovation that 
-           truly makes an impacy.
+          Cloud builder, systems thinker, and digital innovator focused on building
+          scalable tech infrastructure for Africa's next generation.
         </p>
 
         {/* CTA Buttons */}
@@ -79,9 +75,12 @@ export default function HomePage() {
       <section className="mt-12 text-center">
         <h2 className="text-xl font-semibold mb-2">About Me</h2>
         <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
-          I'm a cloud-focused IT professional with 5+ years of experience across support,
-          systems, and infrastructure. I'm building local capacity through The Kasi Cloud
-          Initiative and a long-term vision of decentralized tech for Africa.
+          I'm a self-driven IT professional with over five years of experience spanning support,
+          systems, and infrastructure. Passionate about emerging cloud technologies, I constantly
+           challenge myself through hands-on projects and targeted learning - recently diving into
+           advanced cloud architecture patterns - to build solutions that are secure, scalable, and future-proof. 
+           My ambition is to blend deep technicalexpertise with a strategic mindset, driving innovation that 
+           truly makes an impacy.
         </p>
         <Link href="/about" passHref>
         <a rel="noopener noreferrer" 

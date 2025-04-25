@@ -53,9 +53,25 @@ export default function CertificationCard({ cert }: CertificationCardProps) {
           href={cert.credentialUrl}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-3 inline-block text-sm text-blue-600 dark:text-blue-400 hover:underline"
-        >
+          className="mt-2 inline-flex items-center px-4 py-2 border-2 
+              border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
+              text-gray-600 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
+              focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
+              dark:focus:ring-offset-gray-800 transition">
           View Credential
+          <svg className="ml-2 w-4 h-4" 
+            fill="none" 
+            viewBox="0 0 24 24" 
+            stroke="currentColor">
+            <path strokeLinecap="round" 
+            strokeLinejoin="round" 
+            strokeWidth={2} 
+            d="M18 13v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a 2 0 012-2h6" />
+            <path strokeLinecap="round"
+            strokeLinejoin="round" 
+            strokeWidth={2}
+            d="M15 3h6m0 0v6m0-6L10 14"/>
+            </svg>
         </a>
       )}
     </div>

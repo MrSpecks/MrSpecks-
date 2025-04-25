@@ -10,6 +10,16 @@
       "tags": ["Cloud", "Architecture", "Design Patterns"]
     },
     {
+      "id": 10,
+      "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+      "provider": "Microsoft",
+      "issued": "2024-08",
+      "credentialId": "7BD01FEEB5E5A1B",
+      "credentialUrl": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+      "badge": "/images/cert-logo/Microsoft-Logo.png",
+      "tags": ["Azure", "Cloud", "Fundamentals", "AZ-900"]
+    },
+    {
       "id": 2,
       "title": "HCIA-5G V2.0 Course",
       "provider": "Huawei",
@@ -60,6 +70,16 @@
       "tags": ["Sustainability", "Technology", "IBM"]
     },
     {
+      "id": 9,
+      "title": "Project Management Fundamentals",
+      "provider": "IBM",
+      "issued": "2024-09",
+      "credentialId": null,
+      "credentialUrl": "https://skillsbuild.org/",
+      "badge": "/images/cert-logo/ibm logo.png",
+      "tags": ["Project Management", "IBM", "Project Lifecycle Management"]
+    },
+    {
       "id": 7,
       "title": "Next-Generation Cyber Security",
       "provider": "Huawei",
@@ -76,28 +96,8 @@
       "issued": "2024-09",
       "credentialId": "ICTCRA20240929000546",
       "credentialUrl": "https://e.huawei.com/",
-      "badge": "/images/certifications/huawei-ng-cra.png",
+      "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "CRA Program"]
-    },
-    {
-      "id": 9,
-      "title": "Project Management Fundamentals",
-      "provider": "IBM",
-      "issued": "2024-09",
-      "credentialId": null,
-      "credentialUrl": "https://skillsbuild.org/",
-      "badge": "/images/cert-logo/ibm logo.png",
-      "tags": ["Project Management", "IBM", "Project Lifecycle Management"]
-    },
-    {
-      "id": 10,
-      "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
-      "provider": "Microsoft",
-      "issued": "2024-08",
-      "credentialId": "7BD01FEEB5E5A1B",
-      "credentialUrl": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
-      "badge": "/images/cert-logo/Microsft logo.png",
-      "tags": ["Azure", "Cloud", "Fundamentals", "AZ-900"]
     },
     {
       "id": 11,
