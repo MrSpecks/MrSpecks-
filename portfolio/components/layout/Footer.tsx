@@ -3,7 +3,7 @@
 
 import React from "react";
 import Link from "next/link";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -28,13 +28,18 @@ export default function Footer() {
         {/* Right: Social Icons */}
         <div className="flex space-x-4">
           <a href="mailto:kagisomfusi@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email">
-            <Mail className="h-5 w-5 hover:text-blue-600" />
+            <Mail className="h-5 w-5 hover:text-blue-600 dark:hover:text-blue-400" />
           </a>
           <a href="https://github.com/MrSpecks" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
-            <Github className="h-5 w-5 hover:text-blue-600" />
+            <Github className="h-5 w-5 hover:text-blue-600 dark:hover:text-blue-400" />
           </a>
           <a href="https://www.linkedin.com/in/kagiso-m-95b329224?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-            <Linkedin className="h-5 w-5 hover:text-blue-600" />
+            <Linkedin className="h-5 w-5 hover:text-blue-600 dark:hover:text-blue-400" />
+          </a>
+         
+          {/* Gravatar Link */}
+          <a href="https://simplykae.link" target="_blank" rel="noopener noreferrer" aria-label="Gravatar Page">
+            <ExternalLink className="h-5 w-5 hover:text-blue-600 dark:hover:text-blue-400" />
           </a>
         </div>
       </div>
