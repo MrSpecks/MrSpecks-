@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "./ayout/Header";
+import Header from "./layout/Header";
 import Footer from "./layout/Footer";
 
 interface LayoutProps {
