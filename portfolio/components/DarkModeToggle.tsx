@@ -1,40 +1,44 @@
 // components/DarkModeToggle.tsx
-'use client'
+import React, { useEffect, useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Moon, Sun } from "lucide-react";
 
-import { useEffect, useState } from 'react'
-import { Moon, Sun } from 'lucide-react'
-
-const DarkModeToggle = () => {
-  const [isDark, setIsDark] = useState(false)
+export default function DarkModeToggle() {
+  const [mounted, setMounted] = useState(false);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
-    // Check if user's system prefers dark
-    const isSystemDark = window.matchMedia('(prefers-color-scheme: dark)').matches
-    setIsDark(document.documentElement.classList.contains('dark') || isSystemDark)
-  }, [])
+    setMounted(true);
+    const stored = localStorage.getItem("theme");
+    setIsDark(stored === "dark" || (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches));
+  }, []);
 
-  const toggleDarkMode = () => {
-    const html = document.documentElement
-    if (html.classList.contains('dark')) {
-      html.classList.remove('dark')
-      setIsDark(false)
-      localStorage.setItem('theme', 'light')
-    } else {
-      html.classList.add('dark')
-      setIsDark(true)
-      localStorage.setItem('theme', 'dark')
-    }
-  }
+  const toggleTheme = () => {
+    const newTheme = isDark ? "light" : "dark";
+    localStorage.setItem("theme", newTheme);
+    document.documentElement.classList.toggle("dark");
+    setIsDark(!isDark);
+  };
+
+  if (!mounted) return null;
 
   return (
     <button
-      onClick={toggleDarkMode}
-      className="p-2 rounded-full hover:bg-gray-200 dark:hover:bg-gray-700 transition"
-      aria-label="Toggle Dark Mode"
+      onClick={toggleTheme}
+      aria-label="Toggle dark mode"
+      className="rounded-full p-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
     >
-      {isDark ? <Sun size={20} /> : <Moon size={20} />}
+      <AnimatePresence mode="wait" initial={false}>
+        <motion.div
+          key={isDark ? "moon" : "sun"}
+          initial={{ rotate: -90, scale: 0 }}
+          animate={{ rotate: 0, scale: 1 }}
+          exit={{ rotate: 90, scale: 0 }}
+          transition={{ duration: 0.4 }}
+        >
+          {isDark ? <Moon size={20} className="text-yellow-400" /> : <Sun size={20} className="text-orange-500" />}
+        </motion.div>
+      </AnimatePresence>
     </button>
-  )
+  );
 }
-
-export default DarkModeToggle

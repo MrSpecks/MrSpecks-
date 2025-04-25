@@ -72,7 +72,7 @@ export default function HomePage() {
               text-gray-100 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
               dark:focus:ring-offset-gray-800 transition">
-            Read More →
+            Read More
             <svg className="ml-2 w-4 h-4" 
             fill="none" 
             viewBox="0 0 24 24" 

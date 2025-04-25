@@ -1,20 +1,24 @@
-import React from "react";
-import type { AppProps } from "next/app";
-import { AnimatePresence, motion } from "framer-motion";
-import Layout from "../components/Layout";
-import ScrollToTop from "../components/ScrollToTop";
-import "../styles/globals.css";
+// pages/_app.tsx
+import React from 'react';
+import { AppProps } from 'next/app';
+import Layout from '@/components/Layout';
+import ScrollToTop from '@/components/ScrollToTop';
+import { AnimatePresence, motion } from 'framer-motion';
+import { useRouter } from 'next/router';
+import '../styles/globals.css';
 
-export default function App({ Component, pageProps, router }: AppProps) {
+export default function App({ Component, pageProps }: AppProps) {
+  const router = useRouter();
+
   return (
     <Layout>
-      <AnimatePresence mode="wait">
+      <AnimatePresence mode="wait" initial={false}>
         <motion.div
-          key={router.route}
-          initial={{ opacity: 0, y: 16 }}
+          key={router.pathname}
+          initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -16 }}
-          transition={{ duration: 0.25, ease: "easeInOut" }}
+          exit={{ opacity: 0, y: -10 }}
+          transition={{ duration: 0.4, ease: 'easeInOut' }}
         >
           <Component {...pageProps} />
         </motion.div>

@@ -10,6 +10,7 @@
     },
     "dependencies": {
         "@heroicons/react": "^2.1.0",
+        "@vercel/edge-config": "^1.4.0",
         "autoprefixer": "^10.4.15",
         "framer-motion": "^12.9.1",
         "next": "^14.2.28",
