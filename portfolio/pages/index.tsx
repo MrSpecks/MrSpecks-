@@ -38,7 +38,7 @@ export default function HomePage() {
               </Link>
             </div>
           </section>
-          <section className="px-4 sm:px-6 lg:px-8 max-w-3xl max-auto text-center">
+          <section className="mt-12">
             <h2 className="text-xl font-semibold mb-2">About Me</h2>
             <p className="text-gray-600 dark:text-gray-300 max-w-2xl">
               I'm a cloud-focused IT professional with 5+ years of experience across support,
@@ -53,7 +53,7 @@ export default function HomePage() {
               </a>
             </Link>
           </section>
-      <section className="px-4 sm:px-6 lg:px-8 max-w-3xl max-auto text-center">
+      <section className="mt-12">
         <h2 className="text-xl font-semibold mb-4">Featured Projects</h2>
         <Carousel items={featured} />
       </section>
