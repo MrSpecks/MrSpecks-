@@ -24,10 +24,10 @@ export default function ResumePage() {
         </h2>
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-            Cloud & Web Solutions Engineer — Independent
+            Cloud & Web Solutions Engineer 
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-            Oct 2024 - Present | Johannesburg, South Africa
+             2025 | Johannesburg, South Africa
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
             I architect and deploy modern, scalable cloud infrastructureon Azure, while crafting responsive web applications that seamlessly intergrate serverless backends and enhance user experiences.
@@ -46,10 +46,10 @@ export default function ResumePage() {
         </div>
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-          Systems Administrator Trainee — Afrika Tikkun Services (ATS)
+          Systems Administrator Trainee 
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-            Jul 2024 - Sep 2024 | Johannesburg, South Africa
+           2024 | Johannesburg, South Africa
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
             Honed hands-on skills in Azure Fundamentals — earning my AZ-900 certification while supporrting cloud resource configuration and basic infrastructure management.
@@ -68,10 +68,10 @@ export default function ResumePage() {
         </div>
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-            Call Centre Agent — First National Bank (FNB)
+            Call Centre Agent 
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-            Oct 2018 - Nov 2023 | Johannesburg, South Africa
+           2019 | Johannesburg, South Africa
           </p>
           <p className="text-gray-600 dark:text-gray-300 mb-2">
             Provided front-line support and problem resolution for banking customers,  
@@ -89,6 +89,33 @@ export default function ResumePage() {
             </li>
           </ul>
         </div>
+        <div className="mb-6">
+          <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+            Java Developer Intern 
+          </h3>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
+           2018 | Johannesburg, South Africa
+          </p>
+          <p className="text-gray-600 dark:text-gray-300 mb-2">
+            Collaborated in a structured team environment to design, build, and debug
+             internal tools and training systems using Java SE and contributed to UI/UX
+              improvements through responsive interface components.
+          </p>
+          <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
+            <li>
+              Developwd a foundational understanding of full-stack development principles and
+              software lifecycle best practices.
+            </li>
+            <li>
+              Assisted with writing clean, maintainable code while learning agile development
+               cycles and real-world software delivery practices.
+            </li>
+            <li>
+              Enhanced proficiency in version control with Git, task tracking using Jira 
+              and Confluence for documentation as part of the Atlassian toolset.
+            </li>
+          </ul>
+        </div>
       </section>
       <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
@@ -99,7 +126,7 @@ export default function ResumePage() {
             Higher Certificate in Information Technology: Software Development
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            CTU Training Solutions | Sep 2018 - Aug 2019
+            CTU Training Solutions | 2019
           </p>
         </div>
         <div>
@@ -107,7 +134,7 @@ export default function ResumePage() {
             Bachelor of Sciene in Information Technology
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400">
-            Richfield Graduate Institute of Technology | Feb 2017 - Feb 2018
+            Richfield Graduate Institute of Technology | 2017 
           </p>
         </div>
       </section>
@@ -116,15 +143,17 @@ export default function ResumePage() {
           Skills
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-4">
-          Cloud Computing · Systems Development · Cybersecurity · Customer Service ·  
-          Project Management · Sustainable Technology · Web Deveelopment ·
+          Cloud Computing · Systems Development · Cybersecurity ·  
+          Project Management · Sustainable Technology · Web Deveelopment · Sales & Service 
         </p>
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Tools & Technologies
         </h2>
         <p className="text-gray-600 dark:text-gray-300">
-          Microsoft Azure · Google Workspace · GitHub · Next.js · React · Linux ·  
-          Windows Server · AWS · HOGAN · Fusion · Java · Python · Tailwind
+          Microsoft Azure · Google Workspace · GitHub · Next.js · React ·  
+          Windows Server · AWS · HOGAN · Fusion · Java · Python · Jira · 
+          Confluence · Spring Boot · InteliJ · Ubuntu · Kali Linux · 
+          Google Cloud · 365 · Varcel · Docker · Oracle
         </p>
       </section>
       </main>
