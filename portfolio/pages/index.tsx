@@ -11,7 +11,7 @@ export default function HomePage() {
   const featured = projects.filter((p) => p.id === 2 || p.id === 3); // ReconX & NeoShell
   return (
       <main>
-          <section className="text-center">
+          <section className=" px-4 sm:px-6 lg:px-8 max-w-3xl max-auto text-center">
             <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
               Kagiso Mfusi
             </h1>
