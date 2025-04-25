@@ -11,7 +11,7 @@ export default function HomePage() {
   const featured = projects.filter((p) => p.id === 2 || p.id === 3); // ReconX & NeoShell
 
   return (
-    <main className="p-6">
+    <main className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <SEO
         title="Kagiso Mfusi | Portfolio"
         description="Cloud | Cybersecurity | Systems & Web Dev"
@@ -56,12 +56,15 @@ export default function HomePage() {
         {/* CTA Buttons */}
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/projects" passHref>
-            <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 text-sm font-medium transition">
+            <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 
+            text-sm font-medium transition w-full sm:w-auto">
               View My Work
             </a>
           </Link>
           <Link href="/contact" passHref>
-            <a className="border border-gray-400 dark:border-gray-600 px-6 py-2 rounded text-sm font-medium text-gray-700 dark:text-white hover:bg-gray-100 dark:hover:bg-gray-800 transition">
+            <a className="border border-gray-400 dark:border-gray-600 px-6 py-2 rounded 
+            text-sm font-medium text-gray-700 dark:text-white hover:bg-gray-100 
+            dark:hover:bg-gray-800 transition w-full sm:w-auto">
               Contact Me
             </a>
           </Link>
