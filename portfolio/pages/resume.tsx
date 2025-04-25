@@ -103,7 +103,7 @@ export default function ResumePage() {
           </p>
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
             <li>
-              Developwd a foundational understanding of full-stack development principles and
+              Developed a foundational understanding of full-stack development principles and
               software lifecycle best practices.
             </li>
             <li>
@@ -144,7 +144,7 @@ export default function ResumePage() {
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-4">
           Cloud Computing · Systems Development · Cybersecurity ·  
-          Project Management · Sustainable Technology · Web Deveelopment · Sales & Service 
+          Project Management · Sustainable Technology · Web Development · Sales & Service 
         </p>
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Tools & Technologies

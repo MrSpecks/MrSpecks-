@@ -49,8 +49,12 @@ export default function HomePage() {
         </div>
 
         <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
-          Cloud builder, systems thinker, and digital innovator focused on building
-          scalable tech infrastructure for Africa's next generation.
+          I'm a self-driven IT professional with over five years of experience spanning support,
+          systems, and infrastructure. Passionate about emerging cloud technologies, I constantly
+           challenge myself through hands-on projects and targeted learning - recently diving into
+           advanced cloud architecture patterns - to build solutions that are secure, scalable, and future-proof. 
+           My ambition is to blend deep technicalexpertise with a strategic mindset, driving innovation that 
+           truly makes an impacy.
         </p>
 
         {/* CTA Buttons */}
