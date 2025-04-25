@@ -13,19 +13,19 @@ export default function AboutPage() {
   I'm Kagiso Mfusi, a systems-driven IT professional with a deep passion for building 
   secure, sustainable, and future-ready cloud solutions. My journey started in high school 
   with a curiosity for tech, and today I'm building forward-thinking digital platforms 
-  with a purpose—one solution at a time.
+  with a purpose one solution at a time.
 </p>
 
 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
   Over the past 5+ years, I've worked across customer experience, cloud computing, 
-  cybersecurity, and systems administration—gaining both technical skills and the ability 
+  cybersecurity, and systems administration gaining both technical skills and the ability 
   to connect solutions to real human needs. My work blends technical knowledge with vision, empathy, and 
   a commitment to continuous learning.
 </p>
 
 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
   Beyond the cloud, I invest time in wellness, mindfulness, and creative pursuits that 
-  keep me grounded and inspired. My vision is to not just build solutions—but to build 
+  keep me grounded and inspired. My vision is to not just build solutions but to build 
   legacy.
 </p>
 
@@ -41,6 +41,9 @@ export default function AboutPage() {
     <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Tailwind CSS</span>
     <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Azure</span>
     <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">GitHub</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Google Workspace</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Varcel</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">VS Code</span>
   </div>
 </section>
       </main>

@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Typewriter from "typewriter-effect";
 import Carousel from "../components/Carousel";
 import projects from "../data/projects.json";
 import SEO from "../components/SEO";
@@ -16,8 +17,18 @@ export default function HomePage() {
               Kagiso Mfusi
             </h1>
             <p className="mt-2 text-xl text-gray-600 dark:text-gray-300">
-              Cloud | Cybersecurity | Systems & Web Development | Customer Support
-            </p>
+  <Typewriter
+    options={{
+      strings: [
+        "Cloud | Cybersecurity | Systems & Web Development",
+        "Building Africa's Next Digital Infrastructure",
+        "Secure. Scalable. Sustainable."
+      ],
+      autoStart: true,
+      loop: true,
+    }}
+  />
+</p>
             <p className="mt-4 max-w-xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
               Cloud builder, Systems thinker, Digital innovator building scalable tech infrastructure for Africa's next generation.
             </p>
