@@ -1,14 +1,20 @@
 import React from "react";
 import ProjectCard, { Project } from "./ProjectCard";
+import { motion } from "framer-motion";
 
-
-interface CarouselProps {
+type CarouselProps = {
   items: Project[];
-}
+};
 
 export default function Carousel({ items }: CarouselProps) {
   return (
-    <div className="relative overflow-hidden">
+    <motion.div
+      className="relative overflow-hidden"
+      initial={{ opacity: 0, y: 30 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      viewport={{ once: true }}
+    >
       <div className="flex space-x-4 overflow-x-auto snap-x snap-mandatory scrollbar-hide py-2">
         {items.map((project) => (
           <div
@@ -19,6 +25,6 @@ export default function Carousel({ items }: CarouselProps) {
           </div>
         ))}
       </div>
-    </div>
+    </motion.div>
   );
 }
