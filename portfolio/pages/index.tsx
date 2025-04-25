@@ -26,7 +26,7 @@ export default function HomePage() {
           {/* Circle Image Cutout */}
       <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
          <Image
-           src="/public/images/avatar/profilepic.png" // Replace with the actual path to your image
+           src="/portfolio/public/images/avatar/profilepic.png" // Replace with the actual path to your image
            alt="Kagiso Mfusi"
            width={128} // You can adjust the size as needed
            height={128} // Keep the width and height the same for a circle
@@ -34,7 +34,7 @@ export default function HomePage() {
           />
        </div>
 
-        <div className="mt-2 text-xl text-gray-600 dark:text-gray-300 min-h-[48px]">
+        <div className="mt-2 text-xl text-gray-600 dark:text-gray-300">
           <Typewriter
             options={{
               strings: [
@@ -83,7 +83,7 @@ export default function HomePage() {
         <a rel="noopener noreferrer" 
           className="mt-2 inline-flex items-center px-4 py-2 border-2 
               border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
-              text-gray-100 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
+              text-gray-600 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
               dark:focus:ring-offset-gray-800 transition">
             Read More
