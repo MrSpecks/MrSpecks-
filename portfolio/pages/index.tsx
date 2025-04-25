@@ -34,7 +34,7 @@ export default function HomePage() {
           />
        </div>
 
-        <div className="mt-2 text-xl text-gray-600 dark:text-gray-300 min-h-[48px]">
+        <div className="mt-2 text-xl text-gray-600 dark:text-gray-300">
           <Typewriter
             options={{
               strings: [
