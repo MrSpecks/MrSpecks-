@@ -23,6 +23,17 @@ export default function HomePage() {
           Kagiso Mfusi
         </h1>
 
+          {/* Circle Image Cutout */}
+      <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
+         <Image
+           src="./public/images/avatar/profilepic.png" // Replace with the actual path to your image
+           alt="Kagiso Mfusi"
+           width={128} // You can adjust the size as needed
+           height={128} // Keep the width and height the same for a circle
+           className="object-cover" // Ensures the image covers the whole circle
+          />
+       </div>
+
         <div className="mt-2 text-xl text-gray-600 dark:text-gray-300 min-h-[48px]">
           <Typewriter
             options={{
