@@ -26,7 +26,7 @@ export default function HomePage() {
           {/* Circle Image Cutout */}
       <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
          <Image
-           src="/public/images/avatar/profilepic.png" // Replace with the actual path to your image
+           src="/portfolio/public/images/avatar/profilepic.png" // Replace with the actual path to your image
            alt="Kagiso Mfusi"
            width={128} // You can adjust the size as needed
            height={128} // Keep the width and height the same for a circle
