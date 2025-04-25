@@ -9,7 +9,7 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-3 sm:px-4 md:px-6 py-2 sm:py-3 flex justify-between items-center">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 sm:w-12 sm:h-12">
-          <Image src="/images/avatar/avatar.png"
+          <Image src="/images/avatar/profilepic.png"
             alt="Kagiso Mfusi"
             width={40}
             height={40}
