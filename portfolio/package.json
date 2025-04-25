@@ -10,7 +10,9 @@
     },
     "dependencies": {
         "@heroicons/react": "^2.1.0",
+        "@vercel/edge-config": "^1.4.0",
         "autoprefixer": "^10.4.15",
+        "canvas-confetti": "^1.9.3",
         "framer-motion": "^12.9.1",
         "next": "^14.2.28",
         "postcss": "^8.4.24",
@@ -21,6 +23,7 @@
         "typewriter-effect": "^2.21.0"
     },
     "devDependencies": {
+        "@types/canvas-confetti": "^1.9.0",
         "@types/json5": "^0.0.30",
         "@types/node": "^20.4.3",
         "@types/react": "^18.2.7",

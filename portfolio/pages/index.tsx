@@ -11,7 +11,7 @@ export default function HomePage() {
   const featured = projects.filter((p) => p.id === 2 || p.id === 3); // ReconX & NeoShell
 
   return (
-    <main className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <main className="p-6">
       <SEO
         title="Kagiso Mfusi | Portfolio"
         description="Cloud | Cybersecurity | Systems & Web Dev"
@@ -22,6 +22,17 @@ export default function HomePage() {
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
           Kagiso Mfusi
         </h1>
+
+          {/* Circle Image Cutout */}
+      <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
+         <Image
+           src="./public/images/avatar/profilepic.png" // Replace with the actual path to your image
+           alt="Kagiso Mfusi"
+           width={128} // You can adjust the size as needed
+           height={128} // Keep the width and height the same for a circle
+           className="object-cover" // Ensures the image covers the whole circle
+          />
+       </div>
 
         <div className="mt-2 text-xl text-gray-600 dark:text-gray-300 min-h-[48px]">
           <Typewriter
@@ -72,7 +83,7 @@ export default function HomePage() {
               text-gray-100 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
               dark:focus:ring-offset-gray-800 transition">
-            Read More →
+            Read More
             <svg className="ml-2 w-4 h-4" 
             fill="none" 
             viewBox="0 0 24 24" 

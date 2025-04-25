@@ -5,11 +5,12 @@
 /* Custom global styles */
 html {
   @apply scroll-smooth;
-  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   overflow-x: hidden;
 }
 body {
   @apply bg-gray-50 dark:bg-gray-950 text-gray-900 dark:text-gray-100;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
 }
