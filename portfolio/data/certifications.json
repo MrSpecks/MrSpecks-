@@ -6,7 +6,7 @@
       "issued": "2025-04",
       "credentialId": null,
       "credentialUrl": "https://www.coursera.org/",
-      "badge": "/images/certifications/coursera-cloud-arch.png",
+      "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cloud", "Architecture", "Design Patterns"]
     },
     {
@@ -16,7 +16,7 @@
       "issued": "2025-01",
       "credentialId": "EBG20250112000644",
       "credentialUrl": "https://e.huawei.com/",
-      "badge": "/images/certifications/hcia-5g.png",
+      "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Huawei", "5G", "Infrastructure"]
     },
     {
@@ -26,7 +26,7 @@
       "issued": "2024-10",
       "credentialId": null,
       "credentialUrl": "https://e.huawei.com/",
-      "badge": "/images/certifications/huawei-5g-basics.png",
+      "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Huawei", "5G", "Telecom"]
     },
     {
@@ -36,7 +36,7 @@
       "issued": "2024-10",
       "credentialId": null,
       "credentialUrl": "https://skillsbuild.org/",
-      "badge": "/images/certifications/ibm-cyber-fundamentals.png",
+      "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Cybersecurity", "IBM", "Essentials"]
     },
     {
@@ -46,7 +46,7 @@
       "issued": "2024-10",
       "credentialId": null,
       "credentialUrl": "https://skillsbuild.org/",
-      "badge": "/images/certifications/ibm-emerging-tech.png",
+      "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Emerging Tech", "AI", "Cloud", "Cybersecurity"]
     },
     {
@@ -56,7 +56,7 @@
       "issued": "2024-10",
       "credentialId": null,
       "credentialUrl": "https://skillsbuild.org/",
-      "badge": "/images/certifications/ibm-sustainability.png",
+      "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Sustainability", "Technology", "IBM"]
     },
     {
@@ -66,7 +66,7 @@
       "issued": "2024-09",
       "credentialId": "EBG20240929001205",
       "credentialUrl": "https://e.huawei.com/",
-      "badge": "/images/certifications/huawei-ng-cyber.png",
+      "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "Next-Gen"]
     },
     {
@@ -86,7 +86,7 @@
       "issued": "2024-09",
       "credentialId": null,
       "credentialUrl": "https://skillsbuild.org/",
-      "badge": "/images/certifications/ibm-project-management.png",
+      "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Project Management", "IBM", "Project Lifecycle Management"]
     },
     {
@@ -96,7 +96,7 @@
       "issued": "2024-08",
       "credentialId": "7BD01FEEB5E5A1B",
       "credentialUrl": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
-      "badge": "/images/certifications/azure-fundamentals.png",
+      "badge": "/images/cert-logo/Microsft logo.png",
       "tags": ["Azure", "Cloud", "Fundamentals", "AZ-900"]
     },
     {
@@ -106,7 +106,7 @@
       "issued": "2024-07",
       "credentialId": "1aebd0650e112110ea10dlc646b648b35eb6737748473004c342f5580d3c4d5",
       "credentialUrl": "https://www.linkedin.com/learning/",
-      "badge": "/images/certifications/linkedin-software-career.png",
+      "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Tech Career Skills", "Career Management", "Development", "Software Development"]
     },
     {
@@ -116,7 +116,7 @@
       "issued": "2024-07",
       "credentialId": "49ddbc7c35083705e0c329e250ffd9f5ble09780dlae0cd316cb159789174653",
       "credentialUrl": "https://www.linkedin.com/learning/",
-      "badge": "/images/certifications/linkedin-cyber-foundations.png",
+      "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cybersecurity", "Foundations"]
     },
     {
@@ -126,7 +126,7 @@
       "issued": "2024-07",
       "credentialId": "6db78acac3ea2364db058e808ef3cbce59dc6c707778669d4f5dabb2ba2550be",
       "credentialUrl": "https://www.linkedin.com/learning/",
-      "badge": "/images/certifications/linkedin-cyber-awareness.png",
+      "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cybersecurity", "Awareness", "Terminology", "Information Security Awareness"]
     },
     {
