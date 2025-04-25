@@ -5,7 +5,7 @@ import SEO from "../components/SEO";
 export default function ContactPage() {
   return (
     <>
-    <main>
+    <main className="p-6">
       <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
         Get in Touch
       </h1>

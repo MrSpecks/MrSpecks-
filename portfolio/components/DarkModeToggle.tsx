@@ -1,44 +1,54 @@
 // components/DarkModeToggle.tsx
 import React, { useEffect, useState } from "react";
-import { motion, AnimatePresence } from "framer-motion";
 import { Moon, Sun } from "lucide-react";
+import confetti from "canvas-confetti";
 
 export default function DarkModeToggle() {
-  const [mounted, setMounted] = useState(false);
   const [isDark, setIsDark] = useState(false);
+  const [clickCount, setClickCount] = useState(0);
 
   useEffect(() => {
-    setMounted(true);
-    const stored = localStorage.getItem("theme");
-    setIsDark(stored === "dark" || (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches));
+    if (typeof window !== "undefined") {
+      const storedTheme = localStorage.getItem("theme");
+      setIsDark(storedTheme === "dark");
+    }
   }, []);
 
   const toggleTheme = () => {
-    const newTheme = isDark ? "light" : "dark";
-    localStorage.setItem("theme", newTheme);
-    document.documentElement.classList.toggle("dark");
+    const nextTheme = isDark ? "light" : "dark";
     setIsDark(!isDark);
+    document.documentElement.classList.toggle("dark", !isDark);
+    localStorage.setItem("theme", nextTheme);
+
+    // Increment and check click count
+    const newCount = clickCount + 1;
+    setClickCount(newCount);
+
+    if (newCount >= 10) {
+      launchConfetti();
+      setClickCount(0); // Reset counter
+    }
   };
 
-  if (!mounted) return null;
+  const launchConfetti = () => {
+    confetti({
+      particleCount: 100,
+      spread: 80,
+      origin: { y: 0.6 },
+    });
+  };
 
   return (
     <button
       onClick={toggleTheme}
-      aria-label="Toggle dark mode"
-      className="rounded-full p-2 hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"
+      className="p-2 rounded-full transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+      aria-label="Toggle Dark Mode"
     >
-      <AnimatePresence mode="wait" initial={false}>
-        <motion.div
-          key={isDark ? "moon" : "sun"}
-          initial={{ rotate: -90, scale: 0 }}
-          animate={{ rotate: 0, scale: 1 }}
-          exit={{ rotate: 90, scale: 0 }}
-          transition={{ duration: 0.4 }}
-        >
-          {isDark ? <Moon size={20} className="text-yellow-400" /> : <Sun size={20} className="text-orange-500" />}
-        </motion.div>
-      </AnimatePresence>
+      {isDark ? (
+        <Sun className="w-5 h-5 text-yellow-500" />
+      ) : (
+        <Moon className="w-5 h-5 text-gray-800" />
+      )}
     </button>
   );
 }
