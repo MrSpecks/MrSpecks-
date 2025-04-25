@@ -19,16 +19,7 @@ export default function AboutPage() {
 <p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
   Over the past 5+ years, I've worked across customer experience, cloud computing, 
   cybersecurity, and systems administration—gaining both technical skills and the ability 
-  to connect solutions to real human needs. I believe in infrastructure that empowers, 
-  protects, and scales.
-</p>
-
-<p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  I'm currently focused on a long-term mission through
-  <span className="font-semibold text-blue-600 dark:text-blue-400">
-    The Kasi Cloud Initiative
-  </span>—an effort to bring cloud expertise and local infrastructure to underserved 
-  communities in Africa. My work blends technical knowledge with vision, empathy, and 
+  to connect solutions to real human needs. My work blends technical knowledge with vision, empathy, and 
   a commitment to continuous learning.
 </p>
 
