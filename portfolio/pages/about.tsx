@@ -41,6 +41,17 @@ export default function AboutPage() {
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
   “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
 </p>
+<section className="mt-12 text-center">
+  <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
+  <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Next.js</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">React</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">TypeScript</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Tailwind CSS</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Azure</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">GitHub</span>
+  </div>
+</section>
       </main>
         </>
     )
