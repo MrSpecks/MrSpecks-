@@ -13,11 +13,8 @@ export default function ResumePage() {
        }}>
       <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-        Resume
+      Professional Summary
       </h1>
-        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
-          Professional Summary
-        </h2>
         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
           I'm an IT professional with over five years of experience in customer-facing roles and cloud environments.  
           I combine technical proficiency with clear communication, a growth-mindset, and a focus on delivering reliable, secure,  
@@ -26,7 +23,7 @@ export default function ResumePage() {
         </div>
       </section>
       <section className="mb-8">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200 mb-6">
           Experience
         </h2>
         <div className="mb-6">

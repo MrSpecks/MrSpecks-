@@ -37,7 +37,7 @@ export default function AboutPage() {
 
         {/* My Journey */}
         <section className="mb-12 space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+          <h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-200">
             My Journey
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
