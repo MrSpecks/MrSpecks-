@@ -16,7 +16,7 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
-              backgroundImage: "url('/images/backgrounds/Aboutpage.png')",
+              backgroundImage: "url('/images/backgrounds/About2.png')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}>
@@ -118,11 +118,10 @@ export default function AboutPage() {
             human-centered design, forging digital experiences that endure and inspire
             the next generation of innovators.
           </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
+            “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
+          </p>
         </section>
-
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
-  “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
-</p>
 
 <section className="mt-12 text-center px-4 py-6 max-w-6xl mx-auto">
   <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>

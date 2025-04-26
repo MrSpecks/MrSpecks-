@@ -6,12 +6,14 @@ export default function ContactPage() {
   return (
     <>
     <main>
-    <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
+    <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+    <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
               style={{
               backgroundImage: "url('/images/backgrounds/contact.png')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
-       }}>
+       }}/>
+      <div className="absolute inset-0 bg-white/30 dark:bg-black/50"/>
       <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
         Get in Touch
