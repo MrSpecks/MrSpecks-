@@ -28,7 +28,7 @@ export default function AboutPage() {
           <h1 className="text-4xl font-bold text-slate-900 dark:text-slate-100">
             About Me
           </h1>
-          <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+          <p className="mt-4 text-lg text-slate-900 dark:text-slate-100 leading-relaxed">
             I'm a self-driven IT professional with over five years of cross-disciplinary
             experience from customer support and systems administration to hands-on
             cloud architecture and web development. Fueled by an insatiable curiosity,

@@ -16,7 +16,7 @@ export default function ResumePage() {
       <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-4 text-slate-900 dark:text-slate-100"> Professional Summary
       </h1>
-        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+        <p className="text-slate-900 dark:text-slate-100 leading-relaxed">
           I'm an IT professional with over five years of experience in customer-facing roles and cloud environments.  
           I combine technical proficiency with clear communication, a growth-mindset, and a focus on delivering reliable, secure,  
           and sustainable solutions.  
