@@ -6,7 +6,7 @@
       "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
       "githubUrl": "https://github.com/MrSpecks/MrSpecks-/blob/main/portfolio/README.md",
       "demoUrl": "https://your-portfolio.vercel.app",
-      "image": "/images/projects/NoeShell2.jpg",
+      "image": "/images/projects/NeoShell2.jpg",
       "status": "In Progress",
       "tags": ["Frontend", "UI/UX", "Responsive Design"]
     },
