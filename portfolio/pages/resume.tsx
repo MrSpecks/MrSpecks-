@@ -5,10 +5,15 @@ export default function ResumePage() {
     return (
         <>
       <main className="p-6">
+      <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
       <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
         Resume
       </h1>
-      <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Professional Summary
         </h2>

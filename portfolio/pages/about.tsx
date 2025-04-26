@@ -14,7 +14,12 @@ export default function AboutPage() {
 
       <main className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
         {/* Hero */}
-        <section className="text-center mb-12">
+        <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
             About Me
           </h1>
