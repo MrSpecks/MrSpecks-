@@ -17,7 +17,8 @@ export default function ResumePage() {
       <h1 className="text-2xl font-bold mb-4 text-indigo-100 dark:text-indigo-100"
        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}> Professional Summary
       </h1>
-        <p className="text-indigo-100 dark:text-indigo-100 leading-relaxed">
+        <p className="text-indigo-100 dark:text-indigo-100 leading-relaxed"
+        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
           I'm an IT professional with over five years of experience in customer-facing roles and cloud environments.  
           I combine technical proficiency with clear communication, a growth-mindset, and a focus on delivering reliable, secure,  
           and sustainable solutions.  

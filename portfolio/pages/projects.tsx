@@ -23,7 +23,8 @@ export default function ProjectsPage() {
       <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold text-indigo-100 dark:text-indigo-100"
        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>Projects</h1>
-        <p className="mt-4 text-base text-indigo-100 dark:text-indigo-100">
+        <p className="mt-4 text-base text-indigo-100 dark:text-indigo-100"
+        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
           Explore a selection of hands-on cloud, web, and cybersecurity projects that demonstrate practical solutions and innovative designs.
         </p>
         </div>
@@ -47,7 +48,8 @@ export default function ProjectsPage() {
         <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold text-indigo-100 dark:text-indigo-100"
        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>Certifications</h1>
-        <p className="mt-4 text-base text-indigo-100 dark:text-indigo-100">
+        <p className="mt-4 text-base text-indigo-100 dark:text-indigo-100"
+        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
          Browse industry-recognized certifications that validate expertise in cloud architecture, cybersecurity, and sustainable technology.
         </p>
         </div>

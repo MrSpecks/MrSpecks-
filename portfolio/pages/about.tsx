@@ -29,7 +29,8 @@ export default function AboutPage() {
            style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
             About Me
           </h1>
-          <p className="mt-4 text-lg text-indigo-100 dark:text-indigo-100 leading-relaxed">
+          <p className="mt-4 text-lg text-indigo-100 dark:text-indigo-100 leading-relaxed"
+          style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
             I'm a self-driven IT professional with over five years of cross-disciplinary
             experience from customer support and systems administration to hands-on
             cloud architecture and web development. Fueled by an insatiable curiosity,

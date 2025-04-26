@@ -8,7 +8,7 @@ import projects from "../data/projects.json";
 import SEO from "../components/SEO";
 
 export default function HomePage() {
-  const featured = projects.filter((p) => p.id === 1 || p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
+  const featured = projects.filter((p) => p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
 
   return (
     <main>
@@ -27,7 +27,8 @@ export default function HomePage() {
        }}/>
         <div className="absolute inset-0 bg-white/20 dark:bg-black/40 z-10"/>
         <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-200 dark:text-indigo-100">
+        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-200 dark:text-indigo-100"
+         style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
           Kagiso Mfusi
         </h1>
         </div>
@@ -46,8 +47,8 @@ export default function HomePage() {
           <Typewriter
             options={{
               strings: [
-                "Cloud | Cybersecurity | Systems & Web Development",
-                "Building Africa's Next Digital Infrastructure",
+                "Cloud | Cybersecurity | Systems & Web Developer",
+                "Bridging the gap between vision and execution",
                 "Secure. Scalable. Sustainable.",
               ],
               autoStart: true,
@@ -58,8 +59,7 @@ export default function HomePage() {
 
         <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto
          text-indigo-100 dark:text-indigo-100 leading-relaxed">
-          Cloud builder, systems thinker, and digital innovator focused on building
-          scalable tech infrastructure for Africa's next generation.
+          Engineer. Creator. Innovator. Building meaningful digital systems that solve tomorrow's challenges, today.
         </p>
         </section>
 
@@ -108,7 +108,7 @@ export default function HomePage() {
         </section>
       {/* CTA Buttons */}
       <section className="mt-16 px-4 py-6 max-w-6xl">
-        <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+        <div className="mt-6 flex flex-col sm:flex-row justify-center items-center text-center overflow-hidden gap-4">
           <Link href="/projects" passHref>
             <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700 
             text-sm font-medium transition w-full sm:w-auto">
