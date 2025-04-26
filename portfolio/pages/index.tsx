@@ -27,7 +27,7 @@ export default function HomePage() {
        }}/>
         <div className="absolute inset-0 bg-white/20 dark:bg-black/40 z-10"/>
         <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 dark:text-indigo-100">
+        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-400 dark:text-indigo-100">
           Kagiso Mfusi
         </h1>
         </div>
@@ -42,7 +42,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-20 mt-2 text-xl text-indigo-900 dark:text-indigo-100">
+        <div className="relative z-20 mt-2 text-xl text-indigo-100 dark:text-indigo-100">
           <Typewriter
             options={{
               strings: [
@@ -57,7 +57,7 @@ export default function HomePage() {
         </div>
 
         <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto
-         text-indigo-900 dark:text-indigo-100 leading-relaxed">
+         text-indigo-100 dark:text-indigo-100 leading-relaxed">
           Cloud builder, systems thinker, and digital innovator focused on building
           scalable tech infrastructure for Africa's next generation.
         </p>
