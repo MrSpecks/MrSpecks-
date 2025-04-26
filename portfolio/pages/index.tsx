@@ -27,14 +27,14 @@ export default function HomePage() {
        }}/>
         <div className="absolute inset-0 bg-white/20 dark:bg-black/40 z-10"/>
         <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-400 dark:text-indigo-100">
+        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-200 dark:text-indigo-100">
           Kagiso Mfusi
         </h1>
         </div>
           {/* Circle Image Cutout */}
         <div className="relative z-20 mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
          <Image
-           src="/images/avatar/profilepic.png" // Replace with the actual path to your image
+           src="/images/avatar/avatar.png" // Replace with the actual path to your image
            alt="Kagiso Mfusi"
            width={128} // You can adjust the size as needed
            height={128} // Keep the width and height the same for a circle
