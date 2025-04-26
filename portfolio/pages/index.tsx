@@ -8,7 +8,7 @@ import projects from "../data/projects.json";
 import SEO from "../components/SEO";
 
 export default function HomePage() {
-  const featured = projects.filter((p) => p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
+  const featured = projects.filter((p) => p.id === 1 || p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
 
   return (
     <main>
