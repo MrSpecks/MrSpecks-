@@ -12,10 +12,9 @@ export default function ResumePage() {
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}/>
-      <div className="absolute inset-0 bg-gray-100/20 dark:bg-gray-900/40"/>
-      <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
-      Professional Summary
+      <div className="absolute inset-0 bg-gray-100/20 dark:bg-gray-900/40 z-10"/>
+      <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <h1 className="text-2xl font-bold mb-4 text-slate-900 dark:text-slate-100"> Professional Summary
       </h1>
         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
           I'm an IT professional with over five years of experience in customer-facing roles and cloud environments.  
@@ -25,7 +24,7 @@ export default function ResumePage() {
         </div>
       </section>
       <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200 mb-6">
+        <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100 mt-12 mb-12">
           Experience
         </h2>
         <div className="mb-6">
@@ -124,88 +123,88 @@ export default function ResumePage() {
         </div>
       </section>
       <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-  <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+  <h2 className="text-xl font-semibold mb-4text-slate-900 dark:text-slate-100">
     Online Learning Achievements
   </h2>
-  <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+  <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
     In pursuit of continuous learning and excellence, I have independently completed a series of specialized online courses and certifications. This reflects my commitment to staying ahead in a rapidly evolving digital landscape and mastering modern technologies and methodologies.
   </p>
   <div className="space-y-4">
     <div>
-      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         IBM SkillsBuild
       </h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">
+      <p className="text-sm text-gray-700 dark:text-gray-300">
         Cybersecurity Fundamentals · Explore Emerging Tech · Fundamentals of Sustainability and Technology · Project Management Fundamentals (2024)
       </p>
     </div>
     <div>
-      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         Microsoft Learn
       </h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">
+      <p className="text-sm text-gray-700 dark:text-gray-300">
         Microsoft Certified: Azure Fundamentals (AZ-900) (2024)
       </p>
     </div>
     <div>
-      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         Huawei ICT Academy
       </h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">
+      <p className="text-sm text-gray-700 dark:text-gray-300">
         HCIA-5G V2.0 · 5G Basics: What It's All About · Next-Generation Cyber Security (2024–2025)
       </p>
     </div>
     <div>
-      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         LinkedIn Learning
       </h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">
+      <p className="text-sm text-gray-700 dark:text-gray-300">
         Career Skills in Software Development · Cybersecurity Foundations · Cybersecurity Awareness: Terminology (2024)
       </p>
     </div>
     <div>
-      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         Coursera
       </h3>
-      <p className="text-sm text-gray-500 dark:text-gray-400">
+      <p className="text-sm text-gray-700 dark:text-gray-300">
         Cloud Architecture Design Patterns (2025)
       </p>
     </div>
   </div>
 </section>
       <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+        <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">
           Education
         </h2>
         <div className="mb-4">
-          <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+          <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
             Higher Certificate in Information Technology: Software Development
           </h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-700 dark:text-gray-300">
             CTU Training Solutions | 2018
           </p>
         </div>
         <div>
-          <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+          <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
             Bachelor of Sciene in Information Technology
           </h3>
-          <p className="text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-sm text-gray-700 dark:text-gray-300">
             Richfield Graduate Institute of Technology | 2017 
           </p>
         </div>
       </section>
       <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
+        <h2 className="text-xl font-semibold mb-2 text-slate-900 dark:text-slate-100">
           Skills
         </h2>
-        <p className="text-gray-600 dark:text-gray-300 mb-4">
+        <p className="text-gray-700 dark:text-gray-300 mb-4">
           Cloud Computing · Systems Development · Cybersecurity ·  
           Project Management · Sustainable Technology · Web Development · Sales & Service 
         </p>
-        <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
+        <h2 className="text-xl font-semibold mb-2 text-slate-900 dark:text-slate-100">
           Tools & Technologies
         </h2>
-        <p className="text-gray-600 dark:text-gray-300">
+        <p className="text-gray-700 dark:text-gray-300">
           Microsoft Azure · Google Workspace · GitHub · Next.js · React ·  
           Windows Server · AWS · HOGAN · Fusion · Java · Python · Jira · 
           Confluence · Spring Boot · InteliJ · Ubuntu · Kali Linux · 

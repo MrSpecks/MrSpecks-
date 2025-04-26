@@ -25,9 +25,9 @@ export default function HomePage() {
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}/>
-        <div className="absolute inset-0 bg-white/20 dark:bg-black/40"/>
-        <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
+        <div className="absolute inset-0 bg-white/20 dark:bg-black/40 z-10"/>
+        <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 dark:text-indigo-100">
           Kagiso Mfusi
         </h1>
         </div>
@@ -42,7 +42,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="mt-2 text-xl text-gray-600 dark:text-gray-300">
+        <div className="mt-2 text-xl text-slate-700 dark:text-slate-300">
           <Typewriter
             options={{
               strings: [
@@ -56,7 +56,7 @@ export default function HomePage() {
           />
         </div>
 
-        <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto text-gray-500 dark:text-gray-400 leading-relaxed">
+        <p className="mt-4 text-base sm:text-lg max-w-2xl mx-auto text-gray-700 dark:text-gray-300 leading-relaxed">
           Cloud builder, systems thinker, and digital innovator focused on building
           scalable tech infrastructure for Africa's next generation.
         </p>
@@ -65,7 +65,7 @@ export default function HomePage() {
         {/* About Preview */}
       <section className="mt-12 text-center px-4 py-6 max-w-6xl">
          <h2 className="text-xl font-semibold mb-2">About Me</h2>
-         <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
+         <p className="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
           I'm a self-driven IT professional with over five years of experience spanning support,
           systems, and infrastructure. Passionate about emerging cloud technologies, I constantly
            challenge myself through hands-on projects and targeted learning - recently diving into
@@ -77,7 +77,7 @@ export default function HomePage() {
           <a rel="noopener noreferrer" 
            className="mt-2 inline-flex items-center px-4 py-2 border-2 
               border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
-              text-gray-600 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
+              text-gray-600 dark:text-gray-400 hover:bg-gray-00 dark:hover:bg-gray-700 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
               dark:focus:ring-offset-gray-800 transition">
             Read More
@@ -109,15 +109,14 @@ export default function HomePage() {
       <section className="mt-16 px-4 py-6 max-w-6xl">
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/projects" passHref>
-            <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 
+            <a className="bg-blue-600 text-sky-700 dark:text-sky-300 px-6 py-2 rounded hover:bg-blue-700 
             text-sm font-medium transition w-full sm:w-auto">
               View My Work
             </a>
           </Link>
           <Link href="/contact" passHref>
-            <a className="border border-gray-400 dark:border-gray-600 px-6 py-2 rounded 
-            text-sm font-medium text-gray-700 dark:text-white hover:bg-gray-100 
-            dark:hover:bg-gray-800 transition w-full sm:w-auto">
+            <a className="bg-blue-600 text-sky-700 dark:text-sky-300 px-6 py-2 rounded hover:bg-blue-700 
+            text-sm font-medium transition w-full sm:w-auto">
               Contact Me
             </a>
           </Link>
