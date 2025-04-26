@@ -14,18 +14,21 @@ export default function AboutPage() {
 
       <main>
         {/* Hero */}
-        <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
+        <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+          <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
-              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundImage: "url('/images/backgrounds/About2.png')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
-       }}>
+          }}/>
 
-        <div className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
-          <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+          <div className="absolute inset-0 bg-blue-50/20 dark:bg-blue-900/40 z-10"/>
+
+        <div className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
+          <h1 className="text-4xl font-bold text-slate-900 dark:text-slate-100">
             About Me
           </h1>
-          <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+          <p className="mt-4 text-lg text-slate-900 dark:text-slate-100 leading-relaxed">
             I'm a self-driven IT professional with over five years of cross-disciplinary
             experience from customer support and systems administration to hands-on
             cloud architecture and web development. Fueled by an insatiable curiosity,
@@ -36,8 +39,8 @@ export default function AboutPage() {
         </section>
 
         {/* My Journey */}
-        <section className="mb-12 space-y-6">
-          <h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-200">
+        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+          <h2 className="mt-4 text-2xl font-semibold text-slate-900 dark:text-slate-100">
             My Journey
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
@@ -50,8 +53,8 @@ export default function AboutPage() {
         </section>
 
         {/* Expertise & Mindset */}
-<section className="mb-12 space-y-6">
-  <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+<section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+  <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
     Expertise & Mindset
   </h2>
   <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
@@ -88,8 +91,8 @@ export default function AboutPage() {
 
 
         {/* Signature Projects */}
-        <section className="mb-12 space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+          <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
             Signature Projects
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
@@ -108,8 +111,8 @@ export default function AboutPage() {
         </section>
 
         {/* What Drives Me */}
-        <section className="space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+        <section className="space-y-6 px-4 py-6 max-w-6xl mx-auto">
+          <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
             What Drives Me
           </h2>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
@@ -118,14 +121,13 @@ export default function AboutPage() {
             human-centered design, forging digital experiences that endure and inspire
             the next generation of innovators.
           </p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
+            “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
+          </p>
         </section>
 
-<p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
-  “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
-</p>
-
-<section className="mt-12 text-center">
-  <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
+<section className="mt-12 text-center px-4 py-6 max-w-6xl mx-auto">
+  <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">Tech Stack</h2>
   <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">
     <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Next.js</span>
     <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">React</span>

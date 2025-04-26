@@ -11,7 +11,7 @@ export default function Layout({ children }: LayoutProps) {
     <div className="flex flex-col min-h-screen">
       <Header />
       <div className="overflow-hidden">
-      <main className="flex-1 px-4 py-6 max-w-6xl mx-auto">
+      <main className="flex-1 mx-auto">
         {children}
       </main>
       </div>
