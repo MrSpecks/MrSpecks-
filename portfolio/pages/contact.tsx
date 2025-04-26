@@ -19,7 +19,8 @@ export default function ContactPage() {
        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
         Get in Touch
       </h1>
-      <p className="text-indigo-100 dark:text-indigo-100 mb-6">
+      <p className="text-indigo-100 dark:text-indigo-100 mb-6"
+      style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
         Let's build something great together. Have questions, project ideas, or just
         want to connect?
       </p>
