@@ -27,14 +27,14 @@ export default function HomePage() {
        }}/>
         <div className="absolute inset-0 bg-white/20 dark:bg-black/40 z-10"/>
         <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-900 dark:text-indigo-100">
+        <h1 className="text-4xl sm:text-5xl font-bold text-indigo-200 dark:text-indigo-100">
           Kagiso Mfusi
         </h1>
         </div>
           {/* Circle Image Cutout */}
         <div className="relative z-20 mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
          <Image
-           src="/images/avatar/profilepic.png" // Replace with the actual path to your image
+           src="/images/avatar/avatar.png" // Replace with the actual path to your image
            alt="Kagiso Mfusi"
            width={128} // You can adjust the size as needed
            height={128} // Keep the width and height the same for a circle
@@ -42,7 +42,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-20 mt-2 text-xl text-slate-700 dark:text-slate-300">
+        <div className="relative z-20 mt-2 text-xl text-indigo-100 dark:text-indigo-100">
           <Typewriter
             options={{
               strings: [
@@ -56,7 +56,8 @@ export default function HomePage() {
           />
         </div>
 
-        <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto
+         text-indigo-100 dark:text-indigo-100 leading-relaxed">
           Cloud builder, systems thinker, and digital innovator focused on building
           scalable tech infrastructure for Africa's next generation.
         </p>
@@ -109,13 +110,13 @@ export default function HomePage() {
       <section className="mt-16 px-4 py-6 max-w-6xl">
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/projects" passHref>
-            <a className="bg-blue-600 text-sky-700 dark:text-sky-300 px-6 py-2 rounded hover:bg-blue-700 
+            <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700 
             text-sm font-medium transition w-full sm:w-auto">
               View My Work
             </a>
           </Link>
           <Link href="/contact" passHref>
-            <a className="bg-blue-600 text-sky-700 dark:text-sky-300 px-6 py-2 rounded hover:bg-blue-700 
+            <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700 
             text-sm font-medium transition w-full sm:w-auto">
               Contact Me
             </a>
