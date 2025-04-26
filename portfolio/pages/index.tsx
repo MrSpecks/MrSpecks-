@@ -42,7 +42,7 @@ export default function HomePage() {
           />
         </div>
 
-        <div className="relative z-20 mt-2 text-xl text-slate-700 dark:text-slate-300">
+        <div className="relative z-20 mt-2 text-xl text-indigo-900 dark:text-indigo-100">
           <Typewriter
             options={{
               strings: [
@@ -56,7 +56,8 @@ export default function HomePage() {
           />
         </div>
 
-        <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto text-gray-700 dark:text-gray-300 leading-relaxed">
+        <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto
+         text-indigo-900 dark:text-indigo-100 leading-relaxed">
           Cloud builder, systems thinker, and digital innovator focused on building
           scalable tech infrastructure for Africa's next generation.
         </p>
