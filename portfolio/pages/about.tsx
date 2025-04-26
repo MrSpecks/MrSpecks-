@@ -25,7 +25,8 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-blue-50/20 dark:bg-blue-900/40 z-10"/>
 
         <div className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
-          <h1 className="text-4xl font-bold text-indigo-100 dark:text-indigo-100">
+          <h1 className="text-4xl font-bold text-indigo-100 dark:text-indigo-100"
+           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
             About Me
           </h1>
           <p className="mt-4 text-lg text-indigo-100 dark:text-indigo-100 leading-relaxed">

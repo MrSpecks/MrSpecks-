@@ -15,7 +15,8 @@ export default function ContactPage() {
        }}/>
       <div className="absolute inset-0 bg-neutral-900/10 dark:bg-neutral-90/50 z-10"/>
       <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold mb-2 text-indigo-100 dark:text-indigo-100">
+      <h1 className="text-2xl font-bold mb-2 text-indigo-100 dark:text-indigo-100"
+       style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
         Get in Touch
       </h1>
       <p className="text-indigo-100 dark:text-indigo-100 mb-6">
