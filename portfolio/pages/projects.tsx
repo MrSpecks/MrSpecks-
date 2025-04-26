@@ -12,8 +12,8 @@ export default function ProjectsPage() {
   }));
     return (
         <>
-      <main className="p-6">
-      <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+      <main>
+      <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
               backgroundImage: "url('/images/backgrounds/your-image.jpg')",
               backgroundBlendMode: "overlay",

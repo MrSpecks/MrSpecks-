@@ -5,13 +5,14 @@ import SEO from "../components/SEO";
 export default function ContactPage() {
   return (
     <>
-    <main className="p-6">
-    <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+    <main>
+    <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
               backgroundImage: "url('/images/backgrounds/your-image.jpg')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}>
+      <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
         Get in Touch
       </h1>
@@ -19,6 +20,7 @@ export default function ContactPage() {
         Let's build something great together. Have questions, project ideas, or just
         want to connect?
       </p>
+      </div>
       </section>
       <section className="mb-8">
       <p className="text-gray-600 dark:text-gray-300 mb-6">
