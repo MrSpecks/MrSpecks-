@@ -16,7 +16,7 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
-              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundImage: "url('/images/backgrounds/Aboutpage.png')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}>
