@@ -19,7 +19,8 @@ export default function ProjectsPage() {
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}>
-        <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <div className="absolute inset-0 bg-slate-50/20 dark:bg-slate-800/40"/>
+      <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold">Projects</h1>
         <p className="mt-4 text-base text-gray-600">
           Explore a selection of hands-on cloud, web, and cybersecurity projects that demonstrate practical solutions and innovative designs.
@@ -41,7 +42,7 @@ export default function ProjectsPage() {
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}/>
-        <div className="absolute inset-0 bg-white/30 dark:bg-black/50"/>
+        <div className="absolute inset-0 bg-gray-50/20 dark:bg-gray-800/40"/>
         <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold">Certifications</h1>
         <p className="mt-4 text-base text-gray-600">

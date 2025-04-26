@@ -25,7 +25,7 @@ export default function HomePage() {
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}/>
-        <div className="absolute inset-0 bg-white/30 dark:bg-black/50"/>
+        <div className="absolute inset-0 bg-white/20 dark:bg-black/40"/>
         <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
           Kagiso Mfusi

@@ -13,7 +13,7 @@ export default function ContactPage() {
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}/>
-      <div className="absolute inset-0 bg-white/30 dark:bg-black/50"/>
+      <div className="absolute inset-0 bg-neutral-900/10 dark:bg-neutral-90/50"/>
       <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">
         Get in Touch

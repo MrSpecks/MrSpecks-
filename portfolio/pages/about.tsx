@@ -14,12 +14,15 @@ export default function AboutPage() {
 
       <main>
         {/* Hero */}
-        <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
+        <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+          <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
               backgroundImage: "url('/images/backgrounds/About2.png')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
-       }}>
+          }}/>
+
+          <div className="absolute inset-0 bg-blue-50/20 dark:bg-blue-900/40"/>
 
         <div className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
