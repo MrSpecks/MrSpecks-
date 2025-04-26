@@ -13,11 +13,18 @@ export default function ProjectsPage() {
     return (
         <>
       <main className="p-6">
-      <section className="mb-12">
+      <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
       <h1 className="text-2xl font-bold">Projects</h1>
         <p className="mt-2 text-base text-gray-600">
           Explore a selection of hands-on cloud, web, and cybersecurity projects that demonstrate practical solutions and innovative designs.
         </p>
+        </section>
+        <section className="mb-8">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.id} project={project} />

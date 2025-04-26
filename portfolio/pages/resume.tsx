@@ -5,10 +5,15 @@ export default function ResumePage() {
     return (
         <>
       <main className="p-6">
+      <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
       <h1 className="text-2xl font-bold mb-4 text-gray-900 dark:text-white">
         Resume
       </h1>
-      <section className="mb-8">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Professional Summary
         </h2>
@@ -103,7 +108,7 @@ export default function ResumePage() {
           </p>
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-1">
             <li>
-              Developwd a foundational understanding of full-stack development principles and
+              Developed a foundational understanding of full-stack development principles and
               software lifecycle best practices.
             </li>
             <li>
@@ -144,7 +149,7 @@ export default function ResumePage() {
         </h2>
         <p className="text-gray-600 dark:text-gray-300 mb-4">
           Cloud Computing · Systems Development · Cybersecurity ·  
-          Project Management · Sustainable Technology · Web Deveelopment · Sales & Service 
+          Project Management · Sustainable Technology · Web Development · Sales & Service 
         </p>
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Tools & Technologies

@@ -3,35 +3,124 @@
 
 import React from "react";
 import SEO from "../components/SEO";
+
 export default function AboutPage() {
-    return (
-        <>
-      <main className="p-6">
-      <h1 className="text-3xl font-bold mb-4 text-gray-900 dark:text-white">About Me</h1>
+  return (
+    <>
+      <SEO
+        title="About | Kagiso Mfusi"
+        description="Discover the journey, philosophy, and expertise of Kagiso Mfusi—self-driven IT professional and cloud architect."
+      />
 
-<p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  I'm Kagiso Mfusi, a systems-driven IT professional with a deep passion for building 
-  secure, sustainable, and future-ready cloud solutions. My journey started in high school 
-  with a curiosity for tech, and today I'm building forward-thinking digital platforms 
-  with a purpose one solution at a time.
-</p>
+      <main className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
+        {/* Hero */}
+        <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
+          <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
+            About Me
+          </h1>
+          <p className="mt-4 text-lg text-gray-700 dark:text-gray-300 leading-relaxed">
+            I'm a self-driven IT professional with over five years of cross-disciplinary
+            experience from customer support and systems administration to hands-on
+            cloud architecture and web development. Fueled by an insatiable curiosity,
+            I constantly challenge myself with cutting-edge certifications and real-world
+            projects, crafting solutions that are secure, scalable, and future-proof.
+          </p>
+        </section>
 
-<p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  Over the past 5+ years, I've worked across customer experience, cloud computing, 
-  cybersecurity, and systems administration gaining both technical skills and the ability 
-  to connect solutions to real human needs. My work blends technical knowledge with vision, empathy, and 
-  a commitment to continuous learning.
-</p>
+        {/* My Journey */}
+        <section className="mb-12 space-y-6">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+            My Journey
+          </h2>
+          <p className="text-gray-600 dark:text-gray-300">
+            I began in customer-facing support roles where empathy and clear communication
+            were essential. As I delved into infrastructure, I undertook a systems
+            administration traineeship and later honed
+            advanced cloud design skills through professional courses. Today, I blend deep
+             technical expertise with strategic vision to build bespoke digital platforms.
+          </p>
+        </section>
 
-<p className="text-gray-600 dark:text-gray-300 leading-relaxed mb-4">
-  Beyond the cloud, I invest time in wellness, mindfulness, and creative pursuits that 
-  keep me grounded and inspired. My vision is to not just build solutions but to build 
-  legacy.
-</p>
+        {/* Expertise & Mindset */}
+<section className="mb-12 space-y-6">
+  <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+    Expertise & Mindset
+  </h2>
+  <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+    <li>
+      <strong>Cloud Architecture:</strong> Designing resilient, cost-efficient
+      infrastructures on Azure using IaC, governance, and best practices.
+    </li>
+    <li>
+      <strong>Cybersecurity:</strong> Proactive threat modeling and security
+      automation; grounded in hands-on labs with modern SIEM tools.
+    </li>
+    <li>
+      <strong>Full-Stack Development:</strong> Crafting responsive web applications with
+      Next.js, Tailwind CSS, and serverless backends that put performance first.
+    </li>
+    <li>
+      <strong>Software Foundations:</strong> Solid grounding in software engineering
+      principles covering data structures, algorithms, and system design.
+    </li>
+    <li>
+      <strong>Java Application Development:</strong> Hands-on experience building and debugging
+      Java SE and JavaFX applications.
+    </li>
+    <li>
+      <strong>Continuous Learning:</strong> Relentlessly pursuing solutions
+      architecture certifications and exploring AI-driven sustainability.
+    </li>
+    <li>
+      <strong>Bespoke Problem-Solving:</strong> My rare blend of analytical rigor
+      and creative insight means I don't just follow patterns; I invent them.
+    </li>
+  </ul>
+</section>
+
+
+        {/* Signature Projects */}
+        <section className="mb-12 space-y-6">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+            Signature Projects
+          </h2>
+          <p className="text-gray-600 dark:text-gray-300">
+            From prototypes to production deployments, I've led:
+          </p>
+          <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+            <li>
+              <strong>ReconX:</strong> A cloud-native cyber-recon lab using Azure
+              Sentinel to simulate advanced threat scenarios.
+            </li>
+            <li>
+              <strong>NeoShell:</strong> An experimental terminal UX powered by Node.js,
+              rethinking how developers interact with command-line environments.
+            </li>
+          </ul>
+        </section>
+
+        {/* What Drives Me */}
+        <section className="space-y-6">
+          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+            What Drives Me
+          </h2>
+          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+            I believe technology should empower, not intimidate; scale, not break; and
+            adapt, not stagnate. My mission is to fuse deep technical mastery with
+            human-centered design, forging digital experiences that endure and inspire
+            the next generation of innovators.
+          </p>
+        </section>
 
 <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
   “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
 </p>
+
 <section className="mt-12 text-center">
   <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
   <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">

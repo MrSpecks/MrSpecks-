@@ -8,7 +8,7 @@ import projects from "../data/projects.json";
 import SEO from "../components/SEO";
 
 export default function HomePage() {
-  const featured = projects.filter((p) => p.id === 2 || p.id === 3); // ReconX & NeoShell
+  const featured = projects.filter((p) => p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
 
   return (
     <main className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
@@ -18,21 +18,26 @@ export default function HomePage() {
       />
 
       {/* Hero Section */}
-      <section className="text-center pt-8 pb-12">
+      <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/backgrounds/your-image.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
           Kagiso Mfusi
         </h1>
 
           {/* Circle Image Cutout */}
-      <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
+        <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
          <Image
-           src="/portfolio/public/images/avatar/profilepic.png" // Replace with the actual path to your image
+           src="/images/avatar/profilepic.png" // Replace with the actual path to your image
            alt="Kagiso Mfusi"
            width={128} // You can adjust the size as needed
            height={128} // Keep the width and height the same for a circle
            className="object-cover" // Ensures the image covers the whole circle
           />
-       </div>
+        </div>
 
         <div className="mt-2 text-xl text-gray-600 dark:text-gray-300">
           <Typewriter
@@ -69,19 +74,22 @@ export default function HomePage() {
             </a>
           </Link>
         </div>
-      </section>
+        </section>
 
-      {/* About Preview */}
+        {/* About Preview */}
       <section className="mt-12 text-center">
-        <h2 className="text-xl font-semibold mb-2">About Me</h2>
-        <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
-          I'm a cloud-focused IT professional with 5+ years of experience across support,
-          systems, and infrastructure. I'm building local capacity through The Kasi Cloud
-          Initiative and a long-term vision of decentralized tech for Africa.
+         <h2 className="text-xl font-semibold mb-2">About Me</h2>
+         <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
+          I'm a self-driven IT professional with over five years of experience spanning support,
+          systems, and infrastructure. Passionate about emerging cloud technologies, I constantly
+           challenge myself through hands-on projects and targeted learning - recently diving into
+           advanced cloud architecture patterns - to build solutions that are secure, scalable, and future-proof. 
+           My ambition is to blend deep technicalexpertise with a strategic mindset, driving innovation that 
+           truly makes an impacy.
         </p>
-        <Link href="/about" passHref>
-        <a rel="noopener noreferrer" 
-          className="mt-2 inline-flex items-center px-4 py-2 border-2 
+          <Link href="/about" passHref>
+          <a rel="noopener noreferrer" 
+           className="mt-2 inline-flex items-center px-4 py-2 border-2 
               border-gray-300 dark:boarder-gray-600 rounded-full text-sm font-medium 
               text-gray-600 dark:text-gray-200 hover:bg-gray-00 dark:hover:bg-gray-700 
               focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 
