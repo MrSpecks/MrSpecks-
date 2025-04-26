@@ -7,7 +7,7 @@
       "credentialId": null,
       "credentialUrl": "https://www.coursera.org/",
       "badge": "/images/cert-logo/Coursera.png",
-      "tags": ["Cloud", "Architecture", "Design Patterns"]
+      "tags": ["Cloud Architecture", "Design Patterns", "Reliability", "Scalable Systems"]
     },
     {
       "id": 10,
@@ -17,7 +17,7 @@
       "credentialId": "7BD01FEEB5E5A1B",
       "credentialUrl": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
       "badge": "/images/cert-logo/Microsoft-Logo.png",
-      "tags": ["Azure", "Cloud", "Fundamentals", "AZ-900"]
+      "tags": ["Azure Services", "AZ-900", "Cloud Concepts", "Fundamentals"]
     },
     {
       "id": 2,
@@ -136,7 +136,7 @@
       "issued": "2020-10",
       "credentialId": "IS/LA/ETQA/03001",
       "credentialUrl": "https://ctutraining.ac.za/",
-      "badge": "/images/certifications/CTU-LOGO.png",
+      "badge": "/images/cert-logo/CTU-LOGO.png",
       "tags": ["Systems Development", "Higher Certificate", "NQF 5"]
     }
   ]
