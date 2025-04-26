@@ -36,7 +36,7 @@ export default function AboutPage() {
         </section>
 
         {/* My Journey */}
-        <section className="mb-12 space-y-6">
+        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
           <h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-200">
             My Journey
           </h2>
@@ -50,7 +50,7 @@ export default function AboutPage() {
         </section>
 
         {/* Expertise & Mindset */}
-<section className="mb-12 space-y-6">
+<section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
   <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
     Expertise & Mindset
   </h2>
@@ -88,7 +88,7 @@ export default function AboutPage() {
 
 
         {/* Signature Projects */}
-        <section className="mb-12 space-y-6">
+        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
           <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
             Signature Projects
           </h2>
@@ -108,7 +108,7 @@ export default function AboutPage() {
         </section>
 
         {/* What Drives Me */}
-        <section className="space-y-6">
+        <section className="space-y-6 px-4 py-6 max-w-6xl mx-auto">
           <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
             What Drives Me
           </h2>
@@ -124,7 +124,7 @@ export default function AboutPage() {
   “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
 </p>
 
-<section className="mt-12 text-center">
+<section className="mt-12 text-center px-4 py-6 max-w-6xl mx-auto">
   <h2 className="text-xl font-semibold mb-4">Tech Stack</h2>
   <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">
     <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Next.js</span>

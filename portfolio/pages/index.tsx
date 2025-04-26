@@ -61,7 +61,7 @@ export default function HomePage() {
         </section>
 
         {/* About Preview */}
-      <section className="mt-12 text-center">
+      <section className="mt-12 text-center px-4 py-6 max-w-6xl">
          <h2 className="text-xl font-semibold mb-2">About Me</h2>
          <p className="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
           I'm a self-driven IT professional with over five years of experience spanning support,
@@ -97,14 +97,14 @@ export default function HomePage() {
       </section>
 
       {/* Featured Projects */}
-      <section className="mt-16">
+      <section className="mt-16 px-4 py-6 max-w-6xl">
         <h2 className="text-xl font-semibold mb-4 text-center">Featured Projects</h2>
         <div className="grid gap-6">
         <Carousel items={featured} />
         </div>
         </section>
       {/* CTA Buttons */}
-      <section className="mt-16">
+      <section className="mt-16 px-4 py-6 max-w-6xl">
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/projects" passHref>
             <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 

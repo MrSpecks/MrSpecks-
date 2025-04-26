@@ -22,7 +22,7 @@ export default function ResumePage() {
         </p>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200 mb-6">
           Experience
         </h2>
@@ -121,7 +121,7 @@ export default function ResumePage() {
           </ul>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
   <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
     Online Learning Achievements
   </h2>
@@ -171,7 +171,7 @@ export default function ResumePage() {
     </div>
   </div>
 </section>
-      <section className="mb-8">
+      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
           Education
         </h2>
@@ -192,7 +192,7 @@ export default function ResumePage() {
           </p>
         </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h2 className="text-xl font-semibold mb-2 text-gray-800 dark:text-gray-200">
           Skills
         </h2>

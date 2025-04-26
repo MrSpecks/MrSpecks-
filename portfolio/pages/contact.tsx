@@ -22,7 +22,7 @@ export default function ContactPage() {
       </p>
       </div>
       </section>
-      <section className="mb-8">
+      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
       <p className="text-gray-600 dark:text-gray-300 mb-6">
       Drop me a line below. I'm always up for a new challenge.
       </p>

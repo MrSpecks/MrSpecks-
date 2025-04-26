@@ -26,7 +26,7 @@ export default function ProjectsPage() {
         </p>
         </div>
         </section>
-        <section className="mb-8">
+        <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.id} project={project} />
@@ -47,7 +47,7 @@ export default function ProjectsPage() {
         </p>
         </div>
         </section>
-        <section className="mb-8">
+        <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
           {normalizedCerts.map((cert) => (
             <CertificationCard key={cert.id} cert={cert} />
