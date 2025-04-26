@@ -12,14 +12,16 @@ export default function AboutPage() {
         description="Discover the journey, philosophy, and expertise of Kagiso Mfusi—self-driven IT professional and cloud architect."
       />
 
-      <main className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
+      <main>
         {/* Hero */}
-        <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+        <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
               backgroundImage: "url('/images/backgrounds/your-image.jpg')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}>
+
+        <div className="px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white">
             About Me
           </h1>
@@ -30,11 +32,12 @@ export default function AboutPage() {
             I constantly challenge myself with cutting-edge certifications and real-world
             projects, crafting solutions that are secure, scalable, and future-proof.
           </p>
+          </div>
         </section>
 
         {/* My Journey */}
         <section className="mb-12 space-y-6">
-          <h2 className="text-2xl font-semibold text-gray-800 dark:text-gray-200">
+          <h2 className="mt-4 text-2xl font-semibold text-gray-800 dark:text-gray-200">
             My Journey
           </h2>
           <p className="text-gray-600 dark:text-gray-300">

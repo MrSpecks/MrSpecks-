@@ -8,26 +8,27 @@ import projects from "../data/projects.json";
 import SEO from "../components/SEO";
 
 export default function HomePage() {
-  const featured = projects.filter((p) => p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
+  const featured = projects.filter((p) => p.id === 1 || p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
 
   return (
-    <main className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    <main>
       <SEO
         title="Kagiso Mfusi | Portfolio"
         description="Cloud | Cybersecurity | Systems & Web Dev"
       />
 
       {/* Hero Section */}
-      <section className="relative bg-cover bg-center bg-no-repeat min-h-[300px] flex flex-col justify-center items-center text-center"
+      <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
               backgroundImage: "url('/images/backgrounds/your-image.jpg')",
               backgroundBlendMode: "overlay",
               backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
        }}>
+        <div  className="px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 dark:text-white">
           Kagiso Mfusi
         </h1>
-
+        </div>
           {/* Circle Image Cutout */}
         <div className="mt-6 mx-auto w-32 h-32 rounded-full overflow-hidden">
          <Image
@@ -57,23 +58,6 @@ export default function HomePage() {
           Cloud builder, systems thinker, and digital innovator focused on building
           scalable tech infrastructure for Africa's next generation.
         </p>
-
-        {/* CTA Buttons */}
-        <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
-          <Link href="/projects" passHref>
-            <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 
-            text-sm font-medium transition w-full sm:w-auto">
-              View My Work
-            </a>
-          </Link>
-          <Link href="/contact" passHref>
-            <a className="border border-gray-400 dark:border-gray-600 px-6 py-2 rounded 
-            text-sm font-medium text-gray-700 dark:text-white hover:bg-gray-100 
-            dark:hover:bg-gray-800 transition w-full sm:w-auto">
-              Contact Me
-            </a>
-          </Link>
-        </div>
         </section>
 
         {/* About Preview */}
@@ -115,7 +99,27 @@ export default function HomePage() {
       {/* Featured Projects */}
       <section className="mt-16">
         <h2 className="text-xl font-semibold mb-4 text-center">Featured Projects</h2>
+        <div className="grid grid-cols-4 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <Carousel items={featured} />
+        </div>
+        </section>
+      {/* CTA Buttons */}
+      <section className="mt-16">
+        <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
+          <Link href="/projects" passHref>
+            <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 
+            text-sm font-medium transition w-full sm:w-auto">
+              View My Work
+            </a>
+          </Link>
+          <Link href="/contact" passHref>
+            <a className="border border-gray-400 dark:border-gray-600 px-6 py-2 rounded 
+            text-sm font-medium text-gray-700 dark:text-white hover:bg-gray-100 
+            dark:hover:bg-gray-800 transition w-full sm:w-auto">
+              Contact Me
+            </a>
+          </Link>
+        </div>
       </section>
     </main>
   );
