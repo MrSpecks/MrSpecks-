@@ -122,6 +122,56 @@ export default function ResumePage() {
         </div>
       </section>
       <section className="mb-8">
+  <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
+    Online Learning Achievements
+  </h2>
+  <p className="text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
+    In pursuit of continuous learning and excellence, I have independently completed a series of specialized online courses and certifications. This reflects my commitment to staying ahead in a rapidly evolving digital landscape and mastering modern technologies and methodologies.
+  </p>
+  <div className="space-y-4">
+    <div>
+      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+        IBM SkillsBuild
+      </h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        Cybersecurity Fundamentals · Explore Emerging Tech · Fundamentals of Sustainability and Technology · Project Management Fundamentals (2024)
+      </p>
+    </div>
+    <div>
+      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+        Microsoft Learn
+      </h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        Microsoft Certified: Azure Fundamentals (AZ-900) (2024)
+      </p>
+    </div>
+    <div>
+      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+        Huawei ICT Academy
+      </h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        HCIA-5G V2.0 · 5G Basics: What It's All About · Next-Generation Cyber Security (2024–2025)
+      </p>
+    </div>
+    <div>
+      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+        LinkedIn Learning
+      </h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        Career Skills in Software Development · Cybersecurity Foundations · Cybersecurity Awareness: Terminology (2024)
+      </p>
+    </div>
+    <div>
+      <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+        Coursera
+      </h3>
+      <p className="text-sm text-gray-500 dark:text-gray-400">
+        Cloud Architecture Design Patterns (2025)
+      </p>
+    </div>
+  </div>
+</section>
+      <section className="mb-8">
         <h2 className="text-xl font-semibold mb-4 text-gray-800 dark:text-gray-200">
           Education
         </h2>
