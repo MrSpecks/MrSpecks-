@@ -99,9 +99,12 @@ export default function HomePage() {
       {/* Featured Projects */}
       <section className="mt-16">
         <h2 className="text-xl font-semibold mb-4 text-center">Featured Projects</h2>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         <Carousel items={featured} />
-
+        </div>
+        </section>
       {/* CTA Buttons */}
+      <section className="mt-16">
         <div className="mt-6 flex flex-col sm:flex-row justify-center gap-4">
           <Link href="/projects" passHref>
             <a className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 
