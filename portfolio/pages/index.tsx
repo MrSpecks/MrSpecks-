@@ -47,7 +47,7 @@ export default function HomePage() {
           <Typewriter
             options={{
               strings: [
-                "Cloud | Cybersecurity | Systems & Web Developmer",
+                "Cloud | Cybersecurity | Systems & Web Developer",
                 "Bridging the gap between vision and execution",
                 "Secure. Scalable. Sustainable.",
               ],
