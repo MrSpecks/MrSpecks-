@@ -4,9 +4,9 @@
       "title": "Modern Portfolio Website",
       "description": "A responsive and SEO-friendly personal portfolio built with Next.js and Tailwind CSS, showcasing projects, certifications, and a contact form.",
       "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
-      "githubUrl": "https://github.com/MrSpecks/MrSpecks-/tree/main/portfolio",
+      "githubUrl": "https://github.com/MrSpecks/MrSpecks-/blob/main/portfolio/README.md",
       "demoUrl": "https://your-portfolio.vercel.app",
-      "image": "/public/images/projects/portfolio.png",
+      "image": "/images/projects/portfolio.png",
       "status": "In Progress",
       "tags": ["Frontend", "UI/UX", "Responsive Design"]
     },
@@ -17,7 +17,7 @@
       "techStack": ["JavaScript", "Shell", "Node.js"],
       "githubUrl": "https://github.com/MrSpecks/NeoShell/tree/main",
       "demoUrl": "",
-      "image": "/public/images/projects/NeoShell1.png",
+      "image": "/images/projects/NeoShell1.png",
       "status": "Prototype",
       "tags": ["Dev Tools", "CLI", "Experimental"]
     },
@@ -28,18 +28,18 @@
       "techStack": ["Azure", "KQL", "Microsoft Sentinel", "Terraform"],
       "githubUrl": "https://github.com/MrSpecks/ReconX/tree/main",
       "demoUrl": "",
-      "image": "/public/images/projects/ReconX1.png",
+      "image": "/images/projects/ReconX1.png",
       "status": "In Progress",
       "tags": ["Cybersecurity", "Cloud", "Threat Intelligence"]
     },
   {
       "id": 4,
-      "title": "MrSpecks Portfolio (Next.js Site)",
+      "title": "MrSpecks Portfolio",
       "description": "A premium personal portfolio site to showcase bio, projects, certifications, and contact information. Built with Next.js, styled using Tailwind, and hosted on GitHub Pages.",
       "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "GitHub Pages"],
-      "githubUrl": "https://github.com/MrSpecks/MrSpecks-/tree/main",
+      "githubUrl": "https://github.com/MrSpecks/MrSpecks-/tree/main#",
       "demoUrl": "",
-      "image": "/public/images/projects/image-4.png",
+      "image": "/images/projects/image-4.png",
       "status": "In Development",
       "tags": ["Web", "Portfolio", "Personal Brand"]
     }
