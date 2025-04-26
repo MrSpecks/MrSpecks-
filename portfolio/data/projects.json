@@ -6,7 +6,7 @@
       "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
       "githubUrl": "https://github.com/MrSpecks/MrSpecks-/blob/main/portfolio/README.md",
       "demoUrl": "https://your-portfolio.vercel.app",
-      "image": "url('/images/prjects/NoeShell2.png')",
+      "image": "url('/public/images/prjects/NoeShell2.png')",
       "status": "In Progress",
       "tags": ["Frontend", "UI/UX", "Responsive Design"]
     },
@@ -17,7 +17,7 @@
       "techStack": ["JavaScript", "Shell", "Node.js"],
       "githubUrl": "https://github.com/MrSpecks/NeoShell/tree/main",
       "demoUrl": "",
-      "image": "url('/images/projects/NeoShell1.png')",
+      "image": "url('/public/images/projects/NeoShell1.png')",
       "status": "Prototype",
       "tags": ["Dev Tools", "CLI", "Experimental"]
     },
@@ -28,7 +28,7 @@
       "techStack": ["Azure", "KQL", "Microsoft Sentinel", "Terraform"],
       "githubUrl": "https://github.com/MrSpecks/ReconX/tree/main",
       "demoUrl": "",
-      "image": "url('/images/projects/ReconX1.png')",
+      "image": "url('/public/images/projects/ReconX1.png')",
       "status": "In Progress",
       "tags": ["Cybersecurity", "Cloud", "Threat Intelligence"]
     },
@@ -39,7 +39,7 @@
       "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "GitHub Pages"],
       "githubUrl": "https://github.com/MrSpecks/MrSpecks-/tree/main#",
       "demoUrl": "",
-      "image": "url('/images/projects/image-4.png')",
+      "image": "url('/public/images/projects/image-4.png')",
       "status": "In Development",
       "tags": ["Web", "Portfolio", "Personal Brand"]
     }

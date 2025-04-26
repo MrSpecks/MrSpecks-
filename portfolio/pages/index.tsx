@@ -59,7 +59,7 @@ export default function HomePage() {
 
         <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto
          text-indigo-100 dark:text-indigo-100 leading-relaxed">
-          Building meaningful digital systems that solve tomorrow's challenges, today.
+          Engineer. Creator. Innovator. Building meaningful digital systems that solve tomorrow's challenges, today.
         </p>
         </section>
 
