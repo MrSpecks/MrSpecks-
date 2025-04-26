@@ -6,7 +6,7 @@
       "issued": "2025-04",
       "credentialId": null,
       "credentialUrl": "https://www.coursera.org/",
-      "badge": "/images/cert-logo/LinkedIn logo.png",
+      "badge": "/images/cert-logo/Coursera.png",
       "tags": ["Cloud", "Architecture", "Design Patterns"]
     },
     {
@@ -136,7 +136,7 @@
       "issued": "2020-10",
       "credentialId": "IS/LA/ETQA/03001",
       "credentialUrl": "https://ctutraining.ac.za/",
-      "badge": "/images/certifications/ctu-hc-it.png",
+      "badge": "/images/certifications/CTU-LOGO.png",
       "tags": ["Systems Development", "Higher Certificate", "NQF 5"]
     }
   ]
