@@ -1,11 +1,14 @@
 // pages/_app.tsx
 import React from 'react';
-import { AppProps } from 'next/app';
+import type { AppProps } from 'next/app';
 import Layout from '@/components/Layout';
 import ScrollToTop from '@/components/ScrollToTop';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
 import '../styles/globals.css';
+import { Analytics } from '@vercel/analytics/react';
+
+
 
 export default function App({ Component, pageProps }: AppProps) {
   const router = useRouter();
@@ -18,9 +21,9 @@ export default function App({ Component, pageProps }: AppProps) {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.4, ease: 'easeInOut' }}
-        >
+          transition={{ duration: 0.4, ease: 'easeInOut' }}>
           <Component {...pageProps} />
+          <Analytics />
         </motion.div>
       </AnimatePresence>
       <ScrollToTop />

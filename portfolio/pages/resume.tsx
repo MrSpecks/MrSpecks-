@@ -132,6 +132,23 @@ export default function ResumePage() {
     In pursuit of continuous learning and excellence, I have independently completed a series of specialized online courses and certifications. This reflects my commitment to staying ahead in a rapidly evolving digital landscape and mastering modern technologies and methodologies.
   </p>
   <div className="space-y-4">
+  <div>
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
+        Coursera
+      </h3>
+      <p className="text-sm text-gray-700 dark:text-gray-300">
+        Cloud Architecture Design Patterns (2025)
+      </p>
+    </div>
+    <div>
+      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
+        Huawei ICT Academy
+      </h3>
+      <p className="text-sm text-gray-700 dark:text-gray-300">
+        HCIA-5G V2.0 · 5G Basics: What It's All About · Next-Generation Cyber Security (2024–2025)
+      </p>
+    </div>
+    <div>
     <div>
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         IBM SkillsBuild
@@ -148,28 +165,11 @@ export default function ResumePage() {
         Microsoft Certified: Azure Fundamentals (AZ-900) (2024)
       </p>
     </div>
-    <div>
-      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
-        Huawei ICT Academy
-      </h3>
-      <p className="text-sm text-gray-700 dark:text-gray-300">
-        HCIA-5G V2.0 · 5G Basics: What It's All About · Next-Generation Cyber Security (2024–2025)
-      </p>
-    </div>
-    <div>
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         LinkedIn Learning
       </h3>
       <p className="text-sm text-gray-700 dark:text-gray-300">
         Career Skills in Software Development · Cybersecurity Foundations · Cybersecurity Awareness: Terminology (2024)
-      </p>
-    </div>
-    <div>
-      <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
-        Coursera
-      </h3>
-      <p className="text-sm text-gray-700 dark:text-gray-300">
-        Cloud Architecture Design Patterns (2025)
       </p>
     </div>
   </div>
@@ -183,7 +183,7 @@ export default function ResumePage() {
              CTU Training Solutions
           </h3>
           <p className="text-sm text-gray-700 dark:text-gray-300">
-          Higher Certificate in Information Technology: Software Development | 2018
+          Higher Certificate in Information Technology: Software Development | 2019
           </p>
         </div>
         <div>
