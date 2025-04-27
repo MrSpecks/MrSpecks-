@@ -64,7 +64,9 @@ export default function HomePage() {
         </section>
 
         {/* About Preview */}
-      <section className="mt-12 text-center px-4 py-6 max-w-6xl">
+      <section className="w-full flex flex-col justify-center mt-12 
+      text-center px-4 py-6 max-w-6xl">
+        <div className="max-w-3xl w-full">
          <h2 className="text-xl font-semibold mb-2">About Me</h2>
          <p className="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
           I'm a self-driven IT professional with over five years of experience spanning support,
@@ -97,18 +99,23 @@ export default function HomePage() {
             </svg>
           </a>
         </Link>
+        </div>
       </section>
 
       {/* Featured Projects */}
       <section className="mt-16 px-4 py-6 max-w-6xl">
+      <div className="max-w-3xl w-full">
         <h2 className="text-xl font-semibold mb-4 text-center">Featured Projects</h2>
         <div className="grid gap-6">
         <Carousel items={featured} />
         </div>
+        </div>
         </section>
+
       {/* CTA Buttons */}
-      <section className="mt-16 px-4 py-6 max-w-6xl">
-        <div className="mt-6 flex flex-col sm:flex-row justify-center items-center text-center overflow-hidden gap-4">
+      <section className="mt-16 px-4 py-6 max-w-6xl flex flex-col justify-center items-center text-center overflow-hidden">
+      <div className="max-w-3xl w-full">
+        <div className="mt-6 flex flex-col sm:flex-row gap-4">
           <Link href="/projects" passHref>
             <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700 
             text-sm font-medium transition w-full sm:w-auto">
@@ -121,6 +128,7 @@ export default function HomePage() {
               Contact Me
             </a>
           </Link>
+        </div>
         </div>
       </section>
     </main>
