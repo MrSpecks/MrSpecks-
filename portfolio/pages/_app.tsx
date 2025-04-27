@@ -1,12 +1,13 @@
 // pages/_app.tsx
 import React from 'react';
-import AppProps from 'next/app';
+import type { AppProps } from 'next/app';
 import Layout from '@/components/Layout';
 import ScrollToTop from '@/components/ScrollToTop';
-import { AnimatePresence, motion } from 'framer-motion';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useRouter } from 'next/router';
 import '../styles/globals.css';
 import { Analytics } from '@vercel/analytics/react';
+
 
 
 export default function App({ Component, pageProps }: AppProps) {
