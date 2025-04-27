@@ -6,7 +6,7 @@
       "techStack": ["Next.js", "Tailwind CSS", "Framer Motion", "Vercel"],
       "githubUrl": "https://github.com/MrSpecks/MrSpecks-/blob/main/portfolio/README.md",
       "demoUrl": "https://your-portfolio.vercel.app",
-      "image": "/images/projects/NoeShell2.jpg",
+      "image": "/images/projects/NeoShell2.jpg",
       "status": "In Progress",
       "tags": ["Frontend", "UI/UX", "Responsive Design"]
     },
@@ -25,7 +25,7 @@
       "id": 3,
       "title": "ReconX: Cloud Threat Reconnaissance Lab",
       "description": "A cybersecurity lab environment simulating threat reconnaissance scenarios in the cloud. Used to study lateral movement, misconfigurations, and detection strategies.",
-      "techStack": ["Azure", "KQL", "Microsoft Sentinel", "Terraform"],
+      "techStack": ["Azure", "Microsoft Sentinel", "Terraform"],
       "githubUrl": "https://github.com/MrSpecks/ReconX/tree/main",
       "demoUrl": "",
       "image": "/images/projects/ReconX1.jpg",
