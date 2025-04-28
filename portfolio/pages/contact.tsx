@@ -1,10 +1,46 @@
 /* eslint-disable react/no-unescaped-entities */
-import React from "react";
+import React, { useState } from "react";
+import { motion } from 'framer-motion';
+import Head from "next/head";
 import SEO from "../components/SEO";
 
 export default function ContactPage() {
+  const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isError, setIsError] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+  
+  const form = e.target as HTMLFormElement;
+
+  const response = await fetch(form.action, {
+    method: form.method,
+    body: new FormData(form),
+    headers: { Accept: 'application/json'}
+  });
+
+  if(response.ok) {
+    setIsSubmitted(true);
+    form.reset();
+  }
+  else {
+    setIsError(true);
+  }
+};
+
   return (
     <>
+    <Head>
+      <title>Kagiso Mfusi | Contact Me</title>
+  <meta name="description" content="Get in touch with Kagiso Mfusi to collaborate on digital innovation projects." />
+  <meta property="og:title" content="Kagiso Mfusi | Contact Me" />
+  <meta
+    property="og:description"
+    content="Reach out to Kagiso Mfusi to discuss your next tech project or collaboration."/>
+  <meta property="og:image" content="/images/backgrounds/homepage1.png" />
+  <meta property="og:url" content="https://personal-portfolio-fyfepc1dn-mrspecks-projects.vercel.app" />
+  <meta property="og:type" content="website" />
+  </Head>
     <main>
     <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
     <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
@@ -31,6 +67,7 @@ export default function ContactPage() {
       Drop me a line below. I'm always up for a new challenge.
       </p>
       <form
+        onSubmit={handleSubmit}
         action="https://formspree.io/f/movdqkgn"
         method="post"
         className="space-y-4 max-w-lg">
@@ -80,6 +117,24 @@ export default function ContactPage() {
           Send Message
         </button>
       </form>
+      {isSubmitted && (
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-green-500 mt-4 text-center"
+      >
+        Thanks for reaching out!
+      </motion.div>
+    )}
+    {isError && (
+      <motion.div
+        initial={{ opacity: 0, y: 10 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="text-red-500 mt-4 text-center"
+      >
+        Something went wrong. Please try again.
+      </motion.div>
+    )}
       </section>
     </main>
     </>

@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import SEO from "../components/SEO";
 import ProjectCard from "../components/ProjectCard";
 import CertificationCard from "../components/CertificationCard";
@@ -11,7 +12,18 @@ export default function ProjectsPage() {
     credentialId: cert.credentialId ??"",
   }));
     return (
-        <>
+  <>
+    <Head>
+      <title>Kagiso Mfusi | Projects and Certifications</title>
+      <meta name="description" content="Explore Kagiso Mfusi's projects and certificationsin cloud building, cybersecurity, and digital innovation." />
+      <meta property="og:title" content="Kagiso Mfusi | Projects and Certifications" />
+      <meta
+       property="og:description"
+       content="Check out Kagiso Mfusi's portfolio of projects and certifications, showcasing expertise in scalable tech infrastructure. "/>
+      <meta property="og:image" content="/images/backgrounds/homepage1.png" />
+      <meta property="og:url" content="https://personal-portfolio-fyfepc1dn-mrspecks-projects.vercel.app" />
+      <meta property="og:type" content="website" />
+    </Head>
       <main>
       <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{

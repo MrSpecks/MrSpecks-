@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import { Moon, Sun } from "lucide-react";
 import confetti from "canvas-confetti";
+import { motion } from 'framer-motion';
 
 export default function DarkModeToggle() {
   const [isDark, setIsDark] = useState(false);
@@ -39,9 +40,10 @@ export default function DarkModeToggle() {
   };
 
   return (
+    <div className="relative">
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-full transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-700"
+      className="focus:ring-2 focus:ring-blue-500 p-2 rounded-full transition-colors duration-300 hover:bg-gray-200 dark:hover:bg-gray-700"
       aria-label="Toggle Dark Mode"
     >
       {isDark ? (
@@ -50,5 +52,12 @@ export default function DarkModeToggle() {
         <Moon className="w-5 h-5 text-gray-800" />
       )}
     </button>
+    <motion.span
+    initial={{ opacity: 0 }}
+    whileHover={{ opacity: 1 }}
+    className="absolute top-0 right-8 text-xs text-gray-400 bg-gray-800 p-1 rounded">
+     Click me for a surprise!
+   </motion.span>
+   </div>
   );
 }
