@@ -26,6 +26,7 @@ export default function Header() {
             <Link href="/about" className="hover:underline text-gray-600 dark:text-gray-300">About</Link>
             <Link href="/projects" className="hover:underline text-gray-600 dark:text-gray-300">Projects</Link>
             <Link href="/resume" className="hover:underline text-gray-600 dark:text-gray-300">Resume</Link>
+            <Link href="/blog/Blog" className="hover:underline text-gray-600 dark:text-gray-300">Blog</Link>
             <Link href="/contact" className="hover:underline text-gray-600 dark:text-gray-300">Contact</Link>
           </nav>
           <DarkModeToggle />
