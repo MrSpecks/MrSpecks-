@@ -87,7 +87,7 @@ export default function ResumePage() {
         </div>
         <div className="mb-6">
           <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-            Call Centre Agent 
+            Client Services Representative 
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
            2019 | Johannesburg, South Africa
