@@ -22,12 +22,12 @@ export default function Blog({ allPostsData }: BlogProps) {
         <title>Kagiso Mfusi | Blog</title>
         <meta
           name="description"
-          content="Kagiso Mfusi's blog - Insights on cloud building, systems thinking, and digital innovation for Africa's next generation."
+          content="Kagiso Mfusi's blog - Insights on cloud building, systems and web, and digital innovation for Africa's next generation."
         />
         <meta property="og:title" content="Kagiso Mfusi | Blog" />
         <meta
           property="og:description"
-          content="Insights on cloud building, systems thinking, and digital innovation for Africa's next generation."
+          content="Insights on cloud building, systems and web development, and digital innovation for Africa's next generation."
         />
         <meta
           property="og:image"
@@ -43,7 +43,7 @@ export default function Blog({ allPostsData }: BlogProps) {
       <main className="max-w-4xl mx-auto p-6">
         <h1 className="text-4xl font-bold mb-8 text-center">Blog</h1>
         <p className="text-lg mb-12 text-center text-gray-300">
-          Sharing insights on cloud building, systems thinking, and digital innovation for Africa’s next generation.
+          Sharing insights on cloud building, systems and web development, and digital innovation.
         </p>
 
         <div className="space-y-8">
