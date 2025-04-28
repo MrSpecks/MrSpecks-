@@ -1,9 +1,21 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
+import Head from 'next/head';
 import SEO from "../components/SEO";
 export default function ResumePage() {
     return (
         <>
+      <Head>
+      <title>Kagiso Mfusi | Resume</title>
+      <meta name="description" content="View Kagiso Mfusi's resume, detailing experience in cloud building, cybersecurity, customer service, and digital innovation." />
+      <meta property="og:title" content="Kagiso Mfusi | Resume" />
+      <meta
+       property="og:description"
+       content="Kagiso Mfusi's Resume - Expertise in cloud building, digital innovation and scalable tech infrastructure. "/>
+      <meta property="og:image" content="/images/backgrounds/homepage1.png" />
+      <meta property="og:url" content="https://personal-portfolio-fyfepc1dn-mrspecks-projects.vercel.app" />
+      <meta property="og:type" content="website" />
+    </Head>
       <main>
       <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 

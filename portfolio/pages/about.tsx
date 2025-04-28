@@ -2,11 +2,23 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
 import React from "react";
+import Head from "next/head";
 import SEO from "../components/SEO";
 
 export default function AboutPage() {
   return (
     <>
+        <Head>
+      <title>Kagiso Mfusi | About Me</title>
+      <meta name="description" content="Learn more about Kagiso Mfusi's journey, philosophy, and expertise." />
+      <meta property="og:title" content="Kagiso Mfusi | About Me" />
+      <meta
+       property="og:description"
+       content="Discover the journey, philosophy, and expertise of Kagiso Mfusi—self-driven IT professional and aspiring cloud architect."/>
+      <meta property="og:image" content="/images/backgrounds/homepage1.png" />
+      <meta property="og:url" content="https://personal-portfolio-fyfepc1dn-mrspecks-projects.vercel.app" />
+      <meta property="og:type" content="website" />
+    </Head>
       <SEO
         title="About | Kagiso Mfusi"
         description="Discover the journey, philosophy, and expertise of Kagiso Mfusi—self-driven IT professional and cloud architect."

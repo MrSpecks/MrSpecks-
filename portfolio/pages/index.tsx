@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from "typewriter-effect";
@@ -12,6 +13,18 @@ export default function HomePage() {
   const featured = projects.filter((p) => p.id === 2 || p.id === 3 || p.id === 4); // ReconX & NeoShell
 
   return (
+    <>
+    <Head>
+      <title>Kagiso Mfusi | Cloud Builder & Digital Innovator</title>
+  <meta name="description" content="Kagiso Mfusi - Engineer. Creator. Innovator. Building meaningful digital systems that solve tomorrow's challenges, today." />
+  <meta property="og:title" content="Kagiso Mfusi | Cloud Builder & Digital Innovator" />
+  <meta
+    property="og:description"
+    content="Building scalable tech infrastructure for Africa's next generation."/>
+  <meta property="og:image" content="/images/backgrounds/homepage1.png" />
+  <meta property="og:url" content="https://personal-portfolio-fyfepc1dn-mrspecks-projects.vercel.app" />
+  <meta property="og:type" content="website" />
+  </Head>
     <main>
       <SEO
         title="Kagiso Mfusi | Portfolio"
@@ -130,6 +143,7 @@ export default function HomePage() {
         </div>
       </section>
     </main>
+    </>
   );
 }
 
