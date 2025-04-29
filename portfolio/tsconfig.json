@@ -1,4 +1,9 @@
 {
+  
+  // Disable schema validation for tsconfig.json
+  "json.schemaDownload.enable": false,
+  "json.validate.enable": false,
+  "$schema": "./node_modules/typescript/lib/tsconfig.json",
   "compilerOptions": {
     "target": "es5",
     "lib": [
