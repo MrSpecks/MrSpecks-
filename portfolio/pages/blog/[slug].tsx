@@ -35,18 +35,24 @@ export default function Post({ postData }: PostProps) {
       </Head>
 
       <main className="max-w-4xl mx-auto p-6">
-            <Link href="/blog/Blog" passHref>
-              <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded focus:ring-blue-500 hover:bg-blue-700
-                text-sm font-medium transition w-full sm:w-auto">
-                Back to Blog
-              </a>
-            </Link>
         <h1 className="text-4xl font-bold mb-4">{postData.title}</h1>
         <p className="text-gray-400 mb-8">{new Date(postData.date).toLocaleDateString()}</p>
         <div
           className="prose prose-invert max-w-none"
           dangerouslySetInnerHTML={{ __html: postData.content }}
         />
+        <section className="mt-16 px-4 py-6 max-w-6xl mx-auto flex flex-col justify-center items-center text-center overflow-hidden">
+          <div className="max-w-3xl w-full">
+          <div className="mt-6 flex flex-col sm:flex-row gap-4">
+            <Link href="/blog/Blog" passHref>
+              <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded focus:ring-blue-500 hover:bg-blue-700
+                text-sm font-medium transition w-full sm:w-auto">
+                Back to Blog
+              </a>
+            </Link>
+          </div>
+          </div>
+        </section>
       </main>
     </div>
   );
