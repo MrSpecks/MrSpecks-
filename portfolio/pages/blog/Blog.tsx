@@ -41,10 +41,22 @@ export default function Blog({ allPostsData }: BlogProps) {
       </Head>
 
       <main className="max-w-4xl mx-auto p-6">
-        <h1 className="text-4xl font-bold mb-8 text-center">Blog</h1>
-        <p className="text-lg mb-12 text-center text-gray-300">
-          Sharing insights on cloud building, systems and web development, and digital innovation.
-        </p>
+      <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
+              style={{
+              backgroundImage: "url('/images/projects/ReconX2.jpg')",
+              backgroundBlendMode: "overlay",
+              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+       }}>
+      <div className="absolute inset-0 bg-slate-50/20 dark:bg-slate-800/40 z-10"/>
+      <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      <h1 className="text-2xl font-bold text-indigo-100 dark:text-indigo-100"
+       style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>Blog</h1>
+        <p className="mt-4 text-base text-indigo-100 dark:text-indigo-100"
+        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>Sharing insights on cloud building, systems and web development, and digital innovation.
+       </p>
+        <div/>
+        </div>
+        </section>
 
         <div className="space-y-8">
           {allPostsData.map(({ slug, title, date }) => (
