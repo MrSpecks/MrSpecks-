@@ -36,7 +36,7 @@ export default function Post({ postData }: PostProps) {
 
       <main className="max-w-4xl mx-auto p-6">
         <Link
-          href="/blog"
+          href="/blog/Blog"
           className="text-blue-400 hover:underline mb-4 inline-block focus:ring-2 focus:ring-blue-500 outline-none"
         >
           ← Back to Blog
