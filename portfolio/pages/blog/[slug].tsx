@@ -35,12 +35,12 @@ export default function Post({ postData }: PostProps) {
       </Head>
 
       <main className="max-w-4xl mx-auto p-6">
-        <Link
-          href="/blog/Blog"
-          className="text-blue-400 hover:underline mb-4 inline-block focus:ring-2 focus:ring-blue-500 outline-none"
-        >
-          ← Back to Blog
-        </Link>
+            <Link href="/blog/Blog" passHref>
+              <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded focus:ring-blue-500 hover:bg-blue-700
+                text-sm font-medium transition w-full sm:w-auto">
+                Back to Blog
+              </a>
+            </Link>
         <h1 className="text-4xl font-bold mb-4">{postData.title}</h1>
         <p className="text-gray-400 mb-8">{new Date(postData.date).toLocaleDateString()}</p>
         <div
