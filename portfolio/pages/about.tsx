@@ -8,7 +8,7 @@ import SEO from "../components/SEO";
 export default function AboutPage() {
   return (
     <>
-        <Head>
+    <Head>
       <title>Kagiso Mfusi | About Me</title>
       <meta name="description" content="Learn more about Kagiso Mfusi's journey, philosophy, and expertise." />
       <meta property="og:title" content="Kagiso Mfusi | About Me" />
