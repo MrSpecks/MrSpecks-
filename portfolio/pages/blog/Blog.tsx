@@ -58,7 +58,7 @@ export default function Blog({ allPostsData }: BlogProps) {
         </div>
         </section>
 
-        <div className="space-y-8">
+        <div className="mt-12 mb-12space-y-8">
           {allPostsData.map(({ slug, title, date }) => (
             <motion.div
               key={slug}
