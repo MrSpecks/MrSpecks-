@@ -1,3 +1,7 @@
+---
+title: "Creating a Dark Mode Toggle with Framer Motion"
+date: "2025-04-29"
+---
 
 # Adding a Dark Mode Toggle to My Portfolio: A Fun and Accessible Feature
 
@@ -52,8 +56,3 @@ I made several enhancements:
 ## Conclusion
 
 The dark mode toggle is a *polished, interactive feature* that enhances my portfolio’s user experience and showcases my skills.
-
----
-title: "Creating a Dark Mode Toggle with Framer Motion"
-date: "2025-04-29"
----

@@ -1,4 +1,7 @@
-
+---
+title: "How I Built My Portfolio with Next.js and Tailwind"
+date: "2025-04-28"
+---
 
 # How I Built My Portfolio Website: A Journey in Cloud Building and Digital Innovation
 
@@ -132,8 +135,3 @@ And this is just the beginning. I’ll be adding a **blog section** (coming soon
 ---
 
 Let’s build the future, one elegant system at a time.
-
----
-title: "How I Built My Portfolio with Next.js and Tailwind"
-date: "2025-04-28"
----
