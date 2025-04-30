@@ -144,7 +144,7 @@ export default function HomePage() {
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.6, ease: 'easeOut' }}
    viewport={{ once: true }}
- ></motion.section>
+ >
  <div className="max-w-3xl w-full">
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
             <Link href="/projects" passHref>
