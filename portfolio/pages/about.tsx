@@ -27,8 +27,14 @@ export default function AboutPage() {
 
       <main>
         {/* Hero */}
-        <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
-          <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        <motion.section 
+  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}
+>
+<div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
               backgroundImage: "url('/images/backgrounds/About2.png')",
               backgroundBlendMode: "overlay",
@@ -51,10 +57,17 @@ export default function AboutPage() {
             projects to stay ahead in the rapidly evolving tech landscape.
           </p>
           </div>
-        </section>
+        </motion.section>
 
+        <hr className="my-8 border-gray-300 dark:border-gray-700" />  
         {/* Background & Philosophy */}
-        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+        <motion.section 
+  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}
+>
           <h2 className="mt-4 text-2xl font-semibold text-slate-900 dark:text-slate-100">
           Background & Philosophy
           </h2>
@@ -70,10 +83,18 @@ export default function AboutPage() {
           I believe great solutions are born from simplicity, intention, and the courage to
             explore uncharted territory. That mindset powers everything I build.
           </p>
-        </section>
-
+        </motion.section>
+           <hr className="my-8 border-gray-300 dark:border-gray-700" />  
+    
         {/* What I Bring */}
-<section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+        <motion.section 
+  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}
+>
+
   <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
   What I Bring
   </h2>
@@ -106,8 +127,9 @@ export default function AboutPage() {
        just technical, but human-centered and mission-driven.
     </li>
   </ul>
-</section>
+</motion.section>
 
+<hr className="my-8 border-gray-300 dark:border-gray-700" />  
         {/* Forward Focus */}
         <section className="space-y-6 px-4 py-6 max-w-6xl mx-auto">
           <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
@@ -122,6 +144,7 @@ export default function AboutPage() {
             “Build what matters. Solve what others ignore. And lead with intention.” — Kagiso
           </p>
         </section>
+   <hr className="my-8 border-gray-300 dark:border-gray-700" />    
 {/* Core Values */}
 <motion.section 
   className="mb-12 px-4 py-6 max-w-6xl mx-auto"
@@ -137,15 +160,17 @@ export default function AboutPage() {
     <div>
       <p><strong>Integrity:</strong> I hold myself to a high standard—both in code and character.</p>
       <p className="mt-2"><strong>Clarity:</strong> I believe the most impactful systems are clean, simple, and deeply thought through.</p>
+      <p className="mt-2"><strong>Visionary Thinking:</strong> I study systems, recognize patters, and build with tomorrow in mind.</p>
     </div>
     <div>
       <p><strong>Resilience:</strong> Every setback is a setup. I iterate, adapt, and grow with purpose.</p>
       <p className="mt-2"><strong>Excellence:</strong> Quality isn't a goal—it's a baseline. I build with long-term value in mind.</p>
-      <p className="mt-2"><strong>Growth:</strong> I'm in relentless pursuit of mastery and innovation that empowers others.</p>
+      <p className="mt-2"><strong>Empowerment:</strong> Tech should uplift people, not alienate them. I build to make complexity approachable, and progress inclusive.</p>
     </div>
   </div>
 </motion.section>
 
+<hr className="my-8 border-gray-300 dark:border-gray-700" />  
 {/* Call to Action */}
 <motion.section 
   className="mb-20 px-4 py-10 max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20 rounded-xl shadow-inner"
