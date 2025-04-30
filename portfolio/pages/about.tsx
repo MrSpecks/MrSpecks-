@@ -53,7 +53,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        <hr className="my-8 border-gray-300 dark:border-gray-700" />  
         {/* Background & Philosophy */}
         <motion.section 
   className="mb-12 px-4 py-6 max-w-6xl mx-auto"

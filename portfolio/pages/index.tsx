@@ -71,7 +71,6 @@ export default function HomePage() {
             }}
           />
         </div>
-
         <p className="relative z-20 mt-4 text-base sm:text-lg max-w-2xl mx-auto text-indigo-100 dark:text-indigo-100 leading-relaxed">
           Engineer. Creator. Innovator. Building meaningful digital systems that solve tomorrow's challenges, today.
         </p>
@@ -144,17 +143,11 @@ export default function HomePage() {
    transition={{ duration: 0.6, ease: 'easeOut' }}
    viewport={{ once: true }}>
  <div className="max-w-3xl w-full">
-          <div className="mt-6 flex flex-col sm:flex-row gap-4">
+          <div className="mt-6 ">
             <Link href="/projects" passHref>
               <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700
                 text-sm font-medium transition w-full sm:w-auto">
                 View My Work
-              </a>
-            </Link>
-            <Link href="/contact" passHref>
-              <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700
-                text-sm font-medium transition w-full sm:w-auto">
-                Contact Me
               </a>
             </Link>
           </div>
