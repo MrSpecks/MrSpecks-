@@ -137,7 +137,7 @@ export default function HomePage() {
 
       {/* CTA Buttons */}
  <motion.section 
-   className="mb-12 px-4 py-10 max-w-4xl mx-auto text-center"
+   className="mb-2 px-4 py-10 max-w-4xl mx-auto text-center"
    initial={{ opacity: 0, y: 30 }}
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.6, ease: 'easeOut' }}

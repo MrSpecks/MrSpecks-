@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import { motion } from "framer-motion";
 import SEO from "../components/SEO";
 import ProjectCard from "../components/ProjectCard";
 import CertificationCard from "../components/CertificationCard";
@@ -43,7 +44,7 @@ export default function ProjectsPage() {
         </section>
         
         {/* Signature Projects */}
-        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+        <section className="mb-20 px-4 py-10 max-w-4xl mx-auto">
           <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
             Signature Projects
           </h2>
@@ -66,13 +67,20 @@ export default function ProjectsPage() {
           </ul>
         </section>
 
-        <section className="mt-12 mb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+
+          <motion.section 
+            className="mb-20 px-4 py-10 max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20 rounded-xl shadow-inner"
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(0, 4).map((project) => (
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
-      </section>
+      </motion.section>
 
       <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" 
@@ -91,13 +99,20 @@ export default function ProjectsPage() {
         </p>
         </div>
         </section>
-        <section className="mt-12 mb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+
+        <motion.section 
+            className="mb-20 px-4 py-10 max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20 rounded-xl shadow-inner"
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            transition={{ delay: 0.2, duration: 0.5 }}
+            viewport={{ once: true }}
+          >
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-4">
           {normalizedCerts.map((cert) => (
             <CertificationCard key={cert.id} cert={cert} />
           ))}
         </div>
-      </section>
+      </motion.section>
       </main>
         </>
     );
