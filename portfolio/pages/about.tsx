@@ -3,6 +3,7 @@
 
 import React from "react";
 import Head from "next/head";
+import { motion } from "framer-motion";
 import SEO from "../components/SEO";
 
 export default function AboutPage() {
@@ -121,6 +122,57 @@ export default function AboutPage() {
             “Build what matters. Solve what others ignore. And lead with intention.” — Kagiso
           </p>
         </section>
+{/* Core Values */}
+<motion.section 
+  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}
+>
+  <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
+    My Core Values
+  </h2>
+  <div className="grid sm:grid-cols-2 gap-4 text-gray-600 dark:text-gray-300">
+    <div>
+      <p><strong>Integrity:</strong> I hold myself to a high standard—both in code and character.</p>
+      <p className="mt-2"><strong>Clarity:</strong> I believe the most impactful systems are clean, simple, and deeply thought through.</p>
+    </div>
+    <div>
+      <p><strong>Resilience:</strong> Every setback is a setup. I iterate, adapt, and grow with purpose.</p>
+      <p className="mt-2"><strong>Excellence:</strong> Quality isn't a goal—it's a baseline. I build with long-term value in mind.</p>
+      <p className="mt-2"><strong>Growth:</strong> I'm in relentless pursuit of mastery and innovation that empowers others.</p>
+    </div>
+  </div>
+</motion.section>
+
+{/* Call to Action */}
+<motion.section 
+  className="mb-20 px-4 py-10 max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20 rounded-xl shadow-inner"
+  initial={{ opacity: 0, scale: 0.95 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 0.2, duration: 0.5 }}
+  viewport={{ once: true }}
+>
+  <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
+    Let's Build What Matters
+  </h2>
+  <p className="mt-4 text-gray-700 dark:text-gray-300 leading-relaxed max-w-xl mx-auto">
+    If you're looking for someone who blends systems thinking with real-world execution, 
+    you're in the right place.
+    Whether it's collaborating on a project, building a bespoke solution, 
+    or simply starting a conversation, I'd love to hear from you.
+  </p>
+  <div className="mt-6">
+    <a
+      href="/contact"
+      className="inline-block bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium px-6 py-3 rounded-md transition focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 dark:focus:ring-offset-gray-900"
+      aria-label="Navigate to Contact page"
+    >
+      Get in Touch
+    </a>
+  </div>
+</motion.section>
 
       </main>
         </>

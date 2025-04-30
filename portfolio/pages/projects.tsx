@@ -53,7 +53,9 @@ export default function ProjectsPage() {
           <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
             <li>
               <strong>ReconX:</strong> An open-source, powerful reconnaissance and OSINT (Open-Source Intelligence) 
-              tool designed to streamline and automate the process of gathering critical information.
+              tool designed to streamline and automate the process of gathering critical
+               insights into domains and IP addresses to evaluate risks, 
+              discover vulnerabilities, and gather key data in real-time.
             </li>
             <li>
               <strong>NeoShell:</strong> This tool is a high-performance, intelligent CMS Reconnaissance
