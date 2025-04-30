@@ -78,7 +78,7 @@ export default function HomePage() {
 
       {/* About Preview */}
       <motion.section 
-        className="w-full flex flex-col justify-center mt-12 text-center px-4 py-6 max-w-6xl mx-auto"
+        className="w-full flex flex-col justify-center mt-12 text-center items-center px-4 py-6 max-w-6xl mx-auto"
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
@@ -137,7 +137,7 @@ export default function HomePage() {
 
       {/* CTA Buttons */}
  <motion.section 
-   className="mb-2 px-4 py-10 max-w-4xl mx-auto text-center"
+   className="mb-2 px-4 py-10 max-w-4xl mx-auto text-center items-center"
    initial={{ opacity: 0, y: 30 }}
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.6, ease: 'easeOut' }}
