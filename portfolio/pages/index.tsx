@@ -127,12 +127,12 @@ export default function HomePage() {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: 'easeOut' }}
         viewport={{ once: true }}>    
-        <div className="max-w-3xl w-full">
+   
           <h2 className="text-xl font-semibold mb-4 text-center">Featured Projects</h2>
           <div className="grid gap-6">
             <Carousel items={featured} />
           </div>
-        </div>
+
       </motion.section>
 
       {/* CTA Buttons */}
@@ -142,7 +142,6 @@ export default function HomePage() {
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.6, ease: 'easeOut' }}
    viewport={{ once: true }}>
- <div className="max-w-3xl w-full">
           <div className="mt-6 ">
             <Link href="/projects" passHref>
               <a className="bg-blue-600 text-indigo-200 dark:text-indigo-100 px-6 py-2 rounded hover:bg-blue-700
@@ -151,7 +150,7 @@ export default function HomePage() {
               </a>
             </Link>
           </div>
-        </div>
+
       </motion.section>
 
 <motion.section 
