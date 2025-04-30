@@ -81,8 +81,8 @@ export default function HomePage() {
         <div className="max-w-3xl w-full">
           <h2 className="text-xl font-semibold mb-2">About Me</h2>
           <p className="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
-            I'm a self-driven IT professional with over five years of experience spanning support,
-            systems, and infrastructure. Passionate about emerging cloud technologies, I constantly
+            I'm a self-driven IT professional with over five years of experience spanning client service,
+            systems and web development. Passionate about emerging cloud technologies, I constantly
             challenge myself through hands-on projects and targeted learning - recently diving into
             advanced cloud architecture patterns - to build solutions that are secure, scalable, and future-proof.
             My ambition is to blend deep technical expertise with a strategic mindset, driving innovation that
@@ -142,6 +142,20 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+      <section className="mt-12 text-center px-4 py-6 max-w-6xl mx-auto">
+  <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">Tech Stack</h2>
+  <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Next.js</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">React</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">TypeScript</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Tailwind CSS</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Azure</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">GitHub</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Google Workspace</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Varcel</span>
+    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">VS Code</span>
+  </div>
+</section>
     </main>
     </>
   );

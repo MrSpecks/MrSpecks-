@@ -10,7 +10,7 @@ export default function AboutPage() {
     <>
     <Head>
       <title>Kagiso Mfusi | About Me</title>
-      <meta name="description" content="Learn more about Kagiso Mfusi's journey, philosophy, and expertise." />
+      <meta name="description" content="Get to know Kagiso Mfusi, his journey, philosophy, and expertise." />
       <meta property="og:title" content="Kagiso Mfusi | About Me" />
       <meta
        property="og:description"
@@ -21,55 +21,60 @@ export default function AboutPage() {
     </Head>
       <SEO
         title="About | Kagiso Mfusi"
-        description="Discover the journey, philosophy, and expertise of Kagiso Mfusi—self-driven IT professional and cloud architect."
+        description="Explore Kagiso Mfusi's journey—an ambitious, self-driven IT professional combining cloud, cybersecurity, and systems expertise with a relentless drive to innovate"
       />
 
       <main>
         {/* Hero */}
-        <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+        <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
           <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
               backgroundImage: "url('/images/backgrounds/About2.png')",
               backgroundBlendMode: "overlay",
-              backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
+              backgroundColor: "rgba(0, 0, 0, 0.5)", // semi-dark overlay for readability
           }}/>
 
           <div className="absolute inset-0 bg-blue-50/20 dark:bg-blue-900/40 z-10"/>
 
         <div className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-3xl mx-auto py-12">
           <h1 className="text-4xl font-bold text-indigo-100 dark:text-indigo-100"
-           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
-            About Me
+           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>
+            Meet Kagiso Mfusi
           </h1>
           <p className="mt-4 text-lg text-indigo-100 dark:text-indigo-100 leading-relaxed"
-          style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>
-            I'm a self-driven IT professional with over five years of cross-disciplinary
-            experience from customer support and systems administration to hands-on
-            cloud architecture and web development. Fueled by an insatiable curiosity,
+          style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>
+            I'm a passionate and self-taught IT professional with a diverse background spanning
+             client services, systems development to hands-on
+            cloud architecture and web development. With every step, I've pursued depth and versatility,
             I constantly challenge myself with cutting-edge certifications and real-world
-            projects, crafting solutions that are secure, scalable, and future-proof.
+            projects to stay ahead in the rapidly evolving tech landscape.
           </p>
           </div>
         </section>
 
-        {/* My Journey */}
+        {/* Background & Philosophy */}
         <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
           <h2 className="mt-4 text-2xl font-semibold text-slate-900 dark:text-slate-100">
-            My Journey
+          Background & Philosophy
           </h2>
           <p className="text-gray-600 dark:text-gray-300">
-            I began in customer-facing support roles where empathy and clear communication
-            were essential. As I delved into infrastructure, I undertook a systems
-            administration traineeship and later honed
-            advanced cloud design skills through professional courses. Today, I blend deep
-             technical expertise with strategic vision to build bespoke digital platforms.
+          My journey into technology began with curiosity and has since evolved into purpose.
+          From building html sites in high school to becoming Microsoft Certified in Azure
+            Fundamentals and leading cloud-native deployments, I've always followed a
+            learn-by-doing mindset. My experience in frontline service roles sharpened my
+            people skills, while hands-on certifications deepened my architectural and technical thinking. 
+            Today, I'm able to blend deep technical expertise with strategic vision to build bespoke digital platforms. 
+          </p>
+          <p className="text-gray-600 dark:text-gray-300">
+          I believe great solutions are born from simplicity, intention, and the courage to
+            explore uncharted territory. That mindset powers everything I build.
           </p>
         </section>
 
-        {/* Expertise & Mindset */}
+        {/* What I Bring */}
 <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
   <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
-    Expertise & Mindset
+  What I Bring
   </h2>
   <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
     <li>
@@ -77,16 +82,15 @@ export default function AboutPage() {
       infrastructures on Azure using IaC, governance, and best practices.
     </li>
     <li>
-      <strong>Cybersecurity:</strong> Proactive threat modeling and security
-      automation; grounded in hands-on labs with modern SIEM tools.
+      <strong>Cybersecurity fluency:</strong> Defensive and offensive tools, with hands-on lab experience.
     </li>
     <li>
       <strong>Full-Stack Development:</strong> Crafting responsive web applications with
       Next.js, Tailwind CSS, and serverless backends that put performance first.
     </li>
     <li>
-      <strong>Software Foundations:</strong> Solid grounding in software engineering
-      principles covering data structures, algorithms, and system design.
+      <strong>Software Foundations:</strong> Solid grounding in software development
+      principles, including OOP, SDLC and design patterns, with a focus on Java.
     </li>
     <li>
       <strong>Java Application Development:</strong> Hands-on experience building and debugging
@@ -97,8 +101,8 @@ export default function AboutPage() {
       architecture certifications and exploring AI-driven sustainability.
     </li>
     <li>
-      <strong>Bespoke Problem-Solving:</strong> My rare blend of analytical rigor
-      and creative insight means I don't just follow patterns; I invent them.
+      <strong>Bespoke Problem-Solving:</strong> Problem solving that's not
+       just technical, but human-centered and mission-driven.
     </li>
   </ul>
 </section>
@@ -124,36 +128,21 @@ export default function AboutPage() {
           </ul>
         </section>
 
-        {/* What Drives Me */}
+        {/* Forward Focus */}
         <section className="space-y-6 px-4 py-6 max-w-6xl mx-auto">
           <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
-            What Drives Me
+          Forward Focus
           </h2>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            I believe technology should empower, not intimidate; scale, not break; and
-            adapt, not stagnate. My mission is to fuse deep technical mastery with
-            human-centered design, forging digital experiences that endure and inspire
-            the next generation of innovators.
+          I'm currently building out an online portfolio website as a
+            self-contained infrastructure to showcase my work and empower others to do the same. 
+            The ultimate goal? To make career representation digital, scalable, and timeless.
           </p>
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
-            “Build what matters. Solve what others ignore. And lead with intention.” — KaeGee
+            “Build what matters. Solve what others ignore. And lead with intention.” — Kagiso
           </p>
         </section>
 
-<section className="mt-12 text-center px-4 py-6 max-w-6xl mx-auto">
-  <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">Tech Stack</h2>
-  <div className="flex flex-wrap justify-center gap-4 text-sm text-gray-600 dark:text-gray-300">
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Next.js</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">React</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">TypeScript</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Tailwind CSS</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Azure</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">GitHub</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Google Workspace</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">Varcel</span>
-    <span className="bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">VS Code</span>
-  </div>
-</section>
       </main>
         </>
     )
