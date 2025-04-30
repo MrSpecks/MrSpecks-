@@ -44,14 +44,14 @@ export default function ProjectsPage() {
         </section>
         
         {/* Signature Projects */}
-        <section className="mb-20 px-4 py-10 max-w-4xl mx-auto">
+        <section className="mb-10 px-4 py-10 max-w-4xl mx-auto">
           <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
             Signature Projects
           </h2>
-          <p className="text-gray-600 dark:text-gray-300">
+          <p className="mt-4 text-gray-600 dark:text-gray-300">
             From prototypes to production deployments, I've led:
           </p>
-          <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+          <ul className="mt-4 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
             <li>
               <strong>ReconX:</strong> An open-source, powerful reconnaissance and OSINT (Open-Source Intelligence) 
               tool designed to streamline and automate the process of gathering critical

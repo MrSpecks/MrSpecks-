@@ -26,7 +26,7 @@ export default function ResumePage() {
        }}/>
       <div className="absolute inset-0 bg-gray-100/20 dark:bg-gray-900/40 z-10"/>
       <div  className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold mb-4 text-indigo-100 dark:text-indigo-100"
+      <h1 className="text-2xl font-bold mb-4 text-indigo-100 dark:text-indigo-100 mb-4"
        style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}> Professional Summary
       </h1>
         <p className="text-indigo-100 dark:text-indigo-100 leading-relaxed"
@@ -86,7 +86,7 @@ export default function ResumePage() {
           </ul>
         </div>
         <div className="mb-6">
-          <h3 className="text-lg font-medium text-gray-900 dark:text-white">
+          <h3 className="text-lg font-medium text-gray-900 dark:text-white ">
             Client Services Representative 
           </h3>
           <p className="text-sm text-gray-500 dark:text-gray-400 mb-2">
@@ -137,7 +137,7 @@ export default function ResumePage() {
         </div>
       </section>
       <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-  <h2 className="text-xl font-semibold mb-4text-slate-900 dark:text-slate-100">
+  <h2 className="text-xl font-semibold mb-4text-slate-900 dark:text-slate-100 mb-4">
     Online Learning Achievements
   </h2>
   <p className="text-gray-700 dark:text-gray-300 mb-6 leading-relaxed">
@@ -187,7 +187,7 @@ export default function ResumePage() {
     </div>
 </section>
       <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
-        <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100">
+        <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100 mb-4">
           Education
         </h2>
         <div className="mb-4">

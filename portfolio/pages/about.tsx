@@ -61,10 +61,10 @@ export default function AboutPage() {
   transition={{ duration: 0.6, ease: 'easeOut' }}
   viewport={{ once: true }}
 >
-          <h2 className="mt-4 text-2xl font-semibold text-slate-900 dark:text-slate-100">
+          <h2 className="mt-4 text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
           Background & Philosophy
           </h2>
-          <p className="text-gray-600 dark:text-gray-300">
+          <p className=" mt-4text-gray-600 dark:text-gray-300">
           My journey into technology began with curiosity and has since evolved into purpose.
           From building html sites in high school to becoming Microsoft Certified in Azure
             Fundamentals and leading cloud-native deployments, I've always followed a
@@ -72,7 +72,7 @@ export default function AboutPage() {
             people skills, while hands-on certifications deepened my architectural and technical thinking. 
             Today, I'm able to blend deep technical expertise with strategic vision to build bespoke digital platforms. 
           </p>
-          <p className="text-gray-600 dark:text-gray-300">
+          <p className="mt-4 text-gray-600 dark:text-gray-300">
           I believe great solutions are born from simplicity, intention, and the courage to
             explore uncharted territory. That mindset powers everything I build.
           </p>
@@ -87,10 +87,10 @@ export default function AboutPage() {
   transition={{ duration: 0.6, ease: 'easeOut' }}
   viewport={{ once: true }}
 >
-  <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
+  <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
   What I Bring
   </h2>
-  <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+  <ul className="mt-4 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
     <li>
       <strong>Cloud Architecture:</strong> Designing resilient, cost-efficient
       infrastructures on Azure using IaC, governance, and best practices.
@@ -130,15 +130,15 @@ export default function AboutPage() {
   transition={{ duration: 0.6, ease: 'easeOut' }}
   viewport={{ once: true }}
 >
-          <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
+          <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100 mb-4">
           Forward Focus
           </h2>
-          <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+          <p className="mt-4 text-gray-600 dark:text-gray-300 leading-relaxed">
           I'm currently building out an online portfolio website as a
             self-contained infrastructure to showcase my work and empower others to do the same. 
             The ultimate goal? To make career representation digital, scalable, and timeless.
           </p>
-          <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
+          <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 mt-8 text-center italic">
             “Build what matters. Solve what others ignore. And lead with intention.” — Kagiso
           </p>
         </motion.section>
