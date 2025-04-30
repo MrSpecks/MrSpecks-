@@ -44,7 +44,7 @@ export default function AboutPage() {
           <p className="mt-4 text-lg text-indigo-100 dark:text-indigo-100 leading-relaxed"
           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>
             I'm a passionate and self-taught IT professional with a diverse background spanning
-             client services, systems development to hands-on
+             client services, systems development and administration to hands-on
             cloud architecture and web development. With every step, I've pursued depth and versatility,
             I constantly challenge myself with cutting-edge certifications and real-world
             projects to stay ahead in the rapidly evolving tech landscape.
@@ -106,27 +106,6 @@ export default function AboutPage() {
     </li>
   </ul>
 </section>
-
-
-        {/* Signature Projects */}
-        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
-          <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
-            Signature Projects
-          </h2>
-          <p className="text-gray-600 dark:text-gray-300">
-            From prototypes to production deployments, I've led:
-          </p>
-          <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
-            <li>
-              <strong>ReconX:</strong> A cloud-native cyber-recon lab using Azure
-              Sentinel to simulate advanced threat scenarios.
-            </li>
-            <li>
-              <strong>NeoShell:</strong> An experimental terminal UX powered by Node.js,
-              rethinking how developers interact with command-line environments.
-            </li>
-          </ul>
-        </section>
 
         {/* Forward Focus */}
         <section className="space-y-6 px-4 py-6 max-w-6xl mx-auto">

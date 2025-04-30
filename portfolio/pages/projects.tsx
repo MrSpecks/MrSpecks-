@@ -41,6 +41,29 @@ export default function ProjectsPage() {
         </p>
         </div>
         </section>
+        
+        {/* Signature Projects */}
+        <section className="mb-12 space-y-6 px-4 py-6 max-w-6xl mx-auto">
+          <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
+            Signature Projects
+          </h2>
+          <p className="text-gray-600 dark:text-gray-300">
+            From prototypes to production deployments, I've led:
+          </p>
+          <ul className="list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
+            <li>
+              <strong>ReconX:</strong> An open-source, powerful reconnaissance and OSINT (Open-Source Intelligence) 
+              tool designed to streamline and automate the process of gathering critical information.
+            </li>
+            <li>
+              <strong>NeoShell:</strong> This tool is a high-performance, intelligent CMS Reconnaissance
+               & Webshell Payload Generator designed for authorized penetration testing engagements. 
+               It detects the backend technologies used by a wide range of websites
+               and generates tailored webshell payloads based on CMS and stack fingerprinting.
+            </li>
+          </ul>
+        </section>
+
         <section className="mt-12 mb-12 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {projects.slice(0, 4).map((project) => (
