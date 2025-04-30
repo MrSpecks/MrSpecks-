@@ -78,14 +78,14 @@ export default function HomePage() {
       </section>
 
       {/* About Preview */}
- <motion.section 
-   className="mb-12 px-4 py-6 max-w-6xl mx-auto"
-   initial={{ opacity: 0, y: 30 }}
-   whileInView={{ opacity: 1, y: 0 }}
-   transition={{ duration: 0.6, ease: 'easeOut' }}
-   viewport={{ once: true }}
- >
- <div className="max-w-3xl w-full">
+      <motion.section 
+        className="w-full flex flex-col justify-center mt-12 text-center px-4 py-6 max-w-6xl mx-auto"
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}
+      >
+        <div className="max-w-3xl w-full">
           <h2 className="text-xl font-semibold mb-2">About Me</h2>
           <p className="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto text-base leading-relaxed">
             I'm a self-driven IT professional with over five years of experience spanning client service,
@@ -122,13 +122,12 @@ export default function HomePage() {
 
       <hr className="my-8 border-gray-300 dark:border-gray-700" />  
       {/* Featured Projects */}
-<motion.section 
-  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, ease: 'easeOut' }}
-  viewport={{ once: true }}
->
+      <motion.section 
+        className="mt-16 px-4 py-10 max-w-6xl mx-auto"  
+        initial={{ opacity: 0, y: 30 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6, ease: 'easeOut' }}
+        viewport={{ once: true }}>    
         <div className="max-w-3xl w-full">
           <h2 className="text-xl font-semibold mb-4 text-center">Featured Projects</h2>
           <div className="grid gap-6">
@@ -139,12 +138,11 @@ export default function HomePage() {
 
       {/* CTA Buttons */}
  <motion.section 
-   className="mb-12 px-4 py-6 max-w-6xl mx-auto"
+   className="mb-12 px-4 py-10 max-w-4xl mx-auto text-center"
    initial={{ opacity: 0, y: 30 }}
    whileInView={{ opacity: 1, y: 0 }}
    transition={{ duration: 0.6, ease: 'easeOut' }}
-   viewport={{ once: true }}
- >
+   viewport={{ once: true }}>
  <div className="max-w-3xl w-full">
           <div className="mt-6 flex flex-col sm:flex-row gap-4">
             <Link href="/projects" passHref>

@@ -27,14 +27,8 @@ export default function AboutPage() {
 
       <main>
         {/* Hero */}
-        <motion.section 
-  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
-  initial={{ opacity: 0, y: 30 }}
-  whileInView={{ opacity: 1, y: 0 }}
-  transition={{ duration: 0.6, ease: 'easeOut' }}
-  viewport={{ once: true }}
->
-<div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+<section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+          <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
               style={{
               backgroundImage: "url('/images/backgrounds/About2.png')",
               backgroundBlendMode: "overlay",
@@ -57,7 +51,7 @@ export default function AboutPage() {
             projects to stay ahead in the rapidly evolving tech landscape.
           </p>
           </div>
-        </motion.section>
+        </section>
 
         <hr className="my-8 border-gray-300 dark:border-gray-700" />  
         {/* Background & Philosophy */}
@@ -94,7 +88,6 @@ export default function AboutPage() {
   transition={{ duration: 0.6, ease: 'easeOut' }}
   viewport={{ once: true }}
 >
-
   <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
   What I Bring
   </h2>
@@ -131,7 +124,13 @@ export default function AboutPage() {
 
 <hr className="my-8 border-gray-300 dark:border-gray-700" />  
         {/* Forward Focus */}
-        <section className="space-y-6 px-4 py-6 max-w-6xl mx-auto">
+        <motion.section 
+  className="mb-12 px-4 py-6 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}
+>
           <h2 className="text-2xl font-semibold text-slate-900 dark:text-slate-100">
           Forward Focus
           </h2>
@@ -143,7 +142,7 @@ export default function AboutPage() {
           <p className="text-sm text-gray-500 dark:text-gray-400 mt-8 italic">
             “Build what matters. Solve what others ignore. And lead with intention.” — Kagiso
           </p>
-        </section>
+        </motion.section>
    <hr className="my-8 border-gray-300 dark:border-gray-700" />    
 {/* Core Values */}
 <motion.section 
