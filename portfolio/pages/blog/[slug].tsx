@@ -35,7 +35,8 @@ export default function Post({ postData }: PostProps) {
       </Head>
 
       <main className="max-w-4xl mx-auto p-6">
-        <h1 className="text-4xl text-slate-900 dark:text-slate-100 font-bold mb-4" 
+        <h1 className="text-4xl text-slate-900 dark:text-slate-100 
+        font-bold mb-4" 
         style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>{postData.title}</h1>
         <p className="text-slate-900 dark:text-slate-100 mb-8">{new Date(postData.date).toLocaleDateString()}</p>
         <div
