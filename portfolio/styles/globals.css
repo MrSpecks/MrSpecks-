@@ -27,3 +27,13 @@ cursor-blue-saber {
 cursor-red-saber {
   cursor: url('/cursors/red-saber.png') 16 16, auto;
 }
+.prose pre :focus-within,
+.prose pre :focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.7);
+  transition: box-shadow 0.3s ease;
+}
+.dark.prose pre :focus-within,
+.dark.prose pre :focus {
+  box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.7);
+}
