@@ -17,7 +17,7 @@ interface BlogProps {
 
 export default function Blog({ allPostsData }: BlogProps) {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <>
       <Head>
         <title>Kagiso Mfusi | Blog</title>
         <meta
@@ -85,7 +85,7 @@ export default function Blog({ allPostsData }: BlogProps) {
         </div>
 </motion.section>
       </main>
-    </div>
+    </>
   );
 }
 
