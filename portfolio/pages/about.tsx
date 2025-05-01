@@ -45,10 +45,10 @@ export default function AboutPage() {
           <p className="mt-4 text-lg text-indigo-100 dark:text-indigo-100 leading-relaxed"
           style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.5)'}}>
             I'm a passionate and self-taught IT professional with a diverse background spanning
-             client services, systems development and administration to hands-on
+             client services, systems development to hands-on
             cloud architecture and web development. With every step, I've pursued depth and versatility,
             I constantly challenge myself with cutting-edge certifications and real-world
-            projects to stay ahead in the rapidly evolving tech landscape.
+            projects to stay ahead in a rapidly evolving tech landscape.
           </p>
           </div>
         </section>
