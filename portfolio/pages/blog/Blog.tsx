@@ -41,7 +41,7 @@ export default function Blog({ allPostsData }: BlogProps) {
       </Head>
 
       <main className="max-w-4xl mx-auto p-6">
-      <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden"
+      <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
               style={{
               backgroundImage: "url('/images/projects/ReconX2.jpg')",
               backgroundBlendMode: "overlay",
