@@ -1,9 +1,9 @@
 ---
-title: "Build Failures and Version Control Recovery: Lessons learned from My Portfolio Build"
+title: "Build Failures and Version Control Recovery"
 date: "2025-04-30"
 ---
 
-# Build Failures and Version Control Recovery: Lessons from My Portfolio Build
+# Lessons learned from My Portfolio Build
 
 While developing my portfolio website, I encountered several **build failures** that temporarily broke deployment on Vercel. By leveraging *Git version control*, I recovered quickly, ensuring I could *fail forward fast* without losing work. In this post, I’ll recap the challenges and how I used Git to recover, offering insights for other developers.
 

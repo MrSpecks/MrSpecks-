@@ -13,7 +13,7 @@
   {
      "id": 2,
       "title": "NeoShell: Terminal Experience Prototype",
-      "description": "An experimental shell UI designed to enhance CLI interactions and productivity. Aimed at building the foundation for an open-source terminal experience with AI integration in future iterations.",
+      "description": "It detects the backend technologies used by a wide range of websites and generates tailored webshell payloads based on CMS and stack fingerprinting",
       "techStack": ["JavaScript", "Shell", "Node.js"],
       "githubUrl": "https://github.com/MrSpecks/NeoShell/tree/main",
       "demoUrl": "",
@@ -24,7 +24,7 @@
   {
       "id": 3,
       "title": "ReconX: Cloud Threat Reconnaissance Lab",
-      "description": "A cybersecurity lab environment simulating threat reconnaissance scenarios in the cloud. Used to study lateral movement, misconfigurations, and detection strategies.",
+      "description": "A cybersecurity tool designed to streamline and automate the process of gathering critical insights into domains and IP addresses.",
       "techStack": ["Azure", "Microsoft Sentinel", "Terraform"],
       "githubUrl": "https://github.com/MrSpecks/ReconX/tree/main",
       "demoUrl": "",

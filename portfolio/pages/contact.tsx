@@ -62,7 +62,14 @@ export default function ContactPage() {
       </p>
       </div>
       </section>
-      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+
+        <motion.section 
+          className="mb-4 px-4 py-10 max-w-4xl mx-auto"
+          initial={{ opacity: 0, scale: 0.95 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          transition={{ delay: 0.2, duration: 0.5 }}
+          viewport={{ once: true }}
+        >
       <p className="text-gray-600 dark:text-gray-300 mt-12 mb-12">
       Drop me a line below. I'm always up for a new challenge.
       </p>
@@ -135,7 +142,7 @@ export default function ContactPage() {
         Something went wrong. Please try again.
       </motion.div>
     )}
-      </section>
+      </motion.section>
     </main>
     </>
   );
