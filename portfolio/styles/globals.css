@@ -22,8 +22,8 @@ body {
   scrollbar-width: none;
 }
 cursor-blue-saber {
-  cursor: url('/public/cursors/blue-saber.png') 16 16, auto;
+  cursor: url('cursors/blue-saber.png') 16 16, auto;
 }
 cursor-red-saber {
-  cursor: url('/public/cursors/red-saber.png') 16 16, auto;
+  cursor: url('cursors/red-saber.png') 16 16, auto;
 }
