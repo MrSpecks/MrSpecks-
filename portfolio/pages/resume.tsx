@@ -158,7 +158,7 @@ export default function ResumePage() {
     In pursuit of continuous learning and excellence, I have independently completed a series of specialized online courses and certifications. This reflects my commitment to staying ahead in a rapidly evolving digital landscape and mastering modern technologies and methodologies.
   </p>
   <div className="space-y-4">
-  <div className="space-y-4">
+  <div className="mt-4">
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         Coursera
       </h3>
@@ -166,7 +166,7 @@ export default function ResumePage() {
         Cloud Architecture Design Patterns (2025)
       </p>
     </div>
-    <div className="space-y-4">
+    <div className="mt-4">
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         Huawei ICT Academy
       </h3>
@@ -174,7 +174,7 @@ export default function ResumePage() {
         HCIA-5G V2.0 · 5G Basics: What It's All About · Next-Generation Cyber Security (2024–2025)
       </p>
     </div>
-    <div className="space-y-4">
+    <div className="mt-4">
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         IBM SkillsBuild
       </h3>
@@ -182,7 +182,7 @@ export default function ResumePage() {
         Cybersecurity Fundamentals · Explore Emerging Tech · Fundamentals of Sustainability and Technology · Project Management Fundamentals (2024)
       </p>
     </div>
-    <div className="space-y-4">
+    <div className="mt-4">
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         Microsoft Learn
       </h3>
@@ -190,7 +190,7 @@ export default function ResumePage() {
         Microsoft Certified: Azure Fundamentals (AZ-900) (2024)
       </p>
     </div>
-    <div className="space-y-4">
+    <div className="mt-4">
       <h3 className="text-lg font-medium text-gray-800 dark:text-gray-200">
         LinkedIn Learning
       </h3>
