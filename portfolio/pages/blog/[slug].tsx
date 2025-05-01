@@ -17,7 +17,7 @@ interface PostProps {
 
 export default function Post({ postData }: PostProps) {
   return (
-    <div className="min-h-screen bg-gray-900 text-white">
+    <>
       <Head>
         <title>{postData.title} | Kagiso Mfusi</title>
         <meta name="description" content={`Blog post by Kagiso Mfusi: ${postData.title}`} />
@@ -55,7 +55,7 @@ export default function Post({ postData }: PostProps) {
           </div>
         </section>
       </main>
-    </div>
+    </>
   );
 }
 
