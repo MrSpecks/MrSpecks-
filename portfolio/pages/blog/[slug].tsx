@@ -40,7 +40,7 @@ export default function Post({ postData }: PostProps) {
         style={{ textShadow: '1px 1px 2px rgba(0,0,0,0.2)'}}>{postData.title}</h1>
         <p className="text-slate-900 dark:text-slate-100 mb-8">{new Date(postData.date).toLocaleDateString()}</p>
         <div
-          className="prose prose-invert max-w-none"
+          className="prose dark:prose-invert max-w-none"
           dangerouslySetInnerHTML={{ __html: postData.content }}
         />
         <section className="mt-16 px-4 py-6 max-w-6xl mx-auto flex flex-col justify-center items-center text-center overflow-hidden">
