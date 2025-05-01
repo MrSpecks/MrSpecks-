@@ -18,7 +18,10 @@ interface CertificationCardProps {
 
 export default function CertificationCard({ cert }: CertificationCardProps) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-xl shadow-sm hover:shadow-md transform hover:scale-[1.02] transition duration-200 ease-in-out p-4 flex flex-col items-center text-center">
+    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-4 
+    transform transition-all duration-300 ease-in-out hover:scale-[1.015] 
+    hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] 
+    dark:hover:shadow-[0_0_15px_rgba(239,68,68,0.4)] flex flex-col items-center text-center">
       <div className="w-16 h-16 mb-3 relative">
         <Image
           src={cert.badge}
