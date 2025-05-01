@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import Head from 'next/head';
+import { motion } from 'framer-motion';
 import SEO from "../components/SEO";
 export default function ResumePage() {
     return (
@@ -37,7 +38,13 @@ export default function ResumePage() {
         </p>
         </div>
       </section>
-      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        <motion.section 
+          className="mb-8 px-4 py-6 sm:px-6 lg:px-8 max-w-6xl mx-auto"
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6, ease: 'easeOut' }}
+          viewport={{ once: true }}
+        >
         <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100 mt-12 mb-12">
           Experience
         </h2>
@@ -135,8 +142,15 @@ export default function ResumePage() {
             </li>
           </ul>
         </div>
-      </section>
-      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+      </motion.section>
+
+  <hr className="my-8 border-gray-300 dark:border-gray-700" />  
+  <motion.section 
+  className="mb-8 px-4 py-6 sm:px-6 lg:px-8 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}>
   <h2 className="text-xl font-semibold mb-4text-slate-900 dark:text-slate-100 mb-4">
     Online Learning Achievements
   </h2>
@@ -185,8 +199,14 @@ export default function ResumePage() {
       </p>
       </div>
     </div>
-</section>
-      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+    </motion.section>
+<hr className="my-8 border-gray-300 dark:border-gray-700" />  
+<motion.section 
+  className="mb-8 px-4 py-6 sm:px-6 lg:px-8 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}>
         <h2 className="text-xl font-semibold mb-4 text-slate-900 dark:text-slate-100 mb-4">
           Education
         </h2>
@@ -206,8 +226,14 @@ export default function ResumePage() {
           Bachelor of Sciene in Information Technology | 2017 
           </p>
         </div>
-      </section>
-      <section className="mb-8 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
+        </motion.section>
+      <hr className="my-8 border-gray-300 dark:border-gray-700" />  
+      <motion.section 
+  className="mb-8 px-4 py-6 sm:px-6 lg:px-8 max-w-6xl mx-auto"
+  initial={{ opacity: 0, y: 30 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6, ease: 'easeOut' }}
+  viewport={{ once: true }}>
         <h2 className="text-xl font-semibold mb-2 text-slate-900 dark:text-slate-100">
           Skills
         </h2>
@@ -224,7 +250,7 @@ export default function ResumePage() {
           Confluence · Spring Boot · InteliJ · Ubuntu · Kali Linux · 
           Google Cloud · 365 · Varcel · Docker · Oracle
         </p>
-      </section>
+        </motion.section>
       </main>
     </>
   );

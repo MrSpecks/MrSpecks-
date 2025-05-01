@@ -58,6 +58,13 @@ export default function Blog({ allPostsData }: BlogProps) {
         </div>
         </section>
 
+<motion.section 
+  className="mb-20 px-4 py-10 max-w-4xl mx-auto text-center bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20 rounded-xl shadow-inner"
+  initial={{ opacity: 0, scale: 0.95 }}
+  whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ delay: 0.2, duration: 0.5 }}
+  viewport={{ once: true }}
+>
         <div className="mt-12 mb-12 space-y-8">
           {allPostsData.map(({ slug, title, date }) => (
             <motion.div
@@ -75,6 +82,7 @@ export default function Blog({ allPostsData }: BlogProps) {
             </motion.div>
           ))}
         </div>
+</motion.section>
       </main>
     </div>
   );
