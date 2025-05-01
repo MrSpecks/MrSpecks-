@@ -64,7 +64,7 @@ export default function ContactPage() {
       </section>
 
         <motion.section 
-          className="mb-4 px-4 py-10 max-w-4xl mx-auto bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20 rounded-xl shadow-inner"
+          className="mb-4 px-4 py-10 max-w-4xl mx-auto"
           initial={{ opacity: 0, scale: 0.95 }}
           whileInView={{ opacity: 1, scale: 1 }}
           transition={{ delay: 0.2, duration: 0.5 }}
