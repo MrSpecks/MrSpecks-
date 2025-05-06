@@ -28,6 +28,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
         fadeOut ? "opacity-0" : "opacity-100"
       }`}
     >
+        <div style={{ border: "2px solid #00bfff", position:'absolute', inset: 0, zIndex: 1 }}>
       {/* Ripple Particles Background */}
       <Particles
         id="tsparticles"
@@ -98,7 +99,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
           },
         }}
       />
-
+</div>
       {/* Foreground Content */}
       <div className="relative z-10 text-center px-4">
         <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow">
