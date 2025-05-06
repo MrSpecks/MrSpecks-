@@ -29,12 +29,12 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
       }`}
     >
       <Particles
-        className="absolute w-full h-full z-0"
+        className="absolute top-0 left-0 w-full h-full z-0"
         init={particlesInit}
         options={{
             fullScreen: false,
             background: {
-              color: "#000000",
+              color: "#ff0000",
             },
             particles: {
               number: {
@@ -110,11 +110,11 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
           
       />
 
-      <div className="z-10 text-center px-4">
+      <div className="z-10 text-center px-4 relative">
         <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow">
           Welcome to My Portfolio
         </h1>
-        <p className="text-white mt-4 text-lg md:text-xl">
+        <p className="text-white mt-4 text-lg md:text-xl drop-shadow">
           Crafted with precision, built for impact.
         </p>
       </div>
