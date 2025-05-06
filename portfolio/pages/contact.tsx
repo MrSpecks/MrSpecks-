@@ -42,7 +42,7 @@ export default function ContactPage() {
         <meta property="og:type" content="website" />
       </Head>
       <main>
-        <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+        <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
           <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
             style={{
               backgroundImage: "url('/images/backgrounds/contact.png')",

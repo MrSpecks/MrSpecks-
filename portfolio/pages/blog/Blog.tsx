@@ -41,12 +41,13 @@ export default function Blog({ allPostsData }: BlogProps) {
       </Head>
 
       <main className="max-w-4xl mx-auto p-6">
-        <section className="w-full min-h-[70vh] relative bg-cover bg-center bg-no-repeat flex flex-col justify-center items-center text-center"
+        <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+          <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{
             backgroundImage: "url('/images/projects/ReconX2.jpg')",
             backgroundBlendMode: "overlay",
             backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
-          }}>
+          }} />
           <div className="absolute inset-0 bg-slate-800/40 z-10" />
           <div className="relative z-20 px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
             <h1 className="text-2xl font-bold text-indigo-100 dark:text-indigo-100"
