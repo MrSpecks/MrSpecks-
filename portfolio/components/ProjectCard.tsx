@@ -20,7 +20,10 @@ interface ProjectCardProps {
 
 export default function ProjectCard({ project }: ProjectCardProps) {
   return (
-    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-4 hover:shadow-lg hover:scale-[1.02] transition-all duration-300 ease-in-out">
+    <div className="bg-white dark:bg-gray-800 rounded-2xl shadow-md p-4 
+    transform transition-all duration-300 ease-in-out hover:scale-[1.015] 
+    hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] 
+    dark:hover:shadow-[0_0_15px_rgba(239,68,68,0.4)]">
       <Image
         src={project.image}
         alt={project.title}
