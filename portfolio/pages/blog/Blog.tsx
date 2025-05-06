@@ -40,10 +40,10 @@ export default function Blog({ allPostsData }: BlogProps) {
         <meta property="og:type" content="website" />
       </Head>
 
-      <main className="max-w-4xl mx-auto p-6">
-        <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+      <main>
+      <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
           <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
+            style={{
             backgroundImage: "url('/images/projects/ReconX2.jpg')",
             backgroundBlendMode: "overlay",
             backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability

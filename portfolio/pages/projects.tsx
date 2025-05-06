@@ -6,6 +6,7 @@ import ProjectCard from "../components/ProjectCard";
 import CertificationCard from "../components/CertificationCard";
 import projects from "../data/projects.json";
 import certifications from "../data/certifications.json";
+import { title } from "process";
 
 export default function ProjectsPage() {
   const normalizedCerts = certifications.slice(0, 14).map((cert) => ({
@@ -26,9 +27,9 @@ export default function ProjectsPage() {
         <meta property="og:type" content="website" />
       </Head>
       <main>
-        <section className="w-full min-h-[40vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
+      <section className="w-full min-h-[70vh] relative flex flex-col justify-center items-center text-center overflow-hidden">
           <div className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
+            style={{
             backgroundImage: "url('/images/backgrounds/projects.png')",
             backgroundBlendMode: "overlay",
             backgroundColor: "rgba(0, 0, 0, 0.3)", // semi-dark overlay for readability
