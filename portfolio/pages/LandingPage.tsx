@@ -1,5 +1,6 @@
 import React, { useCallback, useState } from "react";
-import MatrixRain from "@/components/MatrixRain"; // Assuming you have a MatrixRain component
+import MatrixRain from "@/components/MatrixRain"; 
+import MatrixWordRain from "@/components/MatrixWordRain";
 
 type LandingPageProps = {
     onSkip: () => void;
@@ -23,13 +24,15 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
                 }`}
         >
             <MatrixRain />
+            <div className="absolute inset-0 z-5 pointer-events-none noise-overlay" />
+            <MatrixWordRain />
             {/* Foreground Content */}
             <div className="relative z-10 text-center px-4">
                 <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r 
-                from-gray-800 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
+                from-gray-800 to-gray-500 bg-clip-text text-transparent drop-shadow-lg">
                     Welcome to My Portfolio
                 </h1>
-                <p className="text-black mt-4 text-lg md:text-xl drop-shadow-lg">
+                <p className="text-gray-700 mt-4 text-lg md:text-xl drop-shadow-lg">
                     Crafted with precision, built for impact.
                 </p>
             </div>
