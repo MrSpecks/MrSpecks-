@@ -2,6 +2,8 @@ import React, { useCallback, useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { Engine } from "@tsparticles/engine";
+import { a } from "framer-motion/dist/types.d-DDSxwf0n";
+import { ZIndex } from "tsparticles-engine";
 
 type LandingPageProps = {
   onSkip: () => void;
@@ -11,6 +13,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
   const [fadeOut, setFadeOut] = useState(false);
 
   const particlesInit = useCallback(async (engine: Engine) => {
+    console.log("Particles engine loaded:", engine);
     await loadFull(engine);
   }, []);
 
@@ -32,10 +35,18 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
       <Particles
         className="absolute top-0 left-0 w-full h-full z-0"
         init={particlesInit}
+        sttyle={{ position: "absolute",
+            width: "100%",
+            height: "100%",
+            top: 0,
+            left: 0,
+            ZIndex: 0,
+            PointerEvents: "none", 
+        }}
         options={{
             fullScreen: false,
             background: {
-              color: "#ff0000",
+              color: "#000000",
             },
             particles: {
               number: {
