@@ -17,8 +17,11 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
 
   useEffect(() => {
     //Forced to always show for testing purposes
-    const hasSeenLanding = localStorage.removeItem("hasSeenLanding");
+    const hasSeenLanding = localStorage.getItem("hasSeenLanding");
+    if (!hasSeenLanding) {
       setShowLanding(true);
+    }
+    setLoading(false);
   }, []);
 
   const handleSkip = () => {
