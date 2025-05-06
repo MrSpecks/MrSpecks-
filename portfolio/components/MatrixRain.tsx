@@ -15,7 +15,7 @@ const MatrixRain: React.FC = () => {
     canvas.width = width;
     canvas.height = height;
 
-    const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+    const letters = "INNOVATECREATEINSPIREREBUILDDESIGNIMPLEMENT";
     const fontSize = 16;
     const columns = Math.floor(width / fontSize);
     const drops = Array(columns).fill(1);

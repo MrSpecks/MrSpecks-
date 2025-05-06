@@ -17,16 +17,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
 
     return (
         <div
-            className={`w-full h-screen flex items-center justify-center relative bg-white overflow-hidden transition-opacity duration-1000 ease-in-out ${fadeOut ? "opacity-0" : "opacity-100"
+            className={`w-full h-screen flex items-center justify-center 
+                relative bg-white overflow-hidden transition-opacity duration-1000 
+                ease-in-out ${fadeOut ? "opacity-0" : "opacity-100"
                 }`}
         >
             <MatrixRain />
             {/* Foreground Content */}
             <div className="relative z-10 text-center px-4">
-                <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow">
+                <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r 
+                from-gray-800 to-blue-500 bg-clip-text text-transparent drop-shadow-lg">
                     Welcome to My Portfolio
                 </h1>
-                <p className="text-white mt-4 text-lg md:text-xl drop-shadow">
+                <p className="text-black mt-4 text-lg md:text-xl drop-shadow-lg">
                     Crafted with precision, built for impact.
                 </p>
             </div>
