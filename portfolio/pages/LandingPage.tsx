@@ -28,6 +28,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
         fadeOut ? "opacity-0" : "opacity-100"
       }`}
     >
+        <div className="absolute w-full h-full border-2 border-blue-500 rounded-lg shadow-lg overflow-hidden">
       <Particles
         className="absolute top-0 left-0 w-full h-full z-0"
         init={particlesInit}
@@ -109,6 +110,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
           
           
       />
+      </div>
 
       <div className="z-10 text-center px-4 relative">
         <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow">
