@@ -18,11 +18,9 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className={`flex flex-col min-h-screen ${cursorClass}`}>
       <Header />
-      <div className="overflow-hidden">
-        <main className="flex-1 mx-auto">
-          {children}
-        </main>
-      </div>
+      <main className="flex-1 mx-auto">
+        {children}
+      </main>
       <Footer />
     </div>
   );
