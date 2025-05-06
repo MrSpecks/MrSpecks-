@@ -105,7 +105,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
         <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow">
           Welcome to My Portfolio
         </h1>
-        <p className="text-white mt-4 text-lg md:text-xl">
+        <p className="text-white mt-4 text-lg md:text-xl drop-shadow">
           Crafted with precision, built for impact.
         </p>
       </div>
