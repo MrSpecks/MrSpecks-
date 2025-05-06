@@ -32,40 +32,82 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
         className="absolute w-full h-full z-0"
         init={particlesInit}
         options={{
-          fullScreen: false,
-          background: {
-            color: "#000000",
-          },
-          particles: {
-            number: {
-              value: 60,
-              density: {
+            fullScreen: false,
+            background: {
+              color: "#000000",
+            },
+            particles: {
+              number: {
+                value: 80,
+                density: {
+                  enable: true,
+                  area: 800,
+                },
+              },
+              color: {
+                value: "#00bfff", // Soft water blue
+              },
+              opacity: {
+                value: 0.3,
+                random: true,
+                anim: {
+                  enable: true,
+                  speed: 0.5,
+                  opacity_min: 0.1,
+                  sync: false,
+                },
+              },
+              size: {
+                value: 4,
+                random: true,
+                anim: {
+                  enable: true,
+                  speed: 3,
+                  size_min: 0.3,
+                  sync: false,
+                },
+              },
+              move: {
                 enable: true,
-                area: 800,
+                speed: 1,
+                direction: "none",
+                random: true,
+                straight: false,
+                outModes: {
+                  default: "out",
+                },
+                bounce: false,
+              },
+              shape: {
+                type: "circle",
+              },
+              links: {
+                enable: false,
               },
             },
-            size: {
-              value: 2,
-            },
-            move: {
-              enable: true,
-              speed: 0.6,
-              outModes: {
-                default: "out",
+            interactivity: {
+              events: {
+                onHover: {
+                  enable: true,
+                  mode: "bubble",
+                },
+                onClick: {
+                  enable: false,
+                },
+                resize: true,
+              },
+              modes: {
+                bubble: {
+                  distance: 100,
+                  size: 8,
+                  duration: 2,
+                  opacity: 0.5,
+                },
               },
             },
-            links: {
-              enable: true,
-              distance: 130,
-              color: "#ffffff",
-              opacity: 0.25,
-              width: 1,
-            },
-            shape: {
-              type: "circle",
-            },
-          },
-        }}
+          }}
+          
+          
       />
 
       <div className="z-10 text-center px-4">
