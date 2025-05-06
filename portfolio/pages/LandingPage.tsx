@@ -1,7 +1,6 @@
 import React, { useCallback, useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Engine } from "tsparticles-engine";
 import { Engine } from "@tsparticles/engine";
 
 type LandingPageProps = {
