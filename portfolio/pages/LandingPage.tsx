@@ -25,7 +25,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
         >
             <MatrixRain />
             <div className="absolute inset-0 z-5 pointer-events-none noise-overlay" />
-            <MatrixWordRain />
+            {/*<MatrixWordRain />*/}
             {/* Foreground Content */}
             <div className="relative z-10 text-center px-4">
                 <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r 
