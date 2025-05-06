@@ -1,7 +1,7 @@
 import React, { useCallback, useState } from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-import { Engine } from "@tsparticles/engine";
+import { Engine } from "tsparticles-engine";
 
 type LandingPageProps = {
   onSkip: () => void;
@@ -23,11 +23,13 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
 
   return (
     <div
-      className={`w-full h-screen flex items-center justify-center relative transition-opacity duration-1000 ease-in-out ${
+      className={`w-full h-screen flex items-center justify-center relative 
+        transition-opacity duration-1000 ease-in-out ${
         fadeOut ? "opacity-0" : "opacity-100"
       }`}
     >
       <Particles
+        className="absolute w-full h-full z-0"
         init={particlesInit}
         options={{
           fullScreen: false,
@@ -64,7 +66,6 @@ const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
             },
           },
         }}
-        className="absolute w-full h-full z-0"
       />
 
       <div className="z-10 text-center px-4">
