@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const words = ["INNOVATE", "CREATE", "INSPIRE", "BUILD"];
+const words = ["アァイィウヴエエェオカガキギクグケゲコゴサザシジスズセゼソゾタダチッヂヅテデトドナニヌネハバパヒビピフブプヘベペホボポマミムメモヤユヨラリルレロワヲンABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"];
 
 const MatrixWordRain: React.FC = () => {
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
