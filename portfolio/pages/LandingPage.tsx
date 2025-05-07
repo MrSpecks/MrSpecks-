@@ -1,90 +1,51 @@
 import React, { useCallback, useState } from "react";
-import Particles from "react-tsparticles";
-import { loadFull } from "tsparticles";
-import { Engine } from "@tsparticles/engine";
+import MatrixRain from "@/components/MatrixRain"; 
+import MatrixWordRain from "@/components/MatrixWordRain";
 
 type LandingPageProps = {
-  onSkip: () => void;
+    onSkip: () => void;
 };
 
 const LandingPage: React.FC<LandingPageProps> = ({ onSkip }) => {
-  const [fadeOut, setFadeOut] = useState(false);
+    const [fadeOut, setFadeOut] = useState(false);
 
-  const particlesInit = useCallback(async (engine: Engine) => {
-    await loadFull(engine);
-  }, []);
+    const handleSkip = () => {
+        setFadeOut(true);
+        setTimeout(() => {
+            onSkip();
+        }, 1000);
+    };
 
-  const handleSkip = () => {
-    setFadeOut(true);
-    setTimeout(() => {
-      onSkip();
-    }, 1000);
-  };
+    return (
+        <div
+            className={`w-full h-screen flex items-center justify-center 
+                relative bg-white overflow-hidden transition-opacity duration-1000 
+                ease-in-out ${fadeOut ? "opacity-0" : "opacity-100"
+                }`}
+        >
+            <MatrixRain />
+            <div className="absolute inset-0 z-5 pointer-events-none noise-overlay" />
+            {/*<MatrixWordRain />*/}
+            {/* Foreground Content */}
+            <div className="relative z-10 text-center px-4">
+                <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r 
+                from-gray-800 to-gray-500 bg-clip-text text-transparent drop-shadow-lg">
+                    Welcome to My Portfolio
+                </h1>
+                <p className="text-gray-700 mt-4 text-lg md:text-xl drop-shadow-lg">
+                    Crafted with precision, built for impact.
+                </p>
+            </div>
 
-  return (
-    <div
-      className={`w-full h-screen flex items-center justify-center relative transition-opacity duration-1000 ease-in-out ${
-        fadeOut ? "opacity-0" : "opacity-100"
-      }`}
-    >
-      <Particles
-        init={particlesInit}
-        options={{
-          fullScreen: false,
-          background: {
-            color: "#000000",
-          },
-          particles: {
-            number: {
-              value: 60,
-              density: {
-                enable: true,
-                area: 800,
-              },
-            },
-            size: {
-              value: 2,
-            },
-            move: {
-              enable: true,
-              speed: 0.6,
-              outModes: {
-                default: "out",
-              },
-            },
-            links: {
-              enable: true,
-              distance: 130,
-              color: "#ffffff",
-              opacity: 0.25,
-              width: 1,
-            },
-            shape: {
-              type: "circle",
-            },
-          },
-        }}
-        className="absolute w-full h-full z-0"
-      />
-
-      <div className="z-10 text-center px-4">
-        <h1 className="text-4xl md:text-5xl font-bold text-white drop-shadow">
-          Welcome to My Portfolio
-        </h1>
-        <p className="text-white mt-4 text-lg md:text-xl">
-          Crafted with precision, built for impact.
-        </p>
-      </div>
-
-      <button
-        onClick={handleSkip}
-        aria-label="Skip landing screen"
-        className="absolute top-6 right-6 px-4 py-2 bg-white text-black rounded-lg shadow-md hover:bg-gray-200 transition-colors"
-      >
-        Skip
-      </button>
-    </div>
-  );
+            {/* Skip Button */}
+            <button
+                onClick={handleSkip}
+                className="absolute top-6 right-6 px-4 py-2 bg-white text-black rounded-lg shadow-md hover:bg-gray-200 transition-colors z-10"
+            >
+                Skip
+            </button>
+        </div>
+    );
 };
 
 export default LandingPage;

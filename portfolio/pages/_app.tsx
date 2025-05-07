@@ -16,6 +16,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
   const router = useRouter();
 
   useEffect(() => {
+    //Forced to always show for testing purposes
     const hasSeenLanding = localStorage.getItem("hasSeenLanding");
     if (!hasSeenLanding) {
       setShowLanding(true);
