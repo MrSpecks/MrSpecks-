@@ -75,7 +75,7 @@ export default function Blog({ allPostsData }: BlogProps) {
                 transition={{ duration: 0.5 }}
               >
                 <Link href={`/blog/${slug}`} className="block">
-                  <div className="p-6 bg-gradient-to-r from-blue-50/30 to-transparent dark:from-blue-900/20
+                  <div className="p-6 bg-gradient-to-r from-gray-500 to-transparent dark:from-blue-900/20
                  rounded-lg hover:bg-blue-600 transition focus:ring-2 focus:ring-blue-500 outline-none">
                     <h2 className="text-2xl font-semibold">{title}</h2>
                     <p className="text-gray-400">{new Date(date).toLocaleDateString()}</p>
