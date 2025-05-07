@@ -78,7 +78,7 @@ export default function Blog({ allPostsData }: BlogProps) {
                   <div className="p-6 bg-gradient-to-r from-gray-500 to-transparent dark:from-blue-900/20
                  rounded-lg hover:bg-blue-600 transition focus:ring-2 focus:ring-blue-500 outline-none">
                     <h2 className="text-2xl font-semibold">{title}</h2>
-                    <p className="text-gray-400">{new Date(date).toLocaleDateString()}</p>
+                    <p className="text-gray-800 dark:text-gray-400">{new Date(date).toLocaleDateString()}</p>
                   </div>
                 </Link>
               </motion.div>
