@@ -13,7 +13,7 @@ In my journey of building a next-gen developer portfolio, I wanted the landing e
 
 Here is a quick glimpse of the custom landing experience integrated :
 
-![Matrix-Inspired Splash Screen](/public/images/screenshots/splash.png)
+![Matrix-Inspired Splash Screen](/images/screenshots/splash.png)
 
 *Matrix-style splash screen with glowing vertical code and a clean minimalist overlay*
 
