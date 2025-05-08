@@ -9,6 +9,16 @@ In my journey of building a next-gen developer portfolio, I wanted the landing e
 
 ---
 
+## What It Looks Like
+
+Here is a quick glimpse of the custom landing experience I built for my site:
+
+![Matrix-Inspired Splash Screen](../public/images/screenshots/splash-screen-preview.png)
+
+*Matrix-style splash screen with glowing vertical code and a clean minimalist overlay*
+
+---
+
 ## The Vision
 
 The challenge was balancing **the digital mystique of the Matrix** — with its streaming glyphs and cyber-vibes — with a **sleek, modern interface**. I didn’t want to overwhelm visitors or lean into nostalgia too heavily. Instead, I focused on merging the essence of that iconic aesthetic with a minimal, contemporary layout.
