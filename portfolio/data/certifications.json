@@ -15,7 +15,7 @@
       "provider": "Microsoft",
       "issued": "2024-08",
       "credentialId": "7BD01FEEB5E5A1B",
-      "credentialUrl": "/certifications/AZ900.pdf",
+      "credentialUrl": "/certifications/AZ 900.pdf",
       "badge": "/images/cert-logo/Microsoft-Logo.png",
       "tags": ["Azure Services", "AZ-900", "Cloud Concepts", "Fundamentals"]
     },
@@ -25,7 +25,7 @@
       "provider": "Huawei",
       "issued": "2025-01",
       "credentialId": "EBG20250112000644",
-      "credentialUrl": "/certifications/HCIA-5G V2.pdf",
+      "credentialUrl": "/certifications/HCIA 5G.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Huawei", "5G", "Infrastructure"]
     },
@@ -85,7 +85,7 @@
       "provider": "Huawei",
       "issued": "2024-09",
       "credentialId": "EBG20240929001205",
-      "credentialUrl": "/certifications/Next-Gen CyberSecurity Exam.pdf",
+      "credentialUrl": "/certifications/CyberSecurity Exam.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "Next-Gen"]
     },
@@ -95,7 +95,7 @@
       "provider": "Huawei",
       "issued": "2024-09",
       "credentialId": "ICTCRA20240929000546",
-      "credentialUrl": "/certifications/Next-Gen CyberSecurity Prog.pdf",
+      "credentialUrl": "/certifications/CyberSecurity Prog.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "CRA Program"]
     },
