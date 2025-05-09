@@ -15,7 +15,7 @@
       "provider": "Microsoft",
       "issued": "2024-08",
       "credentialId": "7BD01FEEB5E5A1B",
-      "credentialUrl": "/public/certifications/AZ900.pdf",
+      "credentialUrl": "/certifications/AZ900.pdf",
       "badge": "/images/cert-logo/Microsoft-Logo.png",
       "tags": ["Azure Services", "AZ-900", "Cloud Concepts", "Fundamentals"]
     },
@@ -25,7 +25,7 @@
       "provider": "Huawei",
       "issued": "2025-01",
       "credentialId": "EBG20250112000644",
-      "credentialUrl": "/public/certifications/HCIA-5G V2.pdf",
+      "credentialUrl": "/certifications/HCIA-5G V2.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Huawei", "5G", "Infrastructure"]
     },
@@ -85,7 +85,7 @@
       "provider": "Huawei",
       "issued": "2024-09",
       "credentialId": "EBG20240929001205",
-      "credentialUrl": "/public/certifications/Next-Gen CyberSecurity Exam.pdf",
+      "credentialUrl": "/certifications/Next-Gen CyberSecurity Exam.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "Next-Gen"]
     },
@@ -95,7 +95,7 @@
       "provider": "Huawei",
       "issued": "2024-09",
       "credentialId": "ICTCRA20240929000546",
-      "credentialUrl": "/public/certifications/Next-Gen CyberSecurity Prog.pdf",
+      "credentialUrl": "/certifications/Next-Gen CyberSecurity Prog.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "CRA Program"]
     },
@@ -105,7 +105,7 @@
       "provider": "LinkedIn Learning Community",
       "issued": "2024-07",
       "credentialId": "1aebd0650e112110ea10dlc646b648b35eb6737748473004c342f5580d3c4d5",
-      "credentialUrl": "/public/certifications/Career Skills Software Dev.pdf",
+      "credentialUrl": "/certifications/Career Skills Software Dev.pdf",
       "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Tech Career Skills", "Career Management", "Development", "Software Development"]
     },
@@ -115,7 +115,7 @@
       "provider": "LinkedIn Learning Community",
       "issued": "2024-07",
       "credentialId": "49ddbc7c35083705e0c329e250ffd9f5ble09780dlae0cd316cb159789174653",
-      "credentialUrl": "/public/certifications/Cybersecurity Foundations.pdf",
+      "credentialUrl": "/certifications/Cybersecurity Foundations.pdf",
       "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cybersecurity", "Foundations"]
     },
@@ -125,7 +125,7 @@
       "provider": "LinkedIn Learning Community",
       "issued": "2024-07",
       "credentialId": "6db78acac3ea2364db058e808ef3cbce59dc6c707778669d4f5dabb2ba2550be",
-      "credentialUrl": "/public/certifications/Cybersecurity Awareness.pdf",
+      "credentialUrl": "/certifications/Cybersecurity Awareness.pdf",
       "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cybersecurity", "Awareness", "Terminology", "Information Security Awareness"]
     },
@@ -135,7 +135,7 @@
       "provider": "CTU Training Solutions",
       "issued": "2020-10",
       "credentialId": "IS/LA/ETQA/03001",
-      "credentialUrl": "/public/certifications/Systems Dev NQF-5.pdf",
+      "credentialUrl": "/certifications/Systems Dev NQF-5.pdf",
       "badge": "/images/cert-logo/CTU-LOGO.png",
       "tags": ["Systems Development", "Higher Certificate", "NQF 5"]
     }
