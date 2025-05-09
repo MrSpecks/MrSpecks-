@@ -15,7 +15,7 @@
       "provider": "Microsoft",
       "issued": "2024-08",
       "credentialId": "7BD01FEEB5E5A1B",
-      "credentialUrl": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+      "credentialUrl": "/public/certifications/AZ900.pdf",
       "badge": "/images/cert-logo/Microsoft-Logo.png",
       "tags": ["Azure Services", "AZ-900", "Cloud Concepts", "Fundamentals"]
     },
@@ -25,7 +25,7 @@
       "provider": "Huawei",
       "issued": "2025-01",
       "credentialId": "EBG20250112000644",
-      "credentialUrl": "https://e.huawei.com/",
+      "credentialUrl": "/public/certifications/HCIA-5G V2.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Huawei", "5G", "Infrastructure"]
     },
@@ -35,7 +35,7 @@
       "provider": "Huawei",
       "issued": "2024-10",
       "credentialId": null,
-      "credentialUrl": "https://e.huawei.com/",
+      "credentialUrl": "https://www.credly.com/badges/02e7ae71-8ef7-4a47-8ba2-349e64448ec7",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Huawei", "5G", "Telecom"]
     },
@@ -45,7 +45,7 @@
       "provider": "IBM",
       "issued": "2024-10",
       "credentialId": null,
-      "credentialUrl": "https://skillsbuild.org/",
+      "credentialUrl": "https://www.credly.com/badges/0b902b8d-d715-4444-8398-f07127eb03b1",
       "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Cybersecurity", "IBM", "Essentials"]
     },
@@ -55,7 +55,7 @@
       "provider": "IBM",
       "issued": "2024-10",
       "credentialId": null,
-      "credentialUrl": "https://skillsbuild.org/",
+      "credentialUrl": "https://www.credly.com/badges/589d3e65-f5a0-4275-929a-4b149b2b2cc1",
       "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Emerging Tech", "AI", "Cloud", "Cybersecurity"]
     },
@@ -65,7 +65,7 @@
       "provider": "IBM",
       "issued": "2024-10",
       "credentialId": null,
-      "credentialUrl": "https://skillsbuild.org/",
+      "credentialUrl": "https://www.credly.com/badges/d47c1b1a-9311-4d06-9d18-7d1811698d89",
       "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Sustainability", "Technology", "IBM"]
     },
@@ -75,7 +75,7 @@
       "provider": "IBM",
       "issued": "2024-09",
       "credentialId": null,
-      "credentialUrl": "https://skillsbuild.org/",
+      "credentialUrl": "https://www.credly.com/badges/bac33223-b77c-45f3-a2ca-6260c23043ae",
       "badge": "/images/cert-logo/ibm logo.png",
       "tags": ["Project Management", "IBM", "Project Lifecycle Management"]
     },
@@ -85,7 +85,7 @@
       "provider": "Huawei",
       "issued": "2024-09",
       "credentialId": "EBG20240929001205",
-      "credentialUrl": "https://e.huawei.com/",
+      "credentialUrl": "/public/certifications/Next-Gen CyberSecurity Exam.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "Next-Gen"]
     },
@@ -95,7 +95,7 @@
       "provider": "Huawei",
       "issued": "2024-09",
       "credentialId": "ICTCRA20240929000546",
-      "credentialUrl": "https://e.huawei.com/",
+      "credentialUrl": "/public/certifications/Next-Gen CyberSecurity Prog.pdf",
       "badge": "/images/cert-logo/Huawei logo.png",
       "tags": ["Cybersecurity", "Huawei", "CRA Program"]
     },
@@ -105,7 +105,7 @@
       "provider": "LinkedIn Learning Community",
       "issued": "2024-07",
       "credentialId": "1aebd0650e112110ea10dlc646b648b35eb6737748473004c342f5580d3c4d5",
-      "credentialUrl": "https://www.linkedin.com/learning/",
+      "credentialUrl": "/public/certifications/Career Skills Software Dev.pdf",
       "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Tech Career Skills", "Career Management", "Development", "Software Development"]
     },
@@ -115,7 +115,7 @@
       "provider": "LinkedIn Learning Community",
       "issued": "2024-07",
       "credentialId": "49ddbc7c35083705e0c329e250ffd9f5ble09780dlae0cd316cb159789174653",
-      "credentialUrl": "https://www.linkedin.com/learning/",
+      "credentialUrl": "/public/certifications/Cybersecurity Foundations.pdf",
       "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cybersecurity", "Foundations"]
     },
@@ -125,7 +125,7 @@
       "provider": "LinkedIn Learning Community",
       "issued": "2024-07",
       "credentialId": "6db78acac3ea2364db058e808ef3cbce59dc6c707778669d4f5dabb2ba2550be",
-      "credentialUrl": "https://www.linkedin.com/learning/",
+      "credentialUrl": "/public/certifications/Cybersecurity Awareness.pdf",
       "badge": "/images/cert-logo/LinkedIn logo.png",
       "tags": ["Cybersecurity", "Awareness", "Terminology", "Information Security Awareness"]
     },
@@ -135,7 +135,7 @@
       "provider": "CTU Training Solutions",
       "issued": "2020-10",
       "credentialId": "IS/LA/ETQA/03001",
-      "credentialUrl": "https://ctutraining.ac.za/",
+      "credentialUrl": "/public/certifications/Systems Dev NQF-5.pdf",
       "badge": "/images/cert-logo/CTU-LOGO.png",
       "tags": ["Systems Development", "Higher Certificate", "NQF 5"]
     }
