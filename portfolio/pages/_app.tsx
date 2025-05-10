@@ -45,10 +45,10 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
       <AnimatePresence mode="wait" initial={false}>
         <motion.div
           key={router.pathname}
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -10 }}
-          transition={{ duration: 0.5, ease: "easeInOut" }}
+          exit={{ opacity: 0, y: -40 }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
         >
           <Component {...pageProps} />
           <Analytics />
