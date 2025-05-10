@@ -5,7 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { Radar, Orbit, Satellite } from "lucide-react";
 
 const icons = [Radar, Orbit, Satellite];
-const DYNAMIC_ROTATION_INTERVAL = 5000; // 5 seconds
+const DYNAMIC_ROTATION_INTERVAL = 10000; // 10 seconds
 
 export default function Custom404() {
     const [currentIcon, setCurrentIcon] = useState(0);
@@ -48,9 +48,6 @@ export default function Custom404() {
                     >
                         404
                     </motion.h1>
-                    <h1 className="text-6xl font-bold text-indigo-700 dark:text-indigo-300 mb-4">
-                        404 - Lost in Transmission
-                    </h1>
                     <p className="text-lg text-gray-600 dark:text-gray-300 max-w-xl mx-auto mb-8">
                         You've wandered off the grid. This page doesn't exist, or maybe it slipped
                         into hyperspace. Either way, let's get you back where the signal is strong.
@@ -64,7 +61,7 @@ export default function Custom404() {
                         transition={{ delay: 0.8 }}
                     >
                         <Link href="/" passHref>
-                            <a className="bg-indigo-600 hover:bg-indigo-700 text-white font-medium py-2 px-4 rounded shadow transition">
+                            <a className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded shadow transition dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600">
                                 Return Home
                             </a>
                         </Link>
