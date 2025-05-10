@@ -70,7 +70,7 @@ export default function Custom404() {
                                 Explore Projects
                             </a>
                         </Link>
-                        <Link href="/blog" passHref>
+                        <Link href="/blog/Blog" passHref>
                             <a className="bg-gray-200 hover:bg-gray-300 text-gray-800 font-medium py-2 px-4 rounded shadow transition dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600">
                                 Read My Blog
                             </a>
