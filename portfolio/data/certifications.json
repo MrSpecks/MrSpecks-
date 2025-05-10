@@ -15,7 +15,7 @@
       "provider": "Microsoft",
       "issued": "2024-08",
       "credentialId": "7BD01FEEB5E5A1B",
-      "credentialUrl": "/certifications/AZ 900.pdf",
+      "credentialUrl": "https://learn.microsoft.com/api/credentials/share/en-za/KaeGee-8989/7BD01FEEB5E5A1B?sharingId=22234FD21BB26161",
       "badge": "/images/cert-logo/Microsoft-Logo.png",
       "tags": ["Azure Services", "AZ-900", "Cloud Concepts", "Fundamentals"]
     },
