@@ -15,8 +15,8 @@ const rotatingQuotes = [
     "A presence I feel.. but this page, I do not.",
 ];
 export default function Custom404() {
-    const [iconIndex, setIconIndex] = useState(0);
-    const [quoteIndex, setQuoteIndex] = useState(0);
+    const [iconIndex, setIconIndex] = useState(() => Math.floor(Math.random()*rotatingIcons.length));
+    const [quoteIndex, setQuoteIndex] = useState(() => Math.floor(Math.random()*rotatingQuotes.length));
 
     useEffect(() => {
         const interval = setInterval(() => {
