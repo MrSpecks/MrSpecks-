@@ -2,22 +2,33 @@
 import React, { useEffect, useState } from "react";
 import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
-import { Radar, Orbit, Satellite } from "lucide-react";
+import { Wand2, Lightbulb, Compass, Sparkles, Radar, Orbit, Satellite } from "lucide-react";
 
-const icons = [Radar, Orbit, Satellite];
+const icons = [ Wand2, Lightbulb, Compass, Sparkles, Radar, Orbit, Satellite];
 const DYNAMIC_ROTATION_INTERVAL = 10000; // 10 seconds
-
+const rotatingQuotes = [
+    "You either return a Jedi... or get lost in the dark side.",
+    "Found, this page is not. Search again, you must.",
+    "Hmmm... 404, this is. Lost, perhaps you are.",
+    "This page? A black hole it is.",
+    "The force is strong with this one... but not with this page.",
+    "Arrived you have not. Seek elsewhere, you must.",
+    "A presence I feel... but this page, I do not.",
+];
 export default function Custom404() {
     const [currentIcon, setCurrentIcon] = useState(0);
+    const [currentQuote, setCurrentQuote] = useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentIcon((prev) => (prev + 1) % icons.length);
         }, DYNAMIC_ROTATION_INTERVAL);
+        setCurrentQuote((prev) => (prev + 1) % rotatingQuotes.length);
+    }, DYNAMIC_ROTATION_INTERVAL);
         return () => clearInterval(interval);
     }, []);
 
-    const IconComponent = icons[currentIcon];
+    const ActiveIcon = icons[currentIcon];
 
     return (
         <AnimatePresence mode="wait">
