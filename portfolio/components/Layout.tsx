@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { useTheme } from 'next-themes';
 import Header from "./layout/Header";
 import Footer from "./layout/Footer";
+import Chat from "./ChatAssistant";
+import ChatAssistant from "./ChatAssistant";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -21,6 +23,7 @@ export default function Layout({ children }: LayoutProps) {
       <main className="flex-1 mx-auto">
         {children}
       </main>
+      <ChatAssistant />
       <Footer />
     </div>
   );
