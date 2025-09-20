@@ -147,7 +147,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Web Development, Vibe-Code, Rapid Prototyping"]
+      "tags": ["Web Development", "Vibe-Code", "Rapid Prototyping"]
     },
     {
       "id": 15,
@@ -157,7 +157,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Prompt Engineering, Retrieval-Augmented Generation (RAG), AI, Agentic AI, LLM"]
+      "tags": ["Prompt Engineering", "Retrieval-Augmented Generation (RAG)", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 16,
@@ -167,7 +167,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["AI, Agentic AI, LLM"]
+      "tags": ["AI", "Agentic AI", "LLM"]
     },
     {
       "id": 17,
@@ -177,7 +177,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Retrieval-Augmented Generation (RAG), AI, Agentic AI, LLM"]
+      "tags": ["Retrieval-Augmented Generation (RAG)", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 18,
@@ -187,7 +187,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Retrieval-Augmented Generation (RAG), AI, Agentic AI, LLM"]
+      "tags": ["Retrieval-Augmented Generation (RAG)", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 19,
@@ -197,7 +197,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["User Experience (UX), Web Development, UI Prototyping, Prompt Engineering, AI, Agentic AI, LLM"]
+      "tags": ["User Experience (UX)", "Web Development", "UI Prototyping", "Prompt Engineering", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 20,
@@ -207,7 +207,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["User Experience (UX), Web Development, UI Prototyping"]
+      "tags": ["User Experience (UX)", "Web Development", "UI Prototyping"]
     },
     {
       "id": 21,
@@ -217,7 +217,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Scrum, Project Management Fundamentals, Agile Methodologies"]
+      "tags": ["Scrum", "Project Management Fundamentals", "Agile Methodologies"]
     },
     {
       "id": 22,
@@ -227,7 +227,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Scrum, Project Management Fundamentals, Agile Methodologies"]
+      "tags": ["Scrum", "Project Management Fundamentals", "Agile Methodologies"]
     },
     {
       "id": 23,
@@ -237,7 +237,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Retrieval-Augmented Generation (RAG), AI, Agentic AI, LLM"]
+      "tags": ["Retrieval-Augmented Generation (RAG)", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 24,
@@ -247,7 +247,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["User Experience (UX), Web Development, UI Prototyping, Prompt Engineering, AI, Agentic AI, LLM"]
+      "tags": ["User Experience (UX)", "Web Development", "UI Prototyping", "Prompt Engineering", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 25,
@@ -257,7 +257,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["Software Development, Prompt Engineering, AI, Agentic AI, LLM"]
+      "tags": ["Software Development", "Prompt Engineering", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 26,
@@ -267,7 +267,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/LinkedIn logo.png",
-      "tags": ["User Experience(UX), Prompt Engineering, Open-Source Software, Application Programming Interfaces (API), AI"]
+      "tags": ["User Experience (UX)", "Prompt Engineering", "Open-Source Software", "Application Programming Interfaces (API)", "AI"]
     },
     {
       "id": 27,
@@ -277,7 +277,7 @@
       "credentialId": null,
       "credentialUrl": "/images/cert-logo/freecodecamp.png",
       "badge": "",
-      "tags": ["Reinforcement Learning, Recurrent Neural Networks (RNN), Machine Learning, NLP, Core Learning Algorithms, LLM"]
+      "tags": ["Reinforcement Learning", "Recurrent Neural Networks (RNN)", "Machine Learning", "NLP", "Core Learning Algorithms", "LLM"]
     },
     {
       "id": 28,
@@ -287,7 +287,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/Microsoft-Logo.png",
-      "tags": ["Project Lifecycle Management, Prompt Engineering, AI, Agentic AI, Software Development"]
+      "tags": ["Project Lifecycle Management", "Prompt Engineering", "AI", "Agentic AI", "Software Development"]
     },
     {
       "id": 29,
@@ -297,7 +297,7 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/OCI.png",
-      "tags": ["Retrieval-Augmented Generation (RAG), Fine-Tuning, AI, Agentic AI, LLM"]
+      "tags": ["Retrieval-Augmented Generation (RAG)", "Fine-Tuning", "AI", "Agentic AI", "LLM"]
     },
     {
       "id": 30,
@@ -307,6 +307,6 @@
       "credentialId": null,
       "credentialUrl": "",
       "badge": "/images/cert-logo/OCI.png",
-      "tags": ["Retrieval-Augmented Generation (RAG), Fine-Tuning, AI, Agentic AI, LLM"]
+      "tags": ["Retrieval-Augmented Generation (RAG)", "Fine-Tuning", "AI", "Agentic AI", "LLM"]
     }
   ]
